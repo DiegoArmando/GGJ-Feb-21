@@ -6,9 +6,9 @@
     "scenes": [
         {
             "name": "Scene 1",
-            "backgroundId": "5672c5f8-97ab-4c49-a555-6e21fe5663b0",
-            "width": 20,
-            "height": 38,
+            "backgroundId": "dd6e6888-87c1-4ef2-9260-78490897c694",
+            "width": 36,
+            "height": 18,
             "collisions": [
                 0,
                 0,
@@ -407,296 +407,6 @@
                 0,
                 0,
                 0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                16,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                15,
-                15,
-                15,
-                15,
-                16,
-                15,
-                15,
-                15,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                16,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                16,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
                 15,
                 15,
                 15,
@@ -707,6 +417,184 @@
                 15,
                 15,
                 15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
                 0,
                 0,
                 0,
@@ -801,14 +689,571 @@
             "playerHit2Script": [],
             "playerHit3Script": [],
             "id": "6cf53021-fbef-4acd-a6c7-9303c0b8cd36",
-            "x": 973.6666666666665,
-            "y": 456.4444444444444,
+            "x": 796.4666666666664,
+            "y": 461.6444444444444,
             "actors": [
                 {
                     "name": "Door 1",
                     "frame": 0,
                     "animate": false,
-                    "spriteSheetId": "da6cd95a-684e-43b3-8728-cb5951aef309",
+                    "spriteSheetId": "ab0173e3-9c78-489c-a6cb-dee5d0be5df0",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": "1",
+                    "animSpeed": "3",
+                    "script": [
+                        {
+                            "id": "f3f4450e-7f3c-4219-bbad-0879ce781c44",
+                            "command": "EVENT_IF_INPUT",
+                            "args": {
+                                "input": [
+                                    "up"
+                                ],
+                                "__collapseElse": false
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "id": "b7562451-f448-4f3e-bea6-8a251e81dc73",
+                                        "command": "EVENT_SWITCH_SCENE",
+                                        "args": {
+                                            "sceneId": "839e6384-3d51-4dd8-9afa-76ba7df45352",
+                                            "x": 0,
+                                            "y": 0,
+                                            "direction": "",
+                                            "fadeSpeed": "2"
+                                        }
+                                    },
+                                    {
+                                        "id": "71b35bc0-da3b-4996-a6dc-64fa897d618b",
+                                        "command": "EVENT_END"
+                                    }
+                                ],
+                                "false": [
+                                    {
+                                        "id": "98fd5687-eb02-4616-ac9f-a99a05748dd0",
+                                        "command": "EVENT_END"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": "07ffdc98-3cd1-4a5c-b20a-72601ecfa36c",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "f8a77335-8b68-49cb-a0fe-323467f0eb71",
+                    "x": 30,
+                    "y": 10,
+                    "collisionGroup": "1"
+                },
+                {
+                    "name": "Door 1",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "ab0173e3-9c78-489c-a6cb-dee5d0be5df0",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": "1",
+                    "animSpeed": "3",
+                    "script": [
+                        {
+                            "id": "341b96d5-0e63-4a5b-9cff-329a0ea87c92",
+                            "command": "EVENT_IF_INPUT",
+                            "args": {
+                                "input": [
+                                    "up"
+                                ],
+                                "__collapseElse": false
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "id": "10c39225-3061-4635-bd44-a1f263fe5ef2",
+                                        "command": "EVENT_SWITCH_SCENE",
+                                        "args": {
+                                            "sceneId": "1751033a-f979-40d4-a2d1-a1d1bda03327",
+                                            "x": 0,
+                                            "y": 0,
+                                            "direction": "",
+                                            "fadeSpeed": "2"
+                                        }
+                                    },
+                                    {
+                                        "id": "9aeb0551-b8a1-412f-894b-b90af1d12a62",
+                                        "command": "EVENT_END"
+                                    }
+                                ],
+                                "false": [
+                                    {
+                                        "id": "25f5d7da-f9ce-4b82-91f8-28b67a9aa691",
+                                        "command": "EVENT_END"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": "8e177744-e02c-4d48-9308-471aa7a7c0b4",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "9756a3c9-ad03-4749-85f4-bc0e60683075",
+                    "x": 6,
+                    "y": 10,
+                    "collisionGroup": "1"
+                }
+            ],
+            "triggers": [],
+            "type": "1"
+        },
+        {
+            "name": "Test Dialogue 1",
+            "backgroundId": "1255766d-c657-4f5f-ad06-0aaecd23244e",
+            "width": 20,
+            "height": 18,
+            "collisions": [],
+            "tileColors": [],
+            "script": [
+                {
+                    "id": "6ee7a73c-18de-4cf8-a4ba-58462e46df49",
+                    "command": "EVENT_IF_TRUE",
+                    "args": {
+                        "variable": "1",
+                        "__collapseElse": false,
+                        "__collapse": true
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "id": "8e13ce21-3725-4be7-958e-4d19ccc9d9fa",
+                                "command": "EVENT_TEXT",
+                                "args": {
+                                    "text": [
+                                        "Thanks for\ntelling me about\nbeans!"
+                                    ],
+                                    "avatarId": "da6cd95a-684e-43b3-8728-cb5951aef309",
+                                    "__collapse": false
+                                }
+                            },
+                            {
+                                "id": "c260deb7-a311-4c9b-8a52-0a8b61fbc674",
+                                "command": "EVENT_END"
+                            }
+                        ],
+                        "false": [
+                            {
+                                "id": "af65bb4e-05b6-4270-8e46-04314fde6e01",
+                                "command": "EVENT_TEXT",
+                                "args": {
+                                    "text": [
+                                        "I know about\nbread, but I\nwish I knew "
+                                    ],
+                                    "avatarId": "da6cd95a-684e-43b3-8728-cb5951aef309",
+                                    "__collapse": true
+                                }
+                            },
+                            {
+                                "id": "72f81057-a60b-4671-a449-9997bbebf7f2",
+                                "command": "EVENT_TEXT",
+                                "args": {
+                                    "text": [
+                                        "about beans"
+                                    ],
+                                    "avatarId": "da6cd95a-684e-43b3-8728-cb5951aef309",
+                                    "__collapse": true
+                                }
+                            },
+                            {
+                                "id": "6bec9a09-f72d-4067-965e-7c59fad2ad61",
+                                "command": "EVENT_END"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "d937e2f6-86b0-4313-9736-720ef552bcde",
+                    "command": "EVENT_DEFINE_LABEL",
+                    "args": {
+                        "label": "Top of Menu",
+                        "__collapse": true
+                    }
+                },
+                {
+                    "id": "30f7f5d7-1b64-462c-97b0-3ad6588fed17",
+                    "command": "EVENT_MENU",
+                    "args": {
+                        "variable": "L0",
+                        "items": 2,
+                        "option1": "Topics",
+                        "option2": "Leave",
+                        "option3": "",
+                        "option4": "",
+                        "option5": "",
+                        "option6": "",
+                        "option7": "",
+                        "option8": "",
+                        "cancelOnB": false,
+                        "layout": "dialogue",
+                        "__collapse": true
+                    }
+                },
+                {
+                    "id": "254fe6e3-a81d-42f5-94eb-ed735521e4de",
+                    "command": "EVENT_IF_VALUE",
+                    "args": {
+                        "variable": "L0",
+                        "operator": "==",
+                        "comparator": 1,
+                        "__collapseElse": false,
+                        "__collapse": false,
+                        "__label": "Show Topic Menu"
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "id": "5e4be7b8-10b0-42c0-aae4-7b409580eab4",
+                                "command": "EVENT_IF_FLAGS_COMPARE",
+                                "args": {
+                                    "variable": "0",
+                                    "flag": "0",
+                                    "__collapseElse": false,
+                                    "__label": "If you know about beans",
+                                    "__collapse": false
+                                },
+                                "children": {
+                                    "true": [
+                                        {
+                                            "id": "3d78f796-a9c0-4932-9d42-3625d7614d62",
+                                            "command": "EVENT_MENU",
+                                            "args": {
+                                                "variable": "L0",
+                                                "items": 3,
+                                                "option1": "Bread?",
+                                                "option2": "Beans",
+                                                "option3": "Other",
+                                                "option4": "",
+                                                "option5": "",
+                                                "option6": "",
+                                                "option7": "",
+                                                "option8": "",
+                                                "cancelOnB": false,
+                                                "layout": "menu",
+                                                "cancelOnLastOption": false,
+                                                "__collapse": false,
+                                                "__label": "Show topics"
+                                            }
+                                        },
+                                        {
+                                            "id": "4547c8ca-6bb8-466a-9eab-6d066a1ce53e",
+                                            "command": "EVENT_IF_VALUE",
+                                            "args": {
+                                                "variable": "L0",
+                                                "operator": "==",
+                                                "comparator": 1,
+                                                "__collapseElse": false,
+                                                "__label": "Resolve Menu Option",
+                                                "__collapse": true
+                                            },
+                                            "children": {
+                                                "true": [
+                                                    {
+                                                        "id": "fa59c8a0-41c5-4128-b628-ef3db72796fe",
+                                                        "command": "EVENT_TEXT",
+                                                        "args": {
+                                                            "text": [
+                                                                "I give to you\nbread knowledge."
+                                                            ],
+                                                            "avatarId": "da6cd95a-684e-43b3-8728-cb5951aef309",
+                                                            "__collapse": false
+                                                        }
+                                                    },
+                                                    {
+                                                        "id": "66d2dcfd-01a3-40c6-a958-2837bd684193",
+                                                        "command": "EVENT_SET_FLAGS",
+                                                        "args": {
+                                                            "variable": "0",
+                                                            "flag1": false,
+                                                            "flag2": true,
+                                                            "flag3": false,
+                                                            "flag4": false,
+                                                            "flag5": false,
+                                                            "flag6": false,
+                                                            "flag7": false,
+                                                            "flag8": false,
+                                                            "__collapse": true
+                                                        }
+                                                    },
+                                                    {
+                                                        "id": "53a44cf5-0912-4c5d-90fb-829f66cf7753",
+                                                        "command": "EVENT_TEXT",
+                                                        "args": {
+                                                            "text": [
+                                                                "I now know about\nbread!"
+                                                            ],
+                                                            "avatarId": "",
+                                                            "__collapse": true
+                                                        }
+                                                    },
+                                                    {
+                                                        "id": "a3a185ab-d333-401c-bad2-cece19e28807",
+                                                        "command": "EVENT_GOTO_LABEL",
+                                                        "args": {
+                                                            "label": "Top of Menu",
+                                                            "__collapse": true
+                                                        }
+                                                    },
+                                                    {
+                                                        "id": "858d9d92-e39d-4a42-adcf-29e9e5df8a77",
+                                                        "command": "EVENT_END"
+                                                    }
+                                                ],
+                                                "false": [
+                                                    {
+                                                        "id": "afad0aec-415a-4383-af30-0de5c0141549",
+                                                        "command": "EVENT_IF_VALUE",
+                                                        "args": {
+                                                            "variable": "L0",
+                                                            "operator": "==",
+                                                            "comparator": 2,
+                                                            "__collapseElse": false
+                                                        },
+                                                        "children": {
+                                                            "true": [
+                                                                {
+                                                                    "id": "184cb570-ef03-4376-bc9c-6b4ef09efec9",
+                                                                    "command": "EVENT_TEXT",
+                                                                    "args": {
+                                                                        "text": [
+                                                                            "Wow! Thanks for\ntelling me about\nbeans!"
+                                                                        ],
+                                                                        "avatarId": "da6cd95a-684e-43b3-8728-cb5951aef309"
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "id": "650edb87-4f0b-4962-9f68-839d71f1b8b6",
+                                                                    "command": "EVENT_SET_TRUE",
+                                                                    "args": {
+                                                                        "variable": "1"
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "id": "d52da36c-ebaf-4c9a-aa73-6b581833da82",
+                                                                    "command": "EVENT_GOTO_LABEL",
+                                                                    "args": {
+                                                                        "label": "Top of Menu"
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "id": "baaf215e-0195-424e-8dd4-0dcb53ca40ba",
+                                                                    "command": "EVENT_END"
+                                                                }
+                                                            ],
+                                                            "false": [
+                                                                {
+                                                                    "id": "7832022b-241f-490e-9e34-2e6be8b40c43",
+                                                                    "command": "EVENT_TEXT",
+                                                                    "args": {
+                                                                        "text": [
+                                                                            "\"Other topic\ndiscussion here\""
+                                                                        ],
+                                                                        "avatarId": "da6cd95a-684e-43b3-8728-cb5951aef309"
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "id": "d857c329-9495-46ff-aaf4-835735d00252",
+                                                                    "command": "EVENT_GOTO_LABEL",
+                                                                    "args": {
+                                                                        "label": "Top of Menu"
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "id": "302c7801-3e85-4e92-a0f8-2d48a449a3bc",
+                                                                    "command": "EVENT_END"
+                                                                }
+                                                            ]
+                                                        }
+                                                    },
+                                                    {
+                                                        "id": "a33f1b6f-7f7e-46a8-89fd-87e3ddab98e3",
+                                                        "command": "EVENT_END"
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "id": "86466bee-2739-4449-94dd-bc76fba41593",
+                                            "command": "EVENT_END"
+                                        }
+                                    ],
+                                    "false": [
+                                        {
+                                            "id": "ad4946d0-3e76-4606-ad8d-eec587fe6148",
+                                            "command": "EVENT_MENU",
+                                            "args": {
+                                                "variable": "L0",
+                                                "items": 2,
+                                                "option1": "Bread?",
+                                                "option2": "Other",
+                                                "option3": "",
+                                                "option4": "",
+                                                "option5": "",
+                                                "option6": "",
+                                                "option7": "",
+                                                "option8": "",
+                                                "cancelOnB": false,
+                                                "layout": "menu",
+                                                "cancelOnLastOption": false,
+                                                "__label": "Show Topics"
+                                            }
+                                        },
+                                        {
+                                            "id": "670cc570-dbca-4e53-8e3f-aa45b7a9e2ae",
+                                            "command": "EVENT_IF_VALUE",
+                                            "args": {
+                                                "variable": "L0",
+                                                "operator": "==",
+                                                "comparator": 1,
+                                                "__collapseElse": false,
+                                                "__label": "Resolve Menu Option",
+                                                "__collapse": false
+                                            },
+                                            "children": {
+                                                "true": [
+                                                    {
+                                                        "id": "7656f022-a8cf-4b69-b2ed-1f7aab6562b2",
+                                                        "command": "EVENT_TEXT",
+                                                        "args": {
+                                                            "text": [
+                                                                "I give to you\nbread knowledge."
+                                                            ],
+                                                            "avatarId": "da6cd95a-684e-43b3-8728-cb5951aef309",
+                                                            "__collapse": false
+                                                        }
+                                                    },
+                                                    {
+                                                        "id": "79807043-d965-420b-b8b7-71adafc9675e",
+                                                        "command": "EVENT_SET_FLAGS",
+                                                        "args": {
+                                                            "variable": "0",
+                                                            "flag1": false,
+                                                            "flag2": true,
+                                                            "flag3": false,
+                                                            "flag4": false,
+                                                            "flag5": false,
+                                                            "flag6": false,
+                                                            "flag7": false,
+                                                            "flag8": false,
+                                                            "__collapse": true
+                                                        }
+                                                    },
+                                                    {
+                                                        "id": "16be14e5-41ac-48ff-95cc-1538219fde75",
+                                                        "command": "EVENT_TEXT",
+                                                        "args": {
+                                                            "text": [
+                                                                "I now know about\nbread!"
+                                                            ],
+                                                            "avatarId": "",
+                                                            "__collapse": true
+                                                        }
+                                                    },
+                                                    {
+                                                        "id": "7cd9e1db-ce3b-4f9f-8938-23031282ebb5",
+                                                        "command": "EVENT_GOTO_LABEL",
+                                                        "args": {
+                                                            "label": "Top of Menu",
+                                                            "__collapse": true
+                                                        }
+                                                    },
+                                                    {
+                                                        "id": "75b9aa6b-8941-4fa1-8ba2-30de187c40c3",
+                                                        "command": "EVENT_END"
+                                                    }
+                                                ],
+                                                "false": [
+                                                    {
+                                                        "id": "623010b8-c8a5-41a9-abf6-b8b1bda7e833",
+                                                        "command": "EVENT_TEXT",
+                                                        "args": {
+                                                            "text": [
+                                                                "Other text here"
+                                                            ],
+                                                            "avatarId": "da6cd95a-684e-43b3-8728-cb5951aef309"
+                                                        }
+                                                    },
+                                                    {
+                                                        "id": "773c50b9-b814-47e0-91df-96c189e368c2",
+                                                        "command": "EVENT_GOTO_LABEL",
+                                                        "args": {
+                                                            "label": "Top of Menu",
+                                                            "__collapse": false
+                                                        }
+                                                    },
+                                                    {
+                                                        "id": "510ea657-5c02-4be9-b46c-01861fc9c00f",
+                                                        "command": "EVENT_END"
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "id": "a8bacf66-53d5-4d29-be5b-8be8cd3211bd",
+                                            "command": "EVENT_END"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "id": "8e590949-5c39-4a95-976c-3e42c5fc1eb8",
+                                "command": "EVENT_END"
+                            }
+                        ],
+                        "false": [
+                            {
+                                "id": "bf26fc79-1d45-439e-a7b9-726658b260da",
+                                "command": "EVENT_SWITCH_SCENE",
+                                "args": {
+                                    "sceneId": "6cf53021-fbef-4acd-a6c7-9303c0b8cd36",
+                                    "x": 30,
+                                    "y": 10,
+                                    "direction": "",
+                                    "fadeSpeed": "2"
+                                }
+                            },
+                            {
+                                "id": "0aa03367-d942-4352-a058-ef1615adeb91",
+                                "command": "EVENT_END"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "54f2e363-9574-4a55-bc54-7b4b6ce47609",
+                    "command": "EVENT_END"
+                }
+            ],
+            "playerHit1Script": [],
+            "playerHit2Script": [],
+            "playerHit3Script": [],
+            "id": "839e6384-3d51-4dd8-9afa-76ba7df45352",
+            "x": 1197.6000000000004,
+            "y": 454.4999999999998,
+            "actors": [
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "11b5452b-187c-43a3-afb1-a1f4f74ffda2",
                     "spriteType": "static",
                     "direction": "down",
                     "moveSpeed": "1",
@@ -819,34 +1264,494 @@
                     "hit1Script": [],
                     "hit2Script": [],
                     "hit3Script": [],
-                    "id": "f8a77335-8b68-49cb-a0fe-323467f0eb71",
-                    "x": 4,
-                    "y": 30
+                    "id": "63289255-880d-4227-975c-41730a5f4df6",
+                    "x": 9,
+                    "y": 10
                 }
             ],
             "triggers": [],
-            "type": "1"
+            "type": "4"
         },
         {
-            "name": "Scene 2",
-            "backgroundId": "472ff8d4-129c-4b5b-aa23-8f891811d906",
+            "name": "Test Dialogue 2",
+            "backgroundId": "1255766d-c657-4f5f-ad06-0aaecd23244e",
             "width": 20,
             "height": 18,
             "collisions": [],
             "tileColors": [],
-            "script": [],
+            "script": [
+                {
+                    "id": "5a8f68c1-326d-48ef-b49b-c2a70bfd2864",
+                    "command": "EVENT_IF_TRUE",
+                    "args": {
+                        "variable": "2",
+                        "__collapseElse": false,
+                        "__collapse": false
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "id": "26ad3a62-638d-491d-b6ff-8637e099b77a",
+                                "command": "EVENT_TEXT",
+                                "args": {
+                                    "text": [
+                                        "Thanks for\ntelling me about\nbread!"
+                                    ],
+                                    "avatarId": "daf95270-e30d-423b-9ee7-990ae29f57f6",
+                                    "__collapse": false
+                                }
+                            },
+                            {
+                                "id": "099e43ef-f05c-4d06-9425-491d81e87da7",
+                                "command": "EVENT_END"
+                            }
+                        ],
+                        "false": [
+                            {
+                                "id": "308e4505-cf0a-467e-b4d7-004a4e0756be",
+                                "command": "EVENT_TEXT",
+                                "args": {
+                                    "text": [
+                                        "I know about\nbeans, but I\nwish I knew "
+                                    ],
+                                    "avatarId": "daf95270-e30d-423b-9ee7-990ae29f57f6",
+                                    "__collapse": false
+                                }
+                            },
+                            {
+                                "id": "4cbf3800-271d-4c55-b576-a71b7f0092da",
+                                "command": "EVENT_TEXT",
+                                "args": {
+                                    "text": [
+                                        "about bread"
+                                    ],
+                                    "avatarId": "daf95270-e30d-423b-9ee7-990ae29f57f6",
+                                    "__collapse": false
+                                }
+                            },
+                            {
+                                "id": "5a650601-75dd-42f4-89a0-170d0883f60c",
+                                "command": "EVENT_END"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "5e08039b-8e49-4a9f-8b93-826cc9cd02fd",
+                    "command": "EVENT_DEFINE_LABEL",
+                    "args": {
+                        "label": "Top of Menu",
+                        "__collapse": true
+                    }
+                },
+                {
+                    "id": "0f552472-6f86-4e30-b0c2-f1bcd7936325",
+                    "command": "EVENT_MENU",
+                    "args": {
+                        "variable": "L0",
+                        "items": 2,
+                        "option1": "Topics",
+                        "option2": "Leave",
+                        "option3": "",
+                        "option4": "",
+                        "option5": "",
+                        "option6": "",
+                        "option7": "",
+                        "option8": "",
+                        "cancelOnB": false,
+                        "layout": "dialogue",
+                        "__collapse": true
+                    }
+                },
+                {
+                    "id": "9fb4d90a-acf8-4c92-ae89-c8c2f6840a39",
+                    "command": "EVENT_IF_VALUE",
+                    "args": {
+                        "variable": "L0",
+                        "operator": "==",
+                        "comparator": 1,
+                        "__collapseElse": false,
+                        "__collapse": false,
+                        "__label": "Show Topic Menu"
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "id": "19c4104d-602f-4e78-a701-09e48c9939bd",
+                                "command": "EVENT_IF_FLAGS_COMPARE",
+                                "args": {
+                                    "variable": "0",
+                                    "flag": "1",
+                                    "__collapseElse": false,
+                                    "__label": "If you know about extra topic",
+                                    "__collapse": false
+                                },
+                                "children": {
+                                    "true": [
+                                        {
+                                            "id": "effe90dd-b8ee-45dd-b285-099a85d62e40",
+                                            "command": "EVENT_MENU",
+                                            "args": {
+                                                "variable": "L0",
+                                                "items": 3,
+                                                "option1": "Beans?",
+                                                "option2": "Bread",
+                                                "option3": "Other",
+                                                "option4": "",
+                                                "option5": "",
+                                                "option6": "",
+                                                "option7": "",
+                                                "option8": "",
+                                                "cancelOnB": false,
+                                                "layout": "menu",
+                                                "cancelOnLastOption": false,
+                                                "__collapse": false,
+                                                "__label": "Show topics"
+                                            }
+                                        },
+                                        {
+                                            "id": "8373d841-c222-42d2-aa54-1b5d20265017",
+                                            "command": "EVENT_IF_VALUE",
+                                            "args": {
+                                                "variable": "L0",
+                                                "operator": "==",
+                                                "comparator": 1,
+                                                "__collapseElse": false,
+                                                "__label": "Resolve Menu Option",
+                                                "__collapse": false
+                                            },
+                                            "children": {
+                                                "true": [
+                                                    {
+                                                        "id": "28793699-96e1-48b8-94a8-a9772209a370",
+                                                        "command": "EVENT_TEXT",
+                                                        "args": {
+                                                            "text": [
+                                                                "I'll tell you\nabout beans"
+                                                            ],
+                                                            "avatarId": "daf95270-e30d-423b-9ee7-990ae29f57f6",
+                                                            "__collapse": false
+                                                        }
+                                                    },
+                                                    {
+                                                        "id": "7a4ed76d-e073-41ab-ae92-9ef750495fc2",
+                                                        "command": "EVENT_SET_FLAGS",
+                                                        "args": {
+                                                            "variable": "0",
+                                                            "flag1": true,
+                                                            "flag2": false,
+                                                            "flag3": false,
+                                                            "flag4": false,
+                                                            "flag5": false,
+                                                            "flag6": false,
+                                                            "flag7": false,
+                                                            "flag8": false,
+                                                            "__collapse": false
+                                                        }
+                                                    },
+                                                    {
+                                                        "id": "6a1b8634-49e3-4f05-abf7-111fe817c781",
+                                                        "command": "EVENT_TEXT",
+                                                        "args": {
+                                                            "text": [
+                                                                "I now know about\nbeans!"
+                                                            ],
+                                                            "avatarId": "",
+                                                            "__collapse": false
+                                                        }
+                                                    },
+                                                    {
+                                                        "id": "435f7458-d35f-48b5-a7f4-dfdba80ba7b2",
+                                                        "command": "EVENT_GOTO_LABEL",
+                                                        "args": {
+                                                            "label": "Top of Menu",
+                                                            "__collapse": true
+                                                        }
+                                                    },
+                                                    {
+                                                        "id": "e5a0780c-1f8d-4957-82a0-6d57e5f56bb5",
+                                                        "command": "EVENT_END"
+                                                    }
+                                                ],
+                                                "false": [
+                                                    {
+                                                        "id": "d9c0118d-d5be-44f5-abc1-10bc82e557ad",
+                                                        "command": "EVENT_IF_VALUE",
+                                                        "args": {
+                                                            "variable": "L0",
+                                                            "operator": "==",
+                                                            "comparator": 2,
+                                                            "__collapseElse": false
+                                                        },
+                                                        "children": {
+                                                            "true": [
+                                                                {
+                                                                    "id": "634da124-5991-482f-a9bc-8650a357f4e7",
+                                                                    "command": "EVENT_TEXT",
+                                                                    "args": {
+                                                                        "text": [
+                                                                            "Wow! Thanks for\ntelling me about\nbread!"
+                                                                        ],
+                                                                        "avatarId": "daf95270-e30d-423b-9ee7-990ae29f57f6"
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "id": "64848d46-7c21-4412-b8f1-62f96c48a0e5",
+                                                                    "command": "EVENT_SET_TRUE",
+                                                                    "args": {
+                                                                        "variable": "2"
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "id": "f7928cbb-6274-4246-8e6e-01a6b57266b0",
+                                                                    "command": "EVENT_GOTO_LABEL",
+                                                                    "args": {
+                                                                        "label": "Top of Menu"
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "id": "cc3e2a1d-1d96-4fc4-9834-98418698e4ee",
+                                                                    "command": "EVENT_END"
+                                                                }
+                                                            ],
+                                                            "false": [
+                                                                {
+                                                                    "id": "f55cb9fb-791f-4904-bb8c-e371c2bcb95d",
+                                                                    "command": "EVENT_TEXT",
+                                                                    "args": {
+                                                                        "text": [
+                                                                            "\"Other topic\ndiscussion here\""
+                                                                        ],
+                                                                        "avatarId": "daf95270-e30d-423b-9ee7-990ae29f57f6"
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "id": "2f37f847-f6e7-4608-ab24-0267596e34f8",
+                                                                    "command": "EVENT_GOTO_LABEL",
+                                                                    "args": {
+                                                                        "label": "Top of Menu"
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "id": "3573cef7-b786-4a96-aa52-3aaf219ae565",
+                                                                    "command": "EVENT_END"
+                                                                }
+                                                            ]
+                                                        }
+                                                    },
+                                                    {
+                                                        "id": "f4bd1ee7-1ebb-4673-b884-06bb5840fa13",
+                                                        "command": "EVENT_END"
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "id": "aa60d1eb-ed58-42b2-b899-051b3458575b",
+                                            "command": "EVENT_END"
+                                        }
+                                    ],
+                                    "false": [
+                                        {
+                                            "id": "1b4247de-0bfa-4aa0-a9f0-a95bf9aed133",
+                                            "command": "EVENT_MENU",
+                                            "args": {
+                                                "variable": "L0",
+                                                "items": 2,
+                                                "option1": "Bread?",
+                                                "option2": "Other",
+                                                "option3": "",
+                                                "option4": "",
+                                                "option5": "",
+                                                "option6": "",
+                                                "option7": "",
+                                                "option8": "",
+                                                "cancelOnB": false,
+                                                "layout": "menu",
+                                                "cancelOnLastOption": false,
+                                                "__label": "Show Topics"
+                                            }
+                                        },
+                                        {
+                                            "id": "254120e4-8794-461d-b714-bacb3af0e236",
+                                            "command": "EVENT_IF_VALUE",
+                                            "args": {
+                                                "variable": "L0",
+                                                "operator": "==",
+                                                "comparator": 1,
+                                                "__collapseElse": false,
+                                                "__label": "Resolve Menu Option",
+                                                "__collapse": false
+                                            },
+                                            "children": {
+                                                "true": [
+                                                    {
+                                                        "id": "f8b1e007-089b-4601-af27-338910ce9ccb",
+                                                        "command": "EVENT_TEXT",
+                                                        "args": {
+                                                            "text": [
+                                                                "I give to you\nbread knowledge."
+                                                            ],
+                                                            "avatarId": "da6cd95a-684e-43b3-8728-cb5951aef309",
+                                                            "__collapse": false
+                                                        }
+                                                    },
+                                                    {
+                                                        "id": "44ab6798-c588-4f4b-81eb-14f4d1beeec5",
+                                                        "command": "EVENT_SET_FLAGS",
+                                                        "args": {
+                                                            "variable": "0",
+                                                            "flag1": false,
+                                                            "flag2": true,
+                                                            "flag3": false,
+                                                            "flag4": false,
+                                                            "flag5": false,
+                                                            "flag6": false,
+                                                            "flag7": false,
+                                                            "flag8": false,
+                                                            "__collapse": true
+                                                        }
+                                                    },
+                                                    {
+                                                        "id": "a677509f-0402-4ab5-b814-da4a63142b88",
+                                                        "command": "EVENT_TEXT",
+                                                        "args": {
+                                                            "text": [
+                                                                "I now know about\nbread!"
+                                                            ],
+                                                            "avatarId": "",
+                                                            "__collapse": true
+                                                        }
+                                                    },
+                                                    {
+                                                        "id": "be68d8b8-a17a-4a1f-b72d-e33ff46463d7",
+                                                        "command": "EVENT_GOTO_LABEL",
+                                                        "args": {
+                                                            "label": "Top of Menu",
+                                                            "__collapse": true
+                                                        }
+                                                    },
+                                                    {
+                                                        "id": "59687d60-e1d0-4f0f-a272-38da5d35f0cd",
+                                                        "command": "EVENT_END"
+                                                    }
+                                                ],
+                                                "false": [
+                                                    {
+                                                        "id": "c544fcda-016e-4067-b9a6-ac7d501bad80",
+                                                        "command": "EVENT_TEXT",
+                                                        "args": {
+                                                            "text": [
+                                                                "Other text here"
+                                                            ],
+                                                            "avatarId": "da6cd95a-684e-43b3-8728-cb5951aef309"
+                                                        }
+                                                    },
+                                                    {
+                                                        "id": "a1c79f99-d0c8-4b11-ad19-33fa46455a4c",
+                                                        "command": "EVENT_GOTO_LABEL",
+                                                        "args": {
+                                                            "label": "Top of Menu",
+                                                            "__collapse": false
+                                                        }
+                                                    },
+                                                    {
+                                                        "id": "c4d352f1-0c34-4e1b-9625-8d76b4a8e436",
+                                                        "command": "EVENT_END"
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "id": "3025d376-b1ad-4510-b867-f988ff4bdaf9",
+                                            "command": "EVENT_END"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "id": "364682ac-09b4-4b76-a5c7-faeffff26a76",
+                                "command": "EVENT_END"
+                            }
+                        ],
+                        "false": [
+                            {
+                                "id": "725c4e6b-57d2-46d9-afd3-3da9d874e263",
+                                "command": "EVENT_SWITCH_SCENE",
+                                "args": {
+                                    "sceneId": "6cf53021-fbef-4acd-a6c7-9303c0b8cd36",
+                                    "x": 6,
+                                    "y": 10,
+                                    "direction": "",
+                                    "fadeSpeed": "2"
+                                }
+                            },
+                            {
+                                "id": "6eccd3fd-38a8-434f-b243-ab2e818c5337",
+                                "command": "EVENT_END"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "a93aa917-8d3d-4d11-99a2-497ac1911a24",
+                    "command": "EVENT_END"
+                }
+            ],
             "playerHit1Script": [],
             "playerHit2Script": [],
             "playerHit3Script": [],
-            "id": "839e6384-3d51-4dd8-9afa-76ba7df45352",
-            "x": 1198,
-            "y": 412,
-            "actors": [],
+            "id": "1751033a-f979-40d4-a2d1-a1d1bda03327",
+            "x": 562,
+            "y": 449,
+            "actors": [
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "11b5452b-187c-43a3-afb1-a1f4f74ffda2",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": "1",
+                    "animSpeed": "3",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "122accfd-d64f-4a2c-ab50-d191ad274a77",
+                    "x": 9,
+                    "y": 10
+                }
+            ],
             "triggers": [],
             "type": "4"
         }
     ],
     "backgrounds": [
+        {
+            "id": "1255766d-c657-4f5f-ad06-0aaecd23244e",
+            "name": "April1",
+            "width": 20,
+            "height": 18,
+            "imageWidth": 160,
+            "imageHeight": 144,
+            "filename": "April1.png",
+            "inode": "1970324836989163",
+            "_v": 1613841946231
+        },
+        {
+            "id": "dd6e6888-87c1-4ef2-9260-78490897c694",
+            "name": "F1_Map",
+            "width": 36,
+            "height": 18,
+            "imageWidth": 288,
+            "imageHeight": 144,
+            "filename": "F1_Map.png",
+            "inode": "562949953435848",
+            "_v": 1613841946231
+        },
         {
             "id": "5672c5f8-97ab-4c49-a555-6e21fe5663b0",
             "name": "bg1",
@@ -855,8 +1760,8 @@
             "imageWidth": 160,
             "imageHeight": 304,
             "filename": "bg1.png",
-            "inode": "844424930143104",
-            "_v": 1613839238550
+            "inode": "844424930146559",
+            "_v": 1613841946231
         },
         {
             "id": "472ff8d4-129c-4b5b-aa23-8f891811d906",
@@ -866,8 +1771,8 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "bg2.png",
-            "inode": "1125899906853905",
-            "_v": 1613835278659
+            "inode": "844424930146562",
+            "_v": 1613841946231
         },
         {
             "id": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
@@ -878,7 +1783,7 @@
             "imageHeight": 144,
             "filename": "placeholder.png",
             "inode": "1125899906844845",
-            "_v": 1613834395791
+            "_v": 1613841946231
         }
     ],
     "spriteSheets": [
@@ -889,7 +1794,7 @@
             "type": "actor",
             "filename": "actor.png",
             "inode": "844424930134239",
-            "_v": 1613834395791
+            "_v": 1613841946231
         },
         {
             "id": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
@@ -898,7 +1803,7 @@
             "type": "actor_animated",
             "filename": "actor_animated.png",
             "inode": "844424930134240",
-            "_v": 1613834395791
+            "_v": 1613841946231
         },
         {
             "id": "da6cd95a-684e-43b3-8728-cb5951aef309",
@@ -906,8 +1811,17 @@
             "numFrames": 1,
             "type": "static",
             "filename": "door.png",
-            "inode": "1407374883565322",
-            "_v": 1613836219101
+            "inode": "844424930146563",
+            "_v": 1613841946231
+        },
+        {
+            "id": "ab0173e3-9c78-489c-a6cb-dee5d0be5df0",
+            "name": "invisible",
+            "numFrames": 1,
+            "type": "static",
+            "filename": "invisible.png",
+            "inode": "844424930146564",
+            "_v": 1613841946231
         },
         {
             "id": "daf95270-e30d-423b-9ee7-990ae29f57f6",
@@ -916,7 +1830,7 @@
             "type": "static",
             "filename": "static.png",
             "inode": "844424930134241",
-            "_v": 1613834395791
+            "_v": 1613841946232
         }
     ],
     "palettes": [
@@ -1065,19 +1979,40 @@
             "filename": "template.mod",
             "settings": {},
             "inode": "1125899906844869",
-            "_v": 1613834395787
+            "_v": 1613841946220
         }
     ],
-    "variables": [],
+    "variables": [
+        {
+            "id": "839e6384-3d51-4dd8-9afa-76ba7df45352__L0",
+            "name": "Menu Choice"
+        },
+        {
+            "id": "0",
+            "name": "Knowledge"
+        },
+        {
+            "id": "1",
+            "name": "TD1 Knows about beans"
+        },
+        {
+            "id": "1751033a-f979-40d4-a2d1-a1d1bda03327__L0",
+            "name": "Menu Choice"
+        },
+        {
+            "id": "2",
+            "name": "TD2 Knows About Bread"
+        }
+    ],
     "settings": {
         "startSceneId": "6cf53021-fbef-4acd-a6c7-9303c0b8cd36",
-        "startX": 12,
-        "startY": 33,
+        "startX": 15,
+        "startY": 10,
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 5069,
-        "worldScrollY": 3571,
-        "zoom": 600,
+        "worldScrollX": 871,
+        "worldScrollY": 478,
+        "zoom": 200,
         "customColorsEnabled": false,
         "defaultBackgroundPaletteIds": [
             "default-bg-1",
