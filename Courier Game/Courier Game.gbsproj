@@ -825,6 +825,13 @@
             "tileColors": [],
             "script": [
                 {
+                    "id": "f21ac1d1-1bef-49a3-a2ef-7c01aee4a263",
+                    "command": "EVENT_ACTOR_HIDE",
+                    "args": {
+                        "actorId": "$self$"
+                    }
+                },
+                {
                     "id": "6ee7a73c-18de-4cf8-a4ba-58462e46df49",
                     "command": "EVENT_IF_TRUE",
                     "args": {
@@ -915,7 +922,7 @@
                         "operator": "==",
                         "comparator": 1,
                         "__collapseElse": false,
-                        "__collapse": false,
+                        "__collapse": true,
                         "__label": "Show Topic Menu"
                     },
                     "children": {
@@ -1248,27 +1255,7 @@
             "id": "839e6384-3d51-4dd8-9afa-76ba7df45352",
             "x": 1197.6000000000004,
             "y": 454.4999999999998,
-            "actors": [
-                {
-                    "name": "",
-                    "frame": 0,
-                    "animate": false,
-                    "spriteSheetId": "11b5452b-187c-43a3-afb1-a1f4f74ffda2",
-                    "spriteType": "static",
-                    "direction": "down",
-                    "moveSpeed": "1",
-                    "animSpeed": "3",
-                    "script": [],
-                    "startScript": [],
-                    "updateScript": [],
-                    "hit1Script": [],
-                    "hit2Script": [],
-                    "hit3Script": [],
-                    "id": "63289255-880d-4227-975c-41730a5f4df6",
-                    "x": 9,
-                    "y": 10
-                }
-            ],
+            "actors": [],
             "triggers": [],
             "type": "4"
         },
@@ -1281,12 +1268,19 @@
             "tileColors": [],
             "script": [
                 {
+                    "id": "6da4b1c9-b61c-4016-9b84-aaa8ff478ff2",
+                    "command": "EVENT_ACTOR_HIDE",
+                    "args": {
+                        "actorId": "$self$"
+                    }
+                },
+                {
                     "id": "5a8f68c1-326d-48ef-b49b-c2a70bfd2864",
                     "command": "EVENT_IF_TRUE",
                     "args": {
                         "variable": "2",
                         "__collapseElse": false,
-                        "__collapse": false
+                        "__collapse": true
                     },
                     "children": {
                         "true": [
@@ -1371,7 +1365,7 @@
                         "operator": "==",
                         "comparator": 1,
                         "__collapseElse": false,
-                        "__collapse": false,
+                        "__collapse": true,
                         "__label": "Show Topic Menu"
                     },
                     "children": {
@@ -1735,27 +1729,7 @@
             "id": "1751033a-f979-40d4-a2d1-a1d1bda03327",
             "x": 562,
             "y": 449,
-            "actors": [
-                {
-                    "name": "",
-                    "frame": 0,
-                    "animate": false,
-                    "spriteSheetId": "11b5452b-187c-43a3-afb1-a1f4f74ffda2",
-                    "spriteType": "static",
-                    "direction": "down",
-                    "moveSpeed": "1",
-                    "animSpeed": "3",
-                    "script": [],
-                    "startScript": [],
-                    "updateScript": [],
-                    "hit1Script": [],
-                    "hit2Script": [],
-                    "hit3Script": [],
-                    "id": "122accfd-d64f-4a2c-ab50-d191ad274a77",
-                    "x": 9,
-                    "y": 10
-                }
-            ],
+            "actors": [],
             "triggers": [],
             "type": "4"
         }
@@ -2041,8 +2015,8 @@
         "startY": 10,
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 872,
-        "worldScrollY": 377,
+        "worldScrollX": 772,
+        "worldScrollY": 397,
         "zoom": 200,
         "customColorsEnabled": false,
         "defaultBackgroundPaletteIds": [

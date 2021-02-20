@@ -825,6 +825,13 @@
             "tileColors": [],
             "script": [
                 {
+                    "id": "f21ac1d1-1bef-49a3-a2ef-7c01aee4a263",
+                    "command": "EVENT_ACTOR_HIDE",
+                    "args": {
+                        "actorId": "$self$"
+                    }
+                },
+                {
                     "id": "6ee7a73c-18de-4cf8-a4ba-58462e46df49",
                     "command": "EVENT_IF_TRUE",
                     "args": {
@@ -915,7 +922,7 @@
                         "operator": "==",
                         "comparator": 1,
                         "__collapseElse": false,
-                        "__collapse": false,
+                        "__collapse": true,
                         "__label": "Show Topic Menu"
                     },
                     "children": {
@@ -1248,27 +1255,7 @@
             "id": "839e6384-3d51-4dd8-9afa-76ba7df45352",
             "x": 1197.6000000000004,
             "y": 454.4999999999998,
-            "actors": [
-                {
-                    "name": "",
-                    "frame": 0,
-                    "animate": false,
-                    "spriteSheetId": "11b5452b-187c-43a3-afb1-a1f4f74ffda2",
-                    "spriteType": "static",
-                    "direction": "down",
-                    "moveSpeed": "1",
-                    "animSpeed": "3",
-                    "script": [],
-                    "startScript": [],
-                    "updateScript": [],
-                    "hit1Script": [],
-                    "hit2Script": [],
-                    "hit3Script": [],
-                    "id": "63289255-880d-4227-975c-41730a5f4df6",
-                    "x": 9,
-                    "y": 10
-                }
-            ],
+            "actors": [],
             "triggers": [],
             "type": "4"
         },
@@ -1281,12 +1268,19 @@
             "tileColors": [],
             "script": [
                 {
+                    "id": "6da4b1c9-b61c-4016-9b84-aaa8ff478ff2",
+                    "command": "EVENT_ACTOR_HIDE",
+                    "args": {
+                        "actorId": "$self$"
+                    }
+                },
+                {
                     "id": "5a8f68c1-326d-48ef-b49b-c2a70bfd2864",
                     "command": "EVENT_IF_TRUE",
                     "args": {
                         "variable": "2",
                         "__collapseElse": false,
-                        "__collapse": false
+                        "__collapse": true
                     },
                     "children": {
                         "true": [
@@ -1371,7 +1365,7 @@
                         "operator": "==",
                         "comparator": 1,
                         "__collapseElse": false,
-                        "__collapse": false,
+                        "__collapse": true,
                         "__label": "Show Topic Menu"
                     },
                     "children": {
@@ -1423,49 +1417,64 @@
                                             "children": {
                                                 "true": [
                                                     {
-                                                        "id": "28793699-96e1-48b8-94a8-a9772209a370",
-                                                        "command": "EVENT_TEXT",
+                                                        "id": "b009a543-1414-46a8-be8c-5b17d7fe3ef2",
+                                                        "command": "EVENT_GROUP",
                                                         "args": {
-                                                            "text": [
-                                                                "I'll tell you\nabout beans"
-                                                            ],
-                                                            "avatarId": "daf95270-e30d-423b-9ee7-990ae29f57f6",
-                                                            "__collapse": false
-                                                        }
-                                                    },
-                                                    {
-                                                        "id": "7a4ed76d-e073-41ab-ae92-9ef750495fc2",
-                                                        "command": "EVENT_SET_FLAGS",
-                                                        "args": {
-                                                            "variable": "0",
-                                                            "flag1": true,
-                                                            "flag2": false,
-                                                            "flag3": false,
-                                                            "flag4": false,
-                                                            "flag5": false,
-                                                            "flag6": false,
-                                                            "flag7": false,
-                                                            "flag8": false,
-                                                            "__collapse": false
-                                                        }
-                                                    },
-                                                    {
-                                                        "id": "6a1b8634-49e3-4f05-abf7-111fe817c781",
-                                                        "command": "EVENT_TEXT",
-                                                        "args": {
-                                                            "text": [
-                                                                "I now know about\nbeans!"
-                                                            ],
-                                                            "avatarId": "",
-                                                            "__collapse": false
-                                                        }
-                                                    },
-                                                    {
-                                                        "id": "435f7458-d35f-48b5-a7f4-dfdba80ba7b2",
-                                                        "command": "EVENT_GOTO_LABEL",
-                                                        "args": {
-                                                            "label": "Top of Menu",
-                                                            "__collapse": true
+                                                            "__label": "Learn about topic"
+                                                        },
+                                                        "children": {
+                                                            "true": [
+                                                                {
+                                                                    "id": "28793699-96e1-48b8-94a8-a9772209a370",
+                                                                    "command": "EVENT_TEXT",
+                                                                    "args": {
+                                                                        "text": [
+                                                                            "I'll tell you\nabout beans"
+                                                                        ],
+                                                                        "avatarId": "daf95270-e30d-423b-9ee7-990ae29f57f6",
+                                                                        "__collapse": true
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "id": "7a4ed76d-e073-41ab-ae92-9ef750495fc2",
+                                                                    "command": "EVENT_SET_FLAGS",
+                                                                    "args": {
+                                                                        "variable": "0",
+                                                                        "flag1": true,
+                                                                        "flag2": false,
+                                                                        "flag3": false,
+                                                                        "flag4": false,
+                                                                        "flag5": false,
+                                                                        "flag6": false,
+                                                                        "flag7": false,
+                                                                        "flag8": false,
+                                                                        "__collapse": true
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "id": "6a1b8634-49e3-4f05-abf7-111fe817c781",
+                                                                    "command": "EVENT_TEXT",
+                                                                    "args": {
+                                                                        "text": [
+                                                                            "I now know about\nbeans!"
+                                                                        ],
+                                                                        "avatarId": "",
+                                                                        "__collapse": true
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "id": "435f7458-d35f-48b5-a7f4-dfdba80ba7b2",
+                                                                    "command": "EVENT_GOTO_LABEL",
+                                                                    "args": {
+                                                                        "label": "Top of Menu",
+                                                                        "__collapse": true
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "id": "5e15aff1-6eb6-4032-9a9a-d7d6a1994c94",
+                                                                    "command": "EVENT_END"
+                                                                }
+                                                            ]
                                                         }
                                                     },
                                                     {
@@ -1481,7 +1490,8 @@
                                                             "variable": "L0",
                                                             "operator": "==",
                                                             "comparator": 2,
-                                                            "__collapseElse": false
+                                                            "__collapseElse": false,
+                                                            "__collapse": false
                                                         },
                                                         "children": {
                                                             "true": [
@@ -1558,7 +1568,7 @@
                                             "args": {
                                                 "variable": "L0",
                                                 "items": 2,
-                                                "option1": "Bread?",
+                                                "option1": "Beans?",
                                                 "option2": "Other",
                                                 "option3": "",
                                                 "option4": "",
@@ -1586,49 +1596,64 @@
                                             "children": {
                                                 "true": [
                                                     {
-                                                        "id": "f8b1e007-089b-4601-af27-338910ce9ccb",
-                                                        "command": "EVENT_TEXT",
+                                                        "id": "38c545f6-5022-414f-882b-4769884b0eaa",
+                                                        "command": "EVENT_GROUP",
                                                         "args": {
-                                                            "text": [
-                                                                "I give to you\nbread knowledge."
-                                                            ],
-                                                            "avatarId": "da6cd95a-684e-43b3-8728-cb5951aef309",
-                                                            "__collapse": false
-                                                        }
-                                                    },
-                                                    {
-                                                        "id": "44ab6798-c588-4f4b-81eb-14f4d1beeec5",
-                                                        "command": "EVENT_SET_FLAGS",
-                                                        "args": {
-                                                            "variable": "0",
-                                                            "flag1": false,
-                                                            "flag2": true,
-                                                            "flag3": false,
-                                                            "flag4": false,
-                                                            "flag5": false,
-                                                            "flag6": false,
-                                                            "flag7": false,
-                                                            "flag8": false,
-                                                            "__collapse": true
-                                                        }
-                                                    },
-                                                    {
-                                                        "id": "a677509f-0402-4ab5-b814-da4a63142b88",
-                                                        "command": "EVENT_TEXT",
-                                                        "args": {
-                                                            "text": [
-                                                                "I now know about\nbread!"
-                                                            ],
-                                                            "avatarId": "",
-                                                            "__collapse": true
-                                                        }
-                                                    },
-                                                    {
-                                                        "id": "be68d8b8-a17a-4a1f-b72d-e33ff46463d7",
-                                                        "command": "EVENT_GOTO_LABEL",
-                                                        "args": {
-                                                            "label": "Top of Menu",
-                                                            "__collapse": true
+                                                            "__label": "Learn about topic"
+                                                        },
+                                                        "children": {
+                                                            "true": [
+                                                                {
+                                                                    "id": "9713d05f-de45-4c4e-b7ec-dd16657c80f5",
+                                                                    "command": "EVENT_TEXT",
+                                                                    "args": {
+                                                                        "text": [
+                                                                            "I'll tell you\nabout beans"
+                                                                        ],
+                                                                        "avatarId": "daf95270-e30d-423b-9ee7-990ae29f57f6",
+                                                                        "__collapse": true
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "id": "744638e3-d92a-42d1-b9ac-24b6c925b3b7",
+                                                                    "command": "EVENT_SET_FLAGS",
+                                                                    "args": {
+                                                                        "variable": "0",
+                                                                        "flag1": true,
+                                                                        "flag2": false,
+                                                                        "flag3": false,
+                                                                        "flag4": false,
+                                                                        "flag5": false,
+                                                                        "flag6": false,
+                                                                        "flag7": false,
+                                                                        "flag8": false,
+                                                                        "__collapse": true
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "id": "13798b42-e4eb-438a-837c-cd572e25bc8c",
+                                                                    "command": "EVENT_TEXT",
+                                                                    "args": {
+                                                                        "text": [
+                                                                            "I now know about\nbeans!"
+                                                                        ],
+                                                                        "avatarId": "",
+                                                                        "__collapse": true
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "id": "232de4a7-12c9-43d7-8508-1769734609bc",
+                                                                    "command": "EVENT_GOTO_LABEL",
+                                                                    "args": {
+                                                                        "label": "Top of Menu",
+                                                                        "__collapse": false
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "id": "3fe5e811-df1e-4d37-8f8f-681439e97271",
+                                                                    "command": "EVENT_END"
+                                                                }
+                                                            ]
                                                         }
                                                     },
                                                     {
@@ -1739,7 +1764,7 @@
             "imageHeight": 144,
             "filename": "April1.png",
             "inode": "1970324836989163",
-            "_v": 1613841946231
+            "_v": 1613852625498
         },
         {
             "id": "dd6e6888-87c1-4ef2-9260-78490897c694",
@@ -1750,7 +1775,7 @@
             "imageHeight": 144,
             "filename": "F1_Map.png",
             "inode": "562949953435848",
-            "_v": 1613841946231
+            "_v": 1613852625498
         },
         {
             "id": "5672c5f8-97ab-4c49-a555-6e21fe5663b0",
@@ -1761,7 +1786,7 @@
             "imageHeight": 304,
             "filename": "bg1.png",
             "inode": "844424930146559",
-            "_v": 1613841946231
+            "_v": 1613852625498
         },
         {
             "id": "472ff8d4-129c-4b5b-aa23-8f891811d906",
@@ -1772,7 +1797,7 @@
             "imageHeight": 144,
             "filename": "bg2.png",
             "inode": "844424930146562",
-            "_v": 1613841946231
+            "_v": 1613852625498
         },
         {
             "id": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
@@ -1783,7 +1808,7 @@
             "imageHeight": 144,
             "filename": "placeholder.png",
             "inode": "1125899906844845",
-            "_v": 1613841946231
+            "_v": 1613852625498
         }
     ],
     "spriteSheets": [
@@ -1794,7 +1819,7 @@
             "type": "actor",
             "filename": "actor.png",
             "inode": "844424930134239",
-            "_v": 1613841946231
+            "_v": 1613852625498
         },
         {
             "id": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
@@ -1803,7 +1828,7 @@
             "type": "actor_animated",
             "filename": "actor_animated.png",
             "inode": "844424930134240",
-            "_v": 1613841946231
+            "_v": 1613852625498
         },
         {
             "id": "da6cd95a-684e-43b3-8728-cb5951aef309",
@@ -1812,7 +1837,7 @@
             "type": "static",
             "filename": "door.png",
             "inode": "844424930146563",
-            "_v": 1613841946231
+            "_v": 1613852625498
         },
         {
             "id": "ab0173e3-9c78-489c-a6cb-dee5d0be5df0",
@@ -1821,7 +1846,7 @@
             "type": "static",
             "filename": "invisible.png",
             "inode": "844424930146564",
-            "_v": 1613841946231
+            "_v": 1613852625498
         },
         {
             "id": "daf95270-e30d-423b-9ee7-990ae29f57f6",
@@ -1830,7 +1855,7 @@
             "type": "static",
             "filename": "static.png",
             "inode": "844424930134241",
-            "_v": 1613841946232
+            "_v": 1613852625498
         }
     ],
     "palettes": [
@@ -1979,14 +2004,10 @@
             "filename": "template.mod",
             "settings": {},
             "inode": "1125899906844869",
-            "_v": 1613841946220
+            "_v": 1613852625489
         }
     ],
     "variables": [
-        {
-            "id": "839e6384-3d51-4dd8-9afa-76ba7df45352__L0",
-            "name": "Menu Choice"
-        },
         {
             "id": "0",
             "name": "Knowledge"
@@ -1996,12 +2017,16 @@
             "name": "TD1 Knows about beans"
         },
         {
-            "id": "1751033a-f979-40d4-a2d1-a1d1bda03327__L0",
+            "id": "2",
+            "name": "TD2 Knows About Bread"
+        },
+        {
+            "id": "839e6384-3d51-4dd8-9afa-76ba7df45352__L0",
             "name": "Menu Choice"
         },
         {
-            "id": "2",
-            "name": "TD2 Knows About Bread"
+            "id": "1751033a-f979-40d4-a2d1-a1d1bda03327__L0",
+            "name": "Menu Choice"
         }
     ],
     "settings": {
@@ -2010,8 +2035,8 @@
         "startY": 10,
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 871,
-        "worldScrollY": 478,
+        "worldScrollX": 772,
+        "worldScrollY": 397,
         "zoom": 200,
         "customColorsEnabled": false,
         "defaultBackgroundPaletteIds": [
