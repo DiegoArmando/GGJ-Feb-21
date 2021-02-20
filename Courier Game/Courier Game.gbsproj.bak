@@ -808,7 +808,7 @@
                     "name": "Door 1",
                     "frame": 0,
                     "animate": false,
-                    "spriteSheetId": "ab0173e3-9c78-489c-a6cb-dee5d0be5df0",
+                    "spriteSheetId": "da6cd95a-684e-43b3-8728-cb5951aef309",
                     "spriteType": "static",
                     "direction": "down",
                     "moveSpeed": "1",
@@ -820,7 +820,7 @@
                     "hit2Script": [],
                     "hit3Script": [],
                     "id": "f8a77335-8b68-49cb-a0fe-323467f0eb71",
-                    "x": 5,
+                    "x": 4,
                     "y": 30
                 }
             ],
@@ -856,7 +856,7 @@
             "imageHeight": 304,
             "filename": "bg1.png",
             "inode": "844424930143104",
-            "_v": 1613839420356
+            "_v": 1613839238550
         },
         {
             "id": "472ff8d4-129c-4b5b-aa23-8f891811d906",
@@ -908,15 +908,6 @@
             "filename": "door.png",
             "inode": "1407374883565322",
             "_v": 1613836219101
-        },
-        {
-            "id": "ab0173e3-9c78-489c-a6cb-dee5d0be5df0",
-            "name": "invisible",
-            "numFrames": 1,
-            "type": "static",
-            "filename": "invisible.png",
-            "inode": "562949953434674",
-            "_v": 1613839357036
         },
         {
             "id": "daf95270-e30d-423b-9ee7-990ae29f57f6",
@@ -1084,8 +1075,8 @@
         "startY": 33,
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 5206,
-        "worldScrollY": 2617,
+        "worldScrollX": 5069,
+        "worldScrollY": 3571,
         "zoom": 600,
         "customColorsEnabled": false,
         "defaultBackgroundPaletteIds": [
