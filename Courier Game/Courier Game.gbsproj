@@ -696,7 +696,7 @@
                     "name": "Door 1",
                     "frame": 0,
                     "animate": false,
-                    "spriteSheetId": "16e8e42d-5f9f-4c85-9f0a-8c44a80fb006",
+                    "spriteSheetId": "934a9028-b427-40d4-a463-d3ef30fe0fae",
                     "spriteType": "static",
                     "direction": "down",
                     "moveSpeed": "1",
@@ -853,6 +853,41 @@
                     "hit3Script": [],
                     "id": "a437b36c-1149-47a2-8b66-732cff579de1",
                     "x": 26,
+                    "y": 10
+                },
+                {
+                    "name": "Janitor",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "11b5452b-187c-43a3-afb1-a1f4f74ffda2",
+                    "spriteType": "actor",
+                    "direction": "down",
+                    "moveSpeed": "1",
+                    "animSpeed": "3",
+                    "script": [
+                        {
+                            "id": "b2decd32-3904-4ea2-a0b2-a2ecfe77546d",
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "3ad1db98-4e69-4b84-a97c-18dbe9116772",
+                                "x": 0,
+                                "y": 0,
+                                "direction": "",
+                                "fadeSpeed": "2"
+                            }
+                        },
+                        {
+                            "id": "64963e58-f629-4213-9ab7-2d79998411bb",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "0370aec3-ebb2-4f7d-b7b4-115e0ac11cf4",
+                    "x": 3,
                     "y": 10
                 }
             ],
@@ -2876,7 +2911,7 @@
                     "name": "Door 1",
                     "frame": 0,
                     "animate": false,
-                    "spriteSheetId": "16e8e42d-5f9f-4c85-9f0a-8c44a80fb006",
+                    "spriteSheetId": "934a9028-b427-40d4-a463-d3ef30fe0fae",
                     "spriteType": "static",
                     "direction": "down",
                     "moveSpeed": "1",
@@ -3069,41 +3104,6 @@
                     "hit3Script": [],
                     "id": "e71d75d8-27dd-4ac7-9c18-b125aac2a76e",
                     "x": 49,
-                    "y": 10
-                },
-                {
-                    "name": "Janitor",
-                    "frame": 0,
-                    "animate": false,
-                    "spriteSheetId": "11b5452b-187c-43a3-afb1-a1f4f74ffda2",
-                    "spriteType": "actor",
-                    "direction": "down",
-                    "moveSpeed": "1",
-                    "animSpeed": "3",
-                    "script": [
-                        {
-                            "id": "b2decd32-3904-4ea2-a0b2-a2ecfe77546d",
-                            "command": "EVENT_SWITCH_SCENE",
-                            "args": {
-                                "sceneId": "3ad1db98-4e69-4b84-a97c-18dbe9116772",
-                                "x": 0,
-                                "y": 0,
-                                "direction": "",
-                                "fadeSpeed": "2"
-                            }
-                        },
-                        {
-                            "id": "64963e58-f629-4213-9ab7-2d79998411bb",
-                            "command": "EVENT_END"
-                        }
-                    ],
-                    "startScript": [],
-                    "updateScript": [],
-                    "hit1Script": [],
-                    "hit2Script": [],
-                    "hit3Script": [],
-                    "id": "0370aec3-ebb2-4f7d-b7b4-115e0ac11cf4",
-                    "x": 2,
                     "y": 10
                 }
             ],
@@ -4299,7 +4299,7 @@
                     "name": "Door 1",
                     "frame": 0,
                     "animate": false,
-                    "spriteSheetId": "16e8e42d-5f9f-4c85-9f0a-8c44a80fb006",
+                    "spriteSheetId": "934a9028-b427-40d4-a463-d3ef30fe0fae",
                     "spriteType": "static",
                     "direction": "down",
                     "moveSpeed": "1",
@@ -5661,7 +5661,7 @@
                     "name": "Door 1",
                     "frame": 0,
                     "animate": false,
-                    "spriteSheetId": "ab0173e3-9c78-489c-a6cb-dee5d0be5df0",
+                    "spriteSheetId": "934a9028-b427-40d4-a463-d3ef30fe0fae",
                     "spriteType": "static",
                     "direction": "down",
                     "moveSpeed": "1",
@@ -12366,26 +12366,26 @@
             "_v": 1613924413791
         },
         {
-            "id": "b7f24cde-5094-4307-be58-d0d9e5c5ead6",
+            "id": "4e04226b-e747-4347-aeae-470cd6a9364d",
             "name": "bg1",
             "width": 20,
             "height": 38,
             "imageWidth": 160,
             "imageHeight": 304,
             "filename": "bg1.png",
-            "inode": "3096224743834125",
-            "_v": 1613935754563
+            "inode": "4785074604097832",
+            "_v": 1613936968007
         },
         {
-            "id": "b98a0161-fa8b-452c-9559-06b2ed0afb4c",
+            "id": "c1d03143-9fb0-4e84-924e-10c3f9289adf",
             "name": "bg2",
             "width": 20,
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "bg2.png",
-            "inode": "2533274790413377",
-            "_v": 1613935754563
+            "inode": "4785074604097834",
+            "_v": 1613936968007
         },
         {
             "id": "5479a7dd-100f-44c4-9677-bafa8d9d0a8c",
@@ -12417,8 +12417,8 @@
             "numFrames": 2,
             "type": "animated",
             "filename": "EmployeeMouthMan.png",
-            "inode": "1407374883570937",
-            "_v": 1613935603474
+            "inode": "2251799813697559",
+            "_v": 1613936971671
         },
         {
             "id": "01e04496-7b74-4b78-bea8-7f0c1d363f25",
@@ -12475,22 +12475,22 @@
             "_v": 1613852625498
         },
         {
-            "id": "ca78e721-d40a-4a3b-88b7-26445f443db4",
+            "id": "97239457-a612-4ac7-a0c9-6069120f08ad",
             "name": "door",
             "numFrames": 1,
             "type": "static",
             "filename": "door.png",
-            "inode": "1407374883571280",
-            "_v": 1613935754558
+            "inode": "4503599627387191",
+            "_v": 1613936968012
         },
         {
-            "id": "16e8e42d-5f9f-4c85-9f0a-8c44a80fb006",
+            "id": "934a9028-b427-40d4-a463-d3ef30fe0fae",
             "name": "invisible",
             "numFrames": 1,
             "type": "static",
             "filename": "invisible.png",
-            "inode": "1407374883571291",
-            "_v": 1613935754563
+            "inode": "3377699720544781",
+            "_v": 1613936968012
         },
         {
             "id": "daf95270-e30d-423b-9ee7-990ae29f57f6",
@@ -12643,12 +12643,12 @@
     "customEvents": [],
     "music": [
         {
-            "id": "af8cc886-f2c8-4d54-a0df-cede6bdb909f",
+            "id": "86cce199-9716-45df-8747-144d929ddc25",
             "name": "Chatting Music",
             "filename": "Chatting Music.mod",
             "settings": {},
-            "inode": "1688849860281829",
-            "_v": 1613935758601
+            "inode": "5066549580808502",
+            "_v": 1613936972048
         },
         {
             "id": "f50428ab-a084-4591-9bba-2ba10fe7b1c6",
@@ -12727,8 +12727,8 @@
         "startY": 10,
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 449,
-        "worldScrollY": 687,
+        "worldScrollX": 1212,
+        "worldScrollY": 74,
         "zoom": 200,
         "customColorsEnabled": false,
         "defaultBackgroundPaletteIds": [

@@ -2869,7 +2869,7 @@
             "playerHit2Script": [],
             "playerHit3Script": [],
             "id": "4a3ce018-3190-4583-831d-a5364f241579",
-            "x": 733.8333333333339,
+            "x": 733.3333333333339,
             "y": 532.3333333333334,
             "actors": [
                 {
@@ -8974,7 +8974,7 @@
                                                         "command": "EVENT_GROUP",
                                                         "args": {
                                                             "__label": "Resopnd to \"Lift\"",
-                                                            "__collapse": true
+                                                            "__collapse": false
                                                         },
                                                         "children": {
                                                             "true": [
@@ -9039,7 +9039,7 @@
                                                                     "id": "ab66234d-f51c-4716-adfe-ad8e58be64ff",
                                                                     "command": "EVENT_ADD_FLAGS",
                                                                     "args": {
-                                                                        "variable": "L0",
+                                                                        "variable": "0",
                                                                         "flag1": false,
                                                                         "flag2": false,
                                                                         "flag3": false,
@@ -9048,7 +9048,7 @@
                                                                         "flag6": false,
                                                                         "flag7": false,
                                                                         "flag8": false,
-                                                                        "__collapse": true
+                                                                        "__collapse": false
                                                                     }
                                                                 },
                                                                 {
@@ -12727,8 +12727,8 @@
         "startY": 10,
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 581,
-        "worldScrollY": 799,
+        "worldScrollX": 449,
+        "worldScrollY": 687,
         "zoom": 200,
         "customColorsEnabled": false,
         "defaultBackgroundPaletteIds": [
