@@ -9754,7 +9754,7 @@
         },
         {
             "name": "Manager",
-            "backgroundId": "1255766d-c657-4f5f-ad06-0aaecd23244e",
+            "backgroundId": "64725e43-2e79-47b2-ab64-76788e71029b",
             "width": 20,
             "height": 18,
             "collisions": [],
@@ -10222,13 +10222,52 @@
             "id": "2fcc79b2-f235-45a4-a102-fa1f2e5e77a0",
             "x": 659.6666666666662,
             "y": 214.83333333333337,
-            "actors": [],
+            "actors": [
+                {
+                    "name": "ManMouthL",
+                    "frame": 1,
+                    "animate": true,
+                    "spriteSheetId": "b336f8fe-c6bd-42f4-9bf7-b449c32c0c78",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": "1",
+                    "animSpeed": "3",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "83fac17d-78f5-44a0-85ff-268433b11e19",
+                    "x": 6,
+                    "y": 7
+                },
+                {
+                    "name": "ManMouthR",
+                    "frame": 1,
+                    "animate": true,
+                    "spriteSheetId": "e8307965-0780-42ce-a18c-29aca40f22f4",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": "1",
+                    "animSpeed": "3",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "5736ebc3-dd17-48a5-9c40-783ab8d32d41",
+                    "x": 8,
+                    "y": 7
+                }
+            ],
             "triggers": [],
             "type": "4"
         },
         {
             "name": "Marketing",
-            "backgroundId": "1255766d-c657-4f5f-ad06-0aaecd23244e",
+            "backgroundId": "6c9f5c8d-dbb7-4d46-ac4b-af98ea483961",
             "width": 20,
             "height": 18,
             "collisions": [],
@@ -10692,9 +10731,29 @@
             "playerHit2Script": [],
             "playerHit3Script": [],
             "id": "44958ba6-7121-4b62-818f-cf441c68b4d7",
-            "x": 432.4999999999999,
-            "y": 181.99999999999994,
-            "actors": [],
+            "x": 437.9999999999999,
+            "y": 190.49999999999994,
+            "actors": [
+                {
+                    "name": "",
+                    "frame": 1,
+                    "animate": true,
+                    "spriteSheetId": "fca1100e-7f3e-4354-998b-7374c70dd4d4",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": "1",
+                    "animSpeed": "3",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "602859e9-3f06-4c25-a717-957ba10e91e5",
+                    "x": 9,
+                    "y": 8
+                }
+            ],
             "triggers": [],
             "type": "4"
         },
@@ -11979,14 +12038,14 @@
             "playerHit3Script": [],
             "id": "3ad1db98-4e69-4b84-a97c-18dbe9116772",
             "x": 196.5,
-            "y": 527.5,
+            "y": 527,
             "actors": [],
             "triggers": [],
             "type": "4"
         },
         {
             "name": "Argument",
-            "backgroundId": "1255766d-c657-4f5f-ad06-0aaecd23244e",
+            "backgroundId": "93173da0-b570-4606-a668-22aec88e1cb1",
             "width": 20,
             "height": 18,
             "collisions": [],
@@ -12051,7 +12110,65 @@
             "id": "53868c66-22a2-4fba-a5ba-ad76275ea279",
             "x": 456,
             "y": 392.5,
-            "actors": [],
+            "actors": [
+                {
+                    "name": "ManMouthL",
+                    "frame": 1,
+                    "animate": true,
+                    "spriteSheetId": "b336f8fe-c6bd-42f4-9bf7-b449c32c0c78",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": "1",
+                    "animSpeed": "3",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "78f920e0-b7fe-4302-a417-8018b6421a89",
+                    "x": 9,
+                    "y": 7
+                },
+                {
+                    "name": "ManMouthR",
+                    "frame": 1,
+                    "animate": true,
+                    "spriteSheetId": "e8307965-0780-42ce-a18c-29aca40f22f4",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": "1",
+                    "animSpeed": "3",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "7aa7e80d-be76-43c9-8ee3-e00e1d002777",
+                    "x": 11,
+                    "y": 7
+                },
+                {
+                    "name": "MarkMouth",
+                    "frame": 1,
+                    "animate": true,
+                    "spriteSheetId": "fca1100e-7f3e-4354-998b-7374c70dd4d4",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": "1",
+                    "animSpeed": "3",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "21a283f1-65a9-4dc6-92aa-1de65ec18553",
+                    "x": 3,
+                    "y": 8
+                }
+            ],
             "triggers": []
         },
         {
@@ -13481,6 +13598,39 @@
             "_v": 1613927932239
         },
         {
+            "id": "64725e43-2e79-47b2-ab64-76788e71029b",
+            "name": "Manager",
+            "width": 20,
+            "height": 18,
+            "imageWidth": 160,
+            "imageHeight": 144,
+            "filename": "Manager.png",
+            "inode": "3377699720548979",
+            "_v": 1613941080748
+        },
+        {
+            "id": "6c9f5c8d-dbb7-4d46-ac4b-af98ea483961",
+            "name": "Marketing",
+            "width": 20,
+            "height": 18,
+            "imageWidth": 160,
+            "imageHeight": 144,
+            "filename": "Marketing.png",
+            "inode": "1125899906864029",
+            "_v": 1613941080748
+        },
+        {
+            "id": "93173da0-b570-4606-a668-22aec88e1cb1",
+            "name": "MarketingNManager",
+            "width": 20,
+            "height": 18,
+            "imageWidth": 160,
+            "imageHeight": 144,
+            "filename": "MarketingNManager.png",
+            "inode": "1688849860285353",
+            "_v": 1613941080748
+        },
+        {
             "id": "5d4e7497-6c3e-4e4a-a851-a0a48423bc6b",
             "name": "Receptionist",
             "width": 20,
@@ -13492,26 +13642,26 @@
             "_v": 1613924413791
         },
         {
-            "id": "4e04226b-e747-4347-aeae-470cd6a9364d",
+            "id": "803d0e76-25df-4466-9de9-bc65c7d0c9b2",
             "name": "bg1",
             "width": 20,
             "height": 38,
             "imageWidth": 160,
             "imageHeight": 304,
             "filename": "bg1.png",
-            "inode": "4785074604097832",
-            "_v": 1613936968007
+            "inode": "5348024557519146",
+            "_v": 1613941076842
         },
         {
-            "id": "c1d03143-9fb0-4e84-924e-10c3f9289adf",
+            "id": "b9703234-5e96-4636-a71b-26ee11436007",
             "name": "bg2",
             "width": 20,
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "bg2.png",
-            "inode": "4785074604097834",
-            "_v": 1613936968007
+            "inode": "5066549580808497",
+            "_v": 1613941076842
         },
         {
             "id": "5479a7dd-100f-44c4-9677-bafa8d9d0a8c",
@@ -13565,6 +13715,15 @@
             "_v": 1613927932242
         },
         {
+            "id": "fca1100e-7f3e-4354-998b-7374c70dd4d4",
+            "name": "MarketingMout",
+            "numFrames": 2,
+            "type": "animated",
+            "filename": "MarketingMout.png",
+            "inode": "1125899906864054",
+            "_v": 1613941080759
+        },
+        {
             "id": "3b9e6873-7fe8-4833-82cb-bf7e7ca4d00c",
             "name": "ReceptionistMouthL",
             "numFrames": 4,
@@ -13601,13 +13760,13 @@
             "_v": 1613852625498
         },
         {
-            "id": "97239457-a612-4ac7-a0c9-6069120f08ad",
+            "id": "3a7c7b5d-2312-46cd-ba8e-d377d3d04fbc",
             "name": "door",
             "numFrames": 1,
             "type": "static",
             "filename": "door.png",
-            "inode": "4503599627387191",
-            "_v": 1613936968012
+            "inode": "3377699720545546",
+            "_v": 1613941076848
         },
         {
             "id": "934a9028-b427-40d4-a463-d3ef30fe0fae",
@@ -13617,6 +13776,24 @@
             "filename": "invisible.png",
             "inode": "3377699720544781",
             "_v": 1613936968012
+        },
+        {
+            "id": "b336f8fe-c6bd-42f4-9bf7-b449c32c0c78",
+            "name": "managermouthL",
+            "numFrames": 2,
+            "type": "animated",
+            "filename": "managermouthL.png",
+            "inode": "1125899906864093",
+            "_v": 1613941080748
+        },
+        {
+            "id": "e8307965-0780-42ce-a18c-29aca40f22f4",
+            "name": "managermouthR",
+            "numFrames": 2,
+            "type": "animated",
+            "filename": "managermouthR.png",
+            "inode": "1407374883574799",
+            "_v": 1613941080759
         },
         {
             "id": "daf95270-e30d-423b-9ee7-990ae29f57f6",
@@ -13769,12 +13946,12 @@
     "customEvents": [],
     "music": [
         {
-            "id": "86cce199-9716-45df-8747-144d929ddc25",
+            "id": "ecae2ced-7232-4787-920b-40cf3b28e7fb",
             "name": "Chatting Music",
             "filename": "Chatting Music.mod",
             "settings": {},
-            "inode": "5066549580808502",
-            "_v": 1613936972048
+            "inode": "5066549580808503",
+            "_v": 1613941080905
         },
         {
             "id": "f50428ab-a084-4591-9bba-2ba10fe7b1c6",
@@ -13857,8 +14034,8 @@
         "startY": 10,
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 478,
-        "worldScrollY": 195,
+        "worldScrollX": 1121,
+        "worldScrollY": 139,
         "zoom": 200,
         "customColorsEnabled": false,
         "defaultBackgroundPaletteIds": [
