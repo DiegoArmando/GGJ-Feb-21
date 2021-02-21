@@ -689,8 +689,8 @@
             "playerHit2Script": [],
             "playerHit3Script": [],
             "id": "6cf53021-fbef-4acd-a6c7-9303c0b8cd36",
-            "x": 796.4666666666664,
-            "y": 461.6444444444444,
+            "x": 808.4666666666662,
+            "y": 805.6444444444444,
             "actors": [
                 {
                     "name": "Door 1",
@@ -1280,8 +1280,8 @@
             "playerHit2Script": [],
             "playerHit3Script": [],
             "id": "839e6384-3d51-4dd8-9afa-76ba7df45352",
-            "x": 1273.6000000000006,
-            "y": 481.16666666666646,
+            "x": 1244.9333333333343,
+            "y": 782.4999999999998,
             "actors": [],
             "triggers": [],
             "type": "4"
@@ -1754,8 +1754,8 @@
             "playerHit2Script": [],
             "playerHit3Script": [],
             "id": "1751033a-f979-40d4-a2d1-a1d1bda03327",
-            "x": 562,
-            "y": 449,
+            "x": 449.3333333333333,
+            "y": 759.6666666666666,
             "actors": [],
             "triggers": [],
             "type": "4"
@@ -2853,8 +2853,8 @@
             "playerHit2Script": [],
             "playerHit3Script": [],
             "id": "4a3ce018-3190-4583-831d-a5364f241579",
-            "x": 769.3333333333337,
-            "y": 220.33333333333343,
+            "x": 726.0000000000006,
+            "y": 532.3333333333336,
             "actors": [],
             "triggers": [
                 {
@@ -2866,8 +2866,8 @@
                             "command": "EVENT_SWITCH_SCENE",
                             "args": {
                                 "sceneId": "d2fa3ed2-a5a0-47a7-b86f-590c1341ad40",
-                                "x": 14,
-                                "y": 10,
+                                "x": 37,
+                                "y": 9,
                                 "direction": "",
                                 "fadeSpeed": "2"
                             }
@@ -2878,8 +2878,8 @@
                         }
                     ],
                     "id": "721bf0b1-e33f-4570-8f73-4c5c6e6223c6",
-                    "x": 58,
-                    "y": 11,
+                    "x": 31,
+                    "y": 10,
                     "width": 1,
                     "height": 1
                 }
@@ -3979,8 +3979,8 @@
             "playerHit2Script": [],
             "playerHit3Script": [],
             "id": "d2fa3ed2-a5a0-47a7-b86f-590c1341ad40",
-            "x": 715.1666666666665,
-            "y": 32.666666666666686,
+            "x": 722.4999999999994,
+            "y": 320.00000000000006,
             "actors": [],
             "triggers": [
                 {
@@ -5105,8 +5105,25 @@
             "playerHit2Script": [],
             "playerHit3Script": [],
             "id": "73f40747-2a0f-4fbb-83a4-ccee98b2f426",
-            "x": 199.3333333333333,
-            "y": 30.66666666666667,
+            "x": 741.3333333333333,
+            "y": 119.99999999999999,
+            "actors": [],
+            "triggers": []
+        },
+        {
+            "name": "Scene 7",
+            "backgroundId": "1255766d-c657-4f5f-ad06-0aaecd23244e",
+            "width": 20,
+            "height": 18,
+            "collisions": [],
+            "tileColors": [],
+            "script": [],
+            "playerHit1Script": [],
+            "playerHit2Script": [],
+            "playerHit3Script": [],
+            "id": "f4c9c720-b4d1-4a05-b978-1b641e2a2fe9",
+            "x": 405.3333333333334,
+            "y": 328,
             "actors": [],
             "triggers": []
         }
@@ -5433,8 +5450,8 @@
         "startY": 10,
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 166,
-        "worldScrollY": 0,
+        "worldScrollX": 112,
+        "worldScrollY": 192,
         "zoom": 150,
         "customColorsEnabled": false,
         "defaultBackgroundPaletteIds": [
