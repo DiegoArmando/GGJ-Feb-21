@@ -8524,7 +8524,7 @@
                         "variable": "0",
                         "flag": "4",
                         "__collapseElse": false,
-                        "__collapse": true
+                        "__collapse": false
                     },
                     "children": {
                         "true": [
@@ -8534,7 +8534,7 @@
                                 "args": {
                                     "actorId": "ac8f5f23-6d62-42b3-8c69-f04bb30389b2",
                                     "speed": "3",
-                                    "__collapse": true
+                                    "__collapse": false
                                 }
                             },
                             {
@@ -12181,13 +12181,113 @@
                     }
                 },
                 {
+                    "id": "681f3f25-f712-40d6-9dad-cef2d9556714",
+                    "command": "EVENT_GROUP",
+                    "args": {
+                        "__label": "Manager Talk",
+                        "__collapse": true
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "id": "387f6f1e-33d3-45a0-b564-8e6e0ea37519",
+                                "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+                                "args": {
+                                    "actorId": "78f920e0-b7fe-4302-a417-8018b6421a89",
+                                    "speed": "3",
+                                    "__collapse": true
+                                }
+                            },
+                            {
+                                "id": "7f21156a-da55-4056-b3af-73fae50fd962",
+                                "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+                                "args": {
+                                    "actorId": "7aa7e80d-be76-43c9-8ee3-e00e1d002777",
+                                    "speed": "3",
+                                    "__collapse": true
+                                }
+                            },
+                            {
+                                "id": "f6cac6eb-2cee-4113-9e19-7c9f5fb7b354",
+                                "command": "EVENT_END"
+                            }
+                        ]
+                    }
+                },
+                {
                     "id": "56c33846-c887-41e9-ba4e-fb42774692b7",
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
                             "How do you even\nsend trash like\nthis up for",
                             "for review! I\nshoulda known\nbetter when we",
-                            "hired a splath!",
+                            "hired a splath!"
+                        ],
+                        "avatarId": ""
+                    }
+                },
+                {
+                    "id": "5c534b6c-ebf0-4634-9a24-d248c7520dd4",
+                    "command": "EVENT_GROUP",
+                    "args": {
+                        "__label": "Manager Stop Talking",
+                        "__collapse": true
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "id": "85223541-5e3a-4fed-afb6-5dd2f6317a9f",
+                                "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+                                "args": {
+                                    "actorId": "78f920e0-b7fe-4302-a417-8018b6421a89",
+                                    "speed": "",
+                                    "__collapse": true
+                                }
+                            },
+                            {
+                                "id": "d9d23739-c2dc-4dc1-bc61-f0349f69ad9c",
+                                "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+                                "args": {
+                                    "actorId": "78f920e0-b7fe-4302-a417-8018b6421a89",
+                                    "speed": "",
+                                    "__collapse": true
+                                }
+                            },
+                            {
+                                "id": "d1ff929f-0394-47d6-a6ab-d545a02cd80a",
+                                "command": "EVENT_ACTOR_SET_FRAME",
+                                "args": {
+                                    "actorId": "78f920e0-b7fe-4302-a417-8018b6421a89",
+                                    "frame": {
+                                        "type": "number",
+                                        "value": 1
+                                    },
+                                    "__collapse": true
+                                }
+                            },
+                            {
+                                "id": "efc650bd-abdf-4dfb-adba-ff337c31766c",
+                                "command": "EVENT_ACTOR_SET_FRAME",
+                                "args": {
+                                    "actorId": "7aa7e80d-be76-43c9-8ee3-e00e1d002777",
+                                    "frame": {
+                                        "type": "number",
+                                        "value": 1
+                                    }
+                                }
+                            },
+                            {
+                                "id": "28d2320d-244c-4a90-b7b4-c775e9fc7010",
+                                "command": "EVENT_END"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "23cbac41-5cbf-433f-9c2d-4897a078b4ca",
+                    "command": "EVENT_TEXT",
+                    "args": {
+                        "text": [
                             "That’s it, I’m\ngoing to HR! You\nthere, delivery",
                             "guy. Go tell HR\nwhat you saw up\nhere, I need ",
                             "a witness."
@@ -13772,26 +13872,26 @@
             "_v": 1613941638696
         },
         {
-            "id": "803d0e76-25df-4466-9de9-bc65c7d0c9b2",
+            "id": "3f6324c2-ca30-4c7f-9154-a9e0459fe835",
             "name": "bg1",
             "width": 20,
             "height": 38,
             "imageWidth": 160,
             "imageHeight": 304,
             "filename": "bg1.png",
-            "inode": "6473924464362505",
-            "_v": 1613941638696
+            "inode": "5348024557519414",
+            "_v": 1613942055708
         },
         {
-            "id": "b9703234-5e96-4636-a71b-26ee11436007",
+            "id": "2b37865f-5ffe-44b8-a3f7-297fa7081037",
             "name": "bg2",
             "width": 20,
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "bg2.png",
-            "inode": "4503599627388170",
-            "_v": 1613941638696
+            "inode": "2251799813704735",
+            "_v": 1613942055713
         },
         {
             "id": "5479a7dd-100f-44c4-9677-bafa8d9d0a8c",
@@ -13890,13 +13990,13 @@
             "_v": 1613941638696
         },
         {
-            "id": "3a7c7b5d-2312-46cd-ba8e-d377d3d04fbc",
+            "id": "1ebb17aa-c8e0-4627-ae42-21bb50cac8b8",
             "name": "door",
             "numFrames": 1,
             "type": "static",
             "filename": "door.png",
-            "inode": "2251799813706678",
-            "_v": 1613941638696
+            "inode": "2251799813705649",
+            "_v": 1613942055711
         },
         {
             "id": "934a9028-b427-40d4-a463-d3ef30fe0fae",
@@ -14076,76 +14176,76 @@
     "customEvents": [],
     "music": [
         {
-            "id": "ecae2ced-7232-4787-920b-40cf3b28e7fb",
+            "id": "97a67da1-8ac3-4bfe-823e-d9b851dabcdd",
             "name": "Chatting Music",
             "filename": "Chatting Music.mod",
             "settings": {},
-            "inode": "2251799813706653",
-            "_v": 1613941638675
+            "inode": "2533274790416223",
+            "_v": 1613942059773
         },
         {
-            "id": "6e8bc1f0-ad9f-44af-9b56-73a344d1b3cc",
+            "id": "eb7032e6-2c13-4617-aa8d-230174bd5b75",
             "name": "Chatting_Music Lv2",
             "filename": "Chatting_Music Lv2.mod",
             "settings": {},
-            "inode": "5066549580814212",
-            "_v": 1613941638675
+            "inode": "1688849860284339",
+            "_v": 1613942051894
         },
         {
-            "id": "9f058591-d075-4e6e-bd62-b6d220f9b98a",
+            "id": "2dbedc1b-288f-45b0-bd6c-ba614fe237c5",
             "name": "Keep-On Lv3",
             "filename": "Keep-On Lv3.mod",
             "settings": {},
-            "inode": "1970324836999664",
-            "_v": 1613941638675
+            "inode": "1688849860284346",
+            "_v": 1613942051912
         },
         {
-            "id": "217cefeb-6cd8-41d7-834a-3e5dcb73bff1",
+            "id": "75f6b9bc-c194-489d-9ddf-8cf3509458df",
             "name": "Push-Off Lv2-depeggiod",
             "filename": "Push-Off Lv2-depeggiod.mod",
             "settings": {},
-            "inode": "1688849860289092",
-            "_v": 1613941638675
+            "inode": "1407374883573692",
+            "_v": 1613942051933
         },
         {
-            "id": "0e36ae92-8f0c-45b5-b1f0-9905155f7f7c",
+            "id": "bcc10e18-7f18-4fd5-9551-af4e8a335c05",
             "name": "Push-On Lv4",
             "filename": "Push-On Lv4.mod",
             "settings": {},
-            "inode": "1407374883578448",
-            "_v": 1613941638675
+            "inode": "5348024557524868",
+            "_v": 1613942051933
         },
         {
-            "id": "13b9ffc1-7f66-4eaa-878a-2162de2c5568",
+            "id": "992829a1-9742-47d9-8b27-e86759e5b64e",
             "name": "badend",
             "filename": "badend.mod",
             "settings": {},
-            "inode": "3096224743823908",
-            "_v": 1613941638675
+            "inode": "2814749767129090",
+            "_v": 1613942051933
         },
         {
-            "id": "c17de2bb-5651-4758-ac0b-44938c36d361",
+            "id": "ae2e6f71-a744-4e1e-b582-7a0e9b753d26",
             "name": "elevator",
             "filename": "elevator.mod",
             "settings": {},
-            "inode": "2533274790418434",
-            "_v": 1613941638675
+            "inode": "2251799813710320",
+            "_v": 1613942051933
         },
         {
-            "id": "b08fe4b3-84b3-4ccd-8ab0-3b297edce346",
+            "id": "647c3134-904d-4872-ab4c-05e70f8f5bb5",
             "name": "nicejob",
             "filename": "nicejob.mod",
             "settings": {},
-            "inode": "1688849860289076",
-            "_v": 1613941638675
+            "inode": "1970324836999748",
+            "_v": 1613942051933
         },
         {
-            "id": "c3b95937-ab4c-4abf-9484-4ac1f380a9ba",
+            "id": "49f194f4-3815-4e4c-9406-d003098f880c",
             "name": "stairs",
             "filename": "stairs.mod",
             "settings": {},
-            "inode": "1407374883578449",
-            "_v": 1613941638675
+            "inode": "1688849860289105",
+            "_v": 1613942051933
         },
         {
             "id": "f50428ab-a084-4591-9bba-2ba10fe7b1c6",
@@ -14228,8 +14328,8 @@
         "startY": 10,
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 974,
-        "worldScrollY": 699,
+        "worldScrollX": 710,
+        "worldScrollY": 514,
         "zoom": 200,
         "customColorsEnabled": false,
         "defaultBackgroundPaletteIds": [

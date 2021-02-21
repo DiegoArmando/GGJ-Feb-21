@@ -669,7 +669,8 @@
                             "b"
                         ],
                         "persist": false,
-                        "__scriptTabs": "press"
+                        "__scriptTabs": "press",
+                        "__collapse": true
                     },
                     "children": {
                         "true": [
@@ -686,7 +687,8 @@
                     "args": {
                         "variable": "0",
                         "flag": "7",
-                        "__collapseElse": false
+                        "__collapseElse": false,
+                        "__collapse": true
                     },
                     "children": {
                         "true": [
@@ -723,6 +725,14 @@
                                 "command": "EVENT_END"
                             }
                         ]
+                    }
+                },
+                {
+                    "id": "404438c0-ddb6-437d-b797-6bbb3f798318",
+                    "command": "EVENT_MUSIC_PLAY",
+                    "args": {
+                        "musicId": "9f058591-d075-4e6e-bd62-b6d220f9b98a",
+                        "loop": true
                     }
                 },
                 {
@@ -883,7 +893,8 @@
                                 "x": 0,
                                 "y": 0,
                                 "direction": "",
-                                "fadeSpeed": "2"
+                                "fadeSpeed": "2",
+                                "__comment": true
                             }
                         },
                         {
@@ -3030,12 +3041,25 @@
                 0
             ],
             "tileColors": [],
-            "script": [],
+            "script": [
+                {
+                    "id": "33c5609d-ee0b-4f86-b7d8-378cedcadaf4",
+                    "command": "EVENT_MUSIC_PLAY",
+                    "args": {
+                        "musicId": "9f058591-d075-4e6e-bd62-b6d220f9b98a",
+                        "loop": true
+                    }
+                },
+                {
+                    "id": "d2f0234e-efe2-48a5-9cb1-f8e69cf75642",
+                    "command": "EVENT_END"
+                }
+            ],
             "playerHit1Script": [],
             "playerHit2Script": [],
             "playerHit3Script": [],
             "id": "4a3ce018-3190-4583-831d-a5364f241579",
-            "x": 763.8333333333339,
+            "x": 763.3333333333339,
             "y": 574.3333333333334,
             "actors": [
                 {
@@ -4371,7 +4395,7 @@
                         "variable": "1",
                         "flag": "2",
                         "__collapseElse": false,
-                        "__collapse": false
+                        "__collapse": true
                     },
                     "children": {
                         "true": [
@@ -4441,6 +4465,14 @@
                                 "command": "EVENT_END"
                             }
                         ]
+                    }
+                },
+                {
+                    "id": "f292305d-5a60-41a8-bb69-9c34491b7dfb",
+                    "command": "EVENT_MUSIC_PLAY",
+                    "args": {
+                        "musicId": "9f058591-d075-4e6e-bd62-b6d220f9b98a",
+                        "loop": true
                     }
                 },
                 {
@@ -4665,7 +4697,8 @@
                                 "x": 0,
                                 "y": 0,
                                 "direction": "",
-                                "fadeSpeed": "2"
+                                "fadeSpeed": "2",
+                                "__comment": true
                             }
                         },
                         {
@@ -5836,13 +5869,26 @@
                 0
             ],
             "tileColors": [],
-            "script": [],
+            "script": [
+                {
+                    "id": "62f2c79e-2797-4fee-b44c-591dcdcecf28",
+                    "command": "EVENT_MUSIC_PLAY",
+                    "args": {
+                        "musicId": "9f058591-d075-4e6e-bd62-b6d220f9b98a",
+                        "loop": true
+                    }
+                },
+                {
+                    "id": "f135088a-2486-4f48-bb05-9516dd6b7f53",
+                    "command": "EVENT_END"
+                }
+            ],
             "playerHit1Script": [],
             "playerHit2Script": [],
             "playerHit3Script": [],
             "id": "73f40747-2a0f-4fbb-83a4-ccee98b2f426",
             "x": 863.3333333333333,
-            "y": 63.33333333333334,
+            "y": 62.83333333333334,
             "actors": [
                 {
                     "name": "IT",
@@ -5962,6 +6008,14 @@
             "tileColors": [],
             "script": [
                 {
+                    "id": "c14a0fd4-7947-44a8-98fb-786f647b559b",
+                    "command": "EVENT_MUSIC_PLAY",
+                    "args": {
+                        "musicId": "13b9ffc1-7f66-4eaa-878a-2162de2c5568",
+                        "loop": false
+                    }
+                },
+                {
                     "id": "12fbe751-13ef-4d36-b288-5cc64df046f5",
                     "command": "EVENT_TEXT",
                     "args": {
@@ -6028,6 +6082,15 @@
                     }
                 },
                 {
+                    "id": "e7b3aefe-eb60-47dd-95b5-b75b9a4a6b33",
+                    "command": "EVENT_MUSIC_PLAY",
+                    "args": {
+                        "musicId": "6e8bc1f0-ad9f-44af-9b56-73a344d1b3cc",
+                        "loop": true,
+                        "__collapse": true
+                    }
+                },
+                {
                     "id": "2eac6aef-1d90-46ae-bba7-ba30228006bf",
                     "command": "EVENT_GROUP",
                     "args": {
@@ -6091,7 +6154,8 @@
                     "args": {
                         "variable": "0",
                         "flag": 1,
-                        "__collapseElse": false
+                        "__collapseElse": false,
+                        "__collapse": true
                     },
                     "children": {
                         "true": [
@@ -6339,7 +6403,7 @@
                         "option8": "",
                         "cancelOnB": false,
                         "layout": "dialogue",
-                        "__collapse": false
+                        "__collapse": true
                     }
                 },
                 {
@@ -6350,7 +6414,7 @@
                         "operator": "==",
                         "comparator": 1,
                         "__collapseElse": false,
-                        "__collapse": false,
+                        "__collapse": true,
                         "__label": "Show Topic Menu"
                     },
                     "children": {
@@ -7752,7 +7816,7 @@
                     "command": "EVENT_DEFINE_LABEL",
                     "args": {
                         "label": "Top of Menu",
-                        "__collapse": true
+                        "__collapse": false
                     }
                 },
                 {
@@ -7771,7 +7835,7 @@
                         "option8": "",
                         "cancelOnB": false,
                         "layout": "dialogue",
-                        "__collapse": true
+                        "__collapse": false
                     }
                 },
                 {
@@ -7782,7 +7846,7 @@
                         "operator": "==",
                         "comparator": 1,
                         "__collapseElse": false,
-                        "__collapse": true,
+                        "__collapse": false,
                         "__label": "Show Topic Menu"
                     },
                     "children": {
@@ -8166,6 +8230,14 @@
                     }
                 },
                 {
+                    "id": "022dbe31-8f50-4626-a9f7-a6355bcd037b",
+                    "command": "EVENT_MUSIC_PLAY",
+                    "args": {
+                        "musicId": "6e8bc1f0-ad9f-44af-9b56-73a344d1b3cc",
+                        "loop": true
+                    }
+                },
+                {
                     "id": "d0de67ab-5508-47cd-90aa-e8e3811dc0f1",
                     "command": "EVENT_TEXT",
                     "args": {
@@ -8201,7 +8273,7 @@
                         "option8": "",
                         "cancelOnB": false,
                         "layout": "dialogue",
-                        "__collapse": false
+                        "__collapse": true
                     }
                 },
                 {
@@ -8212,7 +8284,7 @@
                         "operator": "==",
                         "comparator": 1,
                         "__collapseElse": false,
-                        "__collapse": false,
+                        "__collapse": true,
                         "__label": "Show Topic Menu"
                     },
                     "children": {
@@ -8429,6 +8501,15 @@
             "tileColors": [],
             "script": [
                 {
+                    "id": "b9ac938f-f412-480f-9076-0adb979d50fb",
+                    "command": "EVENT_MUSIC_PLAY",
+                    "args": {
+                        "musicId": "6e8bc1f0-ad9f-44af-9b56-73a344d1b3cc",
+                        "loop": true,
+                        "__collapse": true
+                    }
+                },
+                {
                     "id": "756a73c9-61e3-456f-955f-e167b2d2755a",
                     "command": "EVENT_ACTOR_HIDE",
                     "args": {
@@ -8442,7 +8523,8 @@
                     "args": {
                         "variable": "0",
                         "flag": "4",
-                        "__collapseElse": false
+                        "__collapseElse": false,
+                        "__collapse": true
                     },
                     "children": {
                         "true": [
@@ -8616,7 +8698,7 @@
                         "option8": "",
                         "cancelOnB": false,
                         "layout": "dialogue",
-                        "__collapse": false
+                        "__collapse": true
                     }
                 },
                 {
@@ -8627,7 +8709,7 @@
                         "operator": "==",
                         "comparator": 1,
                         "__collapseElse": false,
-                        "__collapse": false,
+                        "__collapse": true,
                         "__label": "Show Topic Menu"
                     },
                     "children": {
@@ -9761,6 +9843,14 @@
             "tileColors": [],
             "script": [
                 {
+                    "id": "404d034d-07f6-450b-9726-e061315661c4",
+                    "command": "EVENT_MUSIC_PLAY",
+                    "args": {
+                        "musicId": "6e8bc1f0-ad9f-44af-9b56-73a344d1b3cc",
+                        "loop": true
+                    }
+                },
+                {
                     "id": "9e739dbf-1d37-4141-a9fe-e29084252e6d",
                     "command": "EVENT_ACTOR_HIDE",
                     "args": {
@@ -10274,6 +10364,14 @@
             "tileColors": [],
             "script": [
                 {
+                    "id": "554321cb-9044-4785-8cd8-ef418887935c",
+                    "command": "EVENT_MUSIC_PLAY",
+                    "args": {
+                        "musicId": "6e8bc1f0-ad9f-44af-9b56-73a344d1b3cc",
+                        "loop": true
+                    }
+                },
+                {
                     "id": "db7ae690-57c5-4c4f-a566-0e0a69e4a33c",
                     "command": "EVENT_ACTOR_HIDE",
                     "args": {
@@ -10773,6 +10871,14 @@
                     }
                 },
                 {
+                    "id": "f2838147-1b6c-44b6-9afe-ad4f1dce0be2",
+                    "command": "EVENT_MUSIC_PLAY",
+                    "args": {
+                        "musicId": "6e8bc1f0-ad9f-44af-9b56-73a344d1b3cc",
+                        "loop": true
+                    }
+                },
+                {
                     "id": "5c4d3b2e-68e4-494e-83b0-1b40941d9d23",
                     "command": "EVENT_IF_TRUE",
                     "args": {
@@ -11244,6 +11350,14 @@
                     "command": "EVENT_ACTOR_HIDE",
                     "args": {
                         "actorId": "$self$"
+                    }
+                },
+                {
+                    "id": "d681b5ae-c50e-4f3e-81de-d4b71ff73c5c",
+                    "command": "EVENT_MUSIC_PLAY",
+                    "args": {
+                        "musicId": "6e8bc1f0-ad9f-44af-9b56-73a344d1b3cc",
+                        "loop": true
                     }
                 },
                 {
@@ -12051,6 +12165,14 @@
             "collisions": [],
             "tileColors": [],
             "script": [
+                {
+                    "id": "ec7338be-953d-442b-82f4-9665a68ca10c",
+                    "command": "EVENT_MUSIC_PLAY",
+                    "args": {
+                        "musicId": "0e36ae92-8f0c-45b5-b1f0-9905155f7f7c",
+                        "loop": true
+                    }
+                },
                 {
                     "id": "0130b6c3-e14c-41ed-b03d-66ce7a275633",
                     "command": "EVENT_ACTOR_HIDE",
@@ -13261,7 +13383,15 @@
             "tileColors": [],
             "script": [
                 {
-                    "id": "059794c7-8751-4934-b9c0-7f5fe0109b11",
+                    "id": "5b8b121a-69a4-4d7d-94d6-e429d2e0614c",
+                    "command": "EVENT_MUSIC_PLAY",
+                    "args": {
+                        "musicId": "9f058591-d075-4e6e-bd62-b6d220f9b98a",
+                        "loop": true
+                    }
+                },
+                {
+                    "id": "a8b5687f-2389-4ecc-9860-caedb0226c57",
                     "command": "EVENT_END"
                 }
             ],
@@ -13529,7 +13659,7 @@
             "imageHeight": 144,
             "filename": "April1.png",
             "inode": "1970324836989163",
-            "_v": 1613852625498
+            "_v": 1613941638696
         },
         {
             "id": "6d80b58a-93cc-43dc-b3a8-c9826f71beaa",
@@ -13540,7 +13670,7 @@
             "imageHeight": 144,
             "filename": "Employees.png",
             "inode": "4785074604097104",
-            "_v": 1613935758728
+            "_v": 1613941638696
         },
         {
             "id": "dd6e6888-87c1-4ef2-9260-78490897c694",
@@ -13551,7 +13681,7 @@
             "imageHeight": 144,
             "filename": "F1_Map.png",
             "inode": "1407374883559185",
-            "_v": 1613864216587
+            "_v": 1613941638696
         },
         {
             "id": "423b59b5-b19f-42c9-94de-01f9bcc19b65",
@@ -13562,7 +13692,7 @@
             "imageHeight": 144,
             "filename": "F2_Map.png",
             "inode": "844424930138072",
-            "_v": 1613864216594
+            "_v": 1613941638696
         },
         {
             "id": "5264eead-edd5-4334-8e0b-697701e519c5",
@@ -13573,7 +13703,7 @@
             "imageHeight": 144,
             "filename": "F3_Map.png",
             "inode": "844424930138073",
-            "_v": 1613864216593
+            "_v": 1613941638696
         },
         {
             "id": "06cf86c5-f590-4097-a6bd-a8fe02e6fcd7",
@@ -13584,7 +13714,7 @@
             "imageHeight": 144,
             "filename": "F4_Map.png",
             "inode": "1125899906860195",
-            "_v": 1613872864346
+            "_v": 1613941638696
         },
         {
             "id": "df57637b-a0be-4493-968f-6f784a701797",
@@ -13595,7 +13725,7 @@
             "imageHeight": 144,
             "filename": "HR.png",
             "inode": "3377699720534659",
-            "_v": 1613927932239
+            "_v": 1613941638696
         },
         {
             "id": "64725e43-2e79-47b2-ab64-76788e71029b",
@@ -13605,8 +13735,8 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "Manager.png",
-            "inode": "3377699720548979",
-            "_v": 1613941080748
+            "inode": "6755399441072438",
+            "_v": 1613941638696
         },
         {
             "id": "6c9f5c8d-dbb7-4d46-ac4b-af98ea483961",
@@ -13616,8 +13746,8 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "Marketing.png",
-            "inode": "1125899906864029",
-            "_v": 1613941080748
+            "inode": "6192449487651127",
+            "_v": 1613941638696
         },
         {
             "id": "93173da0-b570-4606-a668-22aec88e1cb1",
@@ -13627,8 +13757,8 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "MarketingNManager.png",
-            "inode": "1688849860285353",
-            "_v": 1613941080748
+            "inode": "4503599627387405",
+            "_v": 1613941638696
         },
         {
             "id": "5d4e7497-6c3e-4e4a-a851-a0a48423bc6b",
@@ -13639,7 +13769,7 @@
             "imageHeight": 144,
             "filename": "Receptionist.png",
             "inode": "1688849860280391",
-            "_v": 1613924413791
+            "_v": 1613941638696
         },
         {
             "id": "803d0e76-25df-4466-9de9-bc65c7d0c9b2",
@@ -13649,8 +13779,8 @@
             "imageWidth": 160,
             "imageHeight": 304,
             "filename": "bg1.png",
-            "inode": "5348024557519146",
-            "_v": 1613941076842
+            "inode": "6473924464362505",
+            "_v": 1613941638696
         },
         {
             "id": "b9703234-5e96-4636-a71b-26ee11436007",
@@ -13660,8 +13790,8 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "bg2.png",
-            "inode": "5066549580808497",
-            "_v": 1613941076842
+            "inode": "4503599627388170",
+            "_v": 1613941638696
         },
         {
             "id": "5479a7dd-100f-44c4-9677-bafa8d9d0a8c",
@@ -13672,7 +13802,7 @@
             "imageHeight": 144,
             "filename": "mailroom.png",
             "inode": "6473924464351955",
-            "_v": 1613917849090
+            "_v": 1613941638696
         },
         {
             "id": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
@@ -13683,7 +13813,7 @@
             "imageHeight": 144,
             "filename": "placeholder.png",
             "inode": "1125899906844845",
-            "_v": 1613852625498
+            "_v": 1613941638696
         }
     ],
     "spriteSheets": [
@@ -13693,8 +13823,8 @@
             "numFrames": 2,
             "type": "animated",
             "filename": "EmployeeMouthMan.png",
-            "inode": "2251799813697559",
-            "_v": 1613936971671
+            "inode": "3377699720540183",
+            "_v": 1613941638696
         },
         {
             "id": "01e04496-7b74-4b78-bea8-7f0c1d363f25",
@@ -13703,7 +13833,7 @@
             "type": "animated",
             "filename": "EmployeeMouthWoman.png",
             "inode": "1407374883570938",
-            "_v": 1613935603474
+            "_v": 1613941638696
         },
         {
             "id": "da5be100-dca8-48ec-97b5-274b7990ddf3",
@@ -13712,7 +13842,7 @@
             "type": "animated",
             "filename": "HRMouth.png",
             "inode": "3659174697245316",
-            "_v": 1613927932242
+            "_v": 1613941638696
         },
         {
             "id": "fca1100e-7f3e-4354-998b-7374c70dd4d4",
@@ -13720,8 +13850,8 @@
             "numFrames": 2,
             "type": "animated",
             "filename": "MarketingMout.png",
-            "inode": "1125899906864054",
-            "_v": 1613941080759
+            "inode": "2814749767127977",
+            "_v": 1613941638696
         },
         {
             "id": "3b9e6873-7fe8-4833-82cb-bf7e7ca4d00c",
@@ -13730,7 +13860,7 @@
             "type": "animated",
             "filename": "ReceptionistMouthL.png",
             "inode": "1125899906859149",
-            "_v": 1613924413791
+            "_v": 1613941638696
         },
         {
             "id": "004308cc-7067-4938-83ec-18828da12322",
@@ -13739,7 +13869,7 @@
             "type": "animated",
             "filename": "ReceptionistMouthR.png",
             "inode": "1407374883569812",
-            "_v": 1613924413791
+            "_v": 1613941638696
         },
         {
             "id": "11b5452b-187c-43a3-afb1-a1f4f74ffda2",
@@ -13748,7 +13878,7 @@
             "type": "actor",
             "filename": "actor.png",
             "inode": "844424930134239",
-            "_v": 1613852625498
+            "_v": 1613941638696
         },
         {
             "id": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
@@ -13757,7 +13887,7 @@
             "type": "actor_animated",
             "filename": "actor_animated.png",
             "inode": "844424930134240",
-            "_v": 1613852625498
+            "_v": 1613941638696
         },
         {
             "id": "3a7c7b5d-2312-46cd-ba8e-d377d3d04fbc",
@@ -13765,8 +13895,8 @@
             "numFrames": 1,
             "type": "static",
             "filename": "door.png",
-            "inode": "3377699720545546",
-            "_v": 1613941076848
+            "inode": "2251799813706678",
+            "_v": 1613941638696
         },
         {
             "id": "934a9028-b427-40d4-a463-d3ef30fe0fae",
@@ -13774,8 +13904,8 @@
             "numFrames": 1,
             "type": "static",
             "filename": "invisible.png",
-            "inode": "3377699720544781",
-            "_v": 1613936968012
+            "inode": "2251799813706717",
+            "_v": 1613941638696
         },
         {
             "id": "b336f8fe-c6bd-42f4-9bf7-b449c32c0c78",
@@ -13783,8 +13913,8 @@
             "numFrames": 2,
             "type": "animated",
             "filename": "managermouthL.png",
-            "inode": "1125899906864093",
-            "_v": 1613941080748
+            "inode": "2533274790417423",
+            "_v": 1613941638696
         },
         {
             "id": "e8307965-0780-42ce-a18c-29aca40f22f4",
@@ -13792,8 +13922,8 @@
             "numFrames": 2,
             "type": "animated",
             "filename": "managermouthR.png",
-            "inode": "1407374883574799",
-            "_v": 1613941080759
+            "inode": "2814749767128663",
+            "_v": 1613941638696
         },
         {
             "id": "daf95270-e30d-423b-9ee7-990ae29f57f6",
@@ -13802,7 +13932,7 @@
             "type": "static",
             "filename": "static.png",
             "inode": "844424930134241",
-            "_v": 1613852625498
+            "_v": 1613941638698
         }
     ],
     "palettes": [
@@ -13950,8 +14080,72 @@
             "name": "Chatting Music",
             "filename": "Chatting Music.mod",
             "settings": {},
-            "inode": "5066549580808503",
-            "_v": 1613941080905
+            "inode": "2251799813706653",
+            "_v": 1613941638675
+        },
+        {
+            "id": "6e8bc1f0-ad9f-44af-9b56-73a344d1b3cc",
+            "name": "Chatting_Music Lv2",
+            "filename": "Chatting_Music Lv2.mod",
+            "settings": {},
+            "inode": "5066549580814212",
+            "_v": 1613941638675
+        },
+        {
+            "id": "9f058591-d075-4e6e-bd62-b6d220f9b98a",
+            "name": "Keep-On Lv3",
+            "filename": "Keep-On Lv3.mod",
+            "settings": {},
+            "inode": "1970324836999664",
+            "_v": 1613941638675
+        },
+        {
+            "id": "217cefeb-6cd8-41d7-834a-3e5dcb73bff1",
+            "name": "Push-Off Lv2-depeggiod",
+            "filename": "Push-Off Lv2-depeggiod.mod",
+            "settings": {},
+            "inode": "1688849860289092",
+            "_v": 1613941638675
+        },
+        {
+            "id": "0e36ae92-8f0c-45b5-b1f0-9905155f7f7c",
+            "name": "Push-On Lv4",
+            "filename": "Push-On Lv4.mod",
+            "settings": {},
+            "inode": "1407374883578448",
+            "_v": 1613941638675
+        },
+        {
+            "id": "13b9ffc1-7f66-4eaa-878a-2162de2c5568",
+            "name": "badend",
+            "filename": "badend.mod",
+            "settings": {},
+            "inode": "3096224743823908",
+            "_v": 1613941638675
+        },
+        {
+            "id": "c17de2bb-5651-4758-ac0b-44938c36d361",
+            "name": "elevator",
+            "filename": "elevator.mod",
+            "settings": {},
+            "inode": "2533274790418434",
+            "_v": 1613941638675
+        },
+        {
+            "id": "b08fe4b3-84b3-4ccd-8ab0-3b297edce346",
+            "name": "nicejob",
+            "filename": "nicejob.mod",
+            "settings": {},
+            "inode": "1688849860289076",
+            "_v": 1613941638675
+        },
+        {
+            "id": "c3b95937-ab4c-4abf-9484-4ac1f380a9ba",
+            "name": "stairs",
+            "filename": "stairs.mod",
+            "settings": {},
+            "inode": "1407374883578449",
+            "_v": 1613941638675
         },
         {
             "id": "f50428ab-a084-4591-9bba-2ba10fe7b1c6",
@@ -13959,13 +14153,17 @@
             "filename": "template.mod",
             "settings": {},
             "inode": "1407374883555525",
-            "_v": 1613872842527
+            "_v": 1613941638675
         }
     ],
     "variables": [
         {
             "id": "0",
             "name": "Knowledge"
+        },
+        {
+            "id": "1",
+            "name": "Knowledge 2"
         },
         {
             "id": "2",
@@ -14022,10 +14220,6 @@
         {
             "id": "3ad1db98-4e69-4b84-a97c-18dbe9116772__L0",
             "name": "Menu Choice"
-        },
-        {
-            "id": "1",
-            "name": "Knowledge 2"
         }
     ],
     "settings": {
@@ -14034,8 +14228,8 @@
         "startY": 10,
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 1121,
-        "worldScrollY": 139,
+        "worldScrollX": 974,
+        "worldScrollY": 699,
         "zoom": 200,
         "customColorsEnabled": false,
         "defaultBackgroundPaletteIds": [
