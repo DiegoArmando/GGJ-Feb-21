@@ -662,6 +662,13 @@
             "tileColors": [],
             "script": [
                 {
+                    "id": "e8e8617f-a02f-4b0f-adbc-965b2d0a8ff4",
+                    "command": "EVENT_ACTOR_HIDE",
+                    "args": {
+                        "actorId": "85b55d22-638b-450f-b672-0f1f98243d0d"
+                    }
+                },
+                {
                     "id": "913230d4-a2a3-43f7-940e-aafffd091d13",
                     "command": "EVENT_SET_INPUT_SCRIPT",
                     "args": {
@@ -744,7 +751,7 @@
             "playerHit2Script": [],
             "playerHit3Script": [],
             "id": "6cf53021-fbef-4acd-a6c7-9303c0b8cd36",
-            "x": 736.9666666666658,
+            "x": 735.9666666666658,
             "y": 749.9777777777779,
             "actors": [
                 {
@@ -778,6 +785,14 @@
                                         },
                                         "children": {
                                             "true": [
+                                                {
+                                                    "id": "25eb5b42-8a22-497a-9c99-0e97414fcb56",
+                                                    "command": "EVENT_MUSIC_PLAY",
+                                                    "args": {
+                                                        "musicId": "ae2e6f71-a744-4e1e-b582-7a0e9b753d26",
+                                                        "loop": false
+                                                    }
+                                                },
                                                 {
                                                     "id": "b7562451-f448-4f3e-bea6-8a251e81dc73",
                                                     "command": "EVENT_SWITCH_SCENE",
@@ -947,7 +962,7 @@
                     "y": 10
                 },
                 {
-                    "name": "",
+                    "name": "Debug Mouth",
                     "frame": 0,
                     "animate": false,
                     "spriteSheetId": "643401ff-91af-47a0-a5bb-17cdc70ed71a",
@@ -1007,6 +1022,14 @@
                     "moveSpeed": "1",
                     "animSpeed": "3",
                     "script": [
+                        {
+                            "id": "62965072-a4f0-41ba-a5e6-2fecbdd8cdd7",
+                            "command": "EVENT_MUSIC_PLAY",
+                            "args": {
+                                "musicId": "49f194f4-3815-4e4c-9406-d003098f880c",
+                                "loop": false
+                            }
+                        },
                         {
                             "id": "161113d1-02e5-4d2e-9266-d2a5352a9d7a",
                             "command": "EVENT_SWITCH_SCENE",
@@ -3104,6 +3127,14 @@
                                                     "children": {
                                                         "true": [
                                                             {
+                                                                "id": "63f969b6-dbf3-4a9d-9ad6-c4551fbaf629",
+                                                                "command": "EVENT_MUSIC_PLAY",
+                                                                "args": {
+                                                                    "musicId": "ae2e6f71-a744-4e1e-b582-7a0e9b753d26",
+                                                                    "loop": false
+                                                                }
+                                                            },
+                                                            {
                                                                 "id": "a7ead50b-5daa-4677-b16d-5a2d580fa7b3",
                                                                 "command": "EVENT_SWITCH_SCENE",
                                                                 "args": {
@@ -3121,6 +3152,14 @@
                                                             }
                                                         ],
                                                         "false": [
+                                                            {
+                                                                "id": "f68dfc74-1f78-4136-b86d-55d2b0cf3068",
+                                                                "command": "EVENT_MUSIC_PLAY",
+                                                                "args": {
+                                                                    "musicId": "ae2e6f71-a744-4e1e-b582-7a0e9b753d26",
+                                                                    "loop": false
+                                                                }
+                                                            },
                                                             {
                                                                 "id": "0053b8de-bbd0-4050-aa15-a2896269a211",
                                                                 "command": "EVENT_SWITCH_SCENE",
@@ -3179,6 +3218,14 @@
                                         },
                                         "children": {
                                             "true": [
+                                                {
+                                                    "id": "bfb70ab0-0e43-466e-91b5-3815f7e03b41",
+                                                    "command": "EVENT_MUSIC_PLAY",
+                                                    "args": {
+                                                        "musicId": "ae2e6f71-a744-4e1e-b582-7a0e9b753d26",
+                                                        "loop": false
+                                                    }
+                                                },
                                                 {
                                                     "id": "f451dbae-9d0a-47d7-b0ff-bafe5db7323d",
                                                     "command": "EVENT_SWITCH_SCENE",
@@ -5887,8 +5934,8 @@
             "playerHit2Script": [],
             "playerHit3Script": [],
             "id": "73f40747-2a0f-4fbb-83a4-ccee98b2f426",
-            "x": 863.3333333333333,
-            "y": 62.83333333333334,
+            "x": 878.8333333333333,
+            "y": 30,
             "actors": [
                 {
                     "name": "IT",
@@ -5970,6 +6017,14 @@
                     "moveSpeed": "1",
                     "animSpeed": "3",
                     "script": [
+                        {
+                            "id": "332fa0b4-1c75-47ec-8ac8-2b4b16341a01",
+                            "command": "EVENT_MUSIC_PLAY",
+                            "args": {
+                                "musicId": "49f194f4-3815-4e4c-9406-d003098f880c",
+                                "loop": false
+                            }
+                        },
                         {
                             "id": "a9c06896-da1f-44b6-8bc8-3251391cb363",
                             "command": "EVENT_SWITCH_SCENE",
@@ -8284,7 +8339,7 @@
                         "operator": "==",
                         "comparator": 1,
                         "__collapseElse": false,
-                        "__collapse": true,
+                        "__collapse": false,
                         "__label": "Show Topic Menu"
                     },
                     "children": {
@@ -8448,7 +8503,7 @@
             "playerHit3Script": [],
             "id": "8fa3b01f-d791-4e61-af0c-796de92a609e",
             "x": 529,
-            "y": 590.6666666666667,
+            "y": 590.1666666666667,
             "actors": [
                 {
                     "name": "",
@@ -9334,8 +9389,8 @@
             "playerHit2Script": [],
             "playerHit3Script": [],
             "id": "68cc98e9-db55-461e-b9f6-03128104caca",
-            "x": 1354.1666666666674,
-            "y": 518.8333333333335,
+            "x": 1365.6666666666674,
+            "y": 577.8333333333335,
             "actors": [
                 {
                     "name": "Mouth",
@@ -9858,62 +9913,6 @@
                     }
                 },
                 {
-                    "id": "ed8f1bf2-64ee-473a-a63d-818bcc558d13",
-                    "command": "EVENT_IF_TRUE",
-                    "args": {
-                        "variable": "2",
-                        "__collapseElse": false,
-                        "__collapse": true
-                    },
-                    "children": {
-                        "true": [
-                            {
-                                "id": "a111e733-7604-4e15-9fda-95cecf056602",
-                                "command": "EVENT_TEXT",
-                                "args": {
-                                    "text": [
-                                        "Thanks for\ntelling me about\nbread!"
-                                    ],
-                                    "avatarId": "daf95270-e30d-423b-9ee7-990ae29f57f6",
-                                    "__collapse": false
-                                }
-                            },
-                            {
-                                "id": "94d5f6db-209b-44af-adbd-d6afdd7b928c",
-                                "command": "EVENT_END"
-                            }
-                        ],
-                        "false": [
-                            {
-                                "id": "86bc8a14-16a4-409d-8b29-01a257af6ab3",
-                                "command": "EVENT_TEXT",
-                                "args": {
-                                    "text": [
-                                        "I know about\nbeans, but I\nwish I knew "
-                                    ],
-                                    "avatarId": "daf95270-e30d-423b-9ee7-990ae29f57f6",
-                                    "__collapse": false
-                                }
-                            },
-                            {
-                                "id": "e43b882c-7374-43d1-b706-17c7ffe41616",
-                                "command": "EVENT_TEXT",
-                                "args": {
-                                    "text": [
-                                        "about bread"
-                                    ],
-                                    "avatarId": "daf95270-e30d-423b-9ee7-990ae29f57f6",
-                                    "__collapse": false
-                                }
-                            },
-                            {
-                                "id": "a6c4bf89-5433-4618-bb9e-0f062ea9ce8a",
-                                "command": "EVENT_END"
-                            }
-                        ]
-                    }
-                },
-                {
                     "id": "4277c606-9d65-45c2-9543-9677de13e1d2",
                     "command": "EVENT_DEFINE_LABEL",
                     "args": {
@@ -9957,8 +9956,8 @@
                                 "id": "a040fdb4-0571-4353-8205-76173c36bdae",
                                 "command": "EVENT_IF_FLAGS_COMPARE",
                                 "args": {
-                                    "variable": "0",
-                                    "flag": "1",
+                                    "variable": "1",
+                                    "flag": "0",
                                     "__collapseElse": false,
                                     "__label": "If you know about extra topic",
                                     "__collapse": false
@@ -9971,9 +9970,9 @@
                                             "args": {
                                                 "variable": "L0",
                                                 "items": 3,
-                                                "option1": "Beans?",
-                                                "option2": "Bread",
-                                                "option3": "Other",
+                                                "option1": "Note",
+                                                "option2": "Whose?",
+                                                "option3": "Sign.",
                                                 "option4": "",
                                                 "option5": "",
                                                 "option6": "",
@@ -9982,7 +9981,7 @@
                                                 "cancelOnB": false,
                                                 "layout": "menu",
                                                 "cancelOnLastOption": false,
-                                                "__collapse": true,
+                                                "__collapse": false,
                                                 "__label": "Show topics"
                                             }
                                         },
@@ -10003,45 +10002,129 @@
                                                         "id": "d7b2ba26-c068-473e-8145-2704900869d7",
                                                         "command": "EVENT_GROUP",
                                                         "args": {
-                                                            "__label": "Learn about topic"
+                                                            "__label": "Respond to Note"
                                                         },
                                                         "children": {
                                                             "true": [
+                                                                {
+                                                                    "id": "ab084648-f6f3-4cf2-b0b1-cae4f7e2ee6b",
+                                                                    "command": "EVENT_GROUP",
+                                                                    "args": {
+                                                                        "__label": "Manager Talk",
+                                                                        "__collapse": true
+                                                                    },
+                                                                    "children": {
+                                                                        "true": [
+                                                                            {
+                                                                                "id": "bf822006-b83d-479d-850e-4a6886ec59d9",
+                                                                                "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+                                                                                "args": {
+                                                                                    "actorId": "83fac17d-78f5-44a0-85ff-268433b11e19",
+                                                                                    "speed": "3",
+                                                                                    "__collapse": false
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "id": "ca96fde1-b13c-451e-98a6-fa033014b82d",
+                                                                                "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+                                                                                "args": {
+                                                                                    "actorId": "5736ebc3-dd17-48a5-9c40-783ab8d32d41",
+                                                                                    "speed": "3",
+                                                                                    "__collapse": false
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "id": "42dabc4a-6716-4757-8875-8d18be04abec",
+                                                                                "command": "EVENT_END"
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                },
                                                                 {
                                                                     "id": "cf129000-e415-4226-a2b7-4fd3e6cb9b7a",
                                                                     "command": "EVENT_TEXT",
                                                                     "args": {
                                                                         "text": [
-                                                                            "I'll tell you\nabout beans"
+                                                                            "A note? I didn’t\nwrite any note.\nLemme see that.",
+                                                                            "Ah. Yeah that’s\nright. What took\nyou so long? Go",
+                                                                            "give that to IT,\ntell ‘em I sent\nyou. I swear this",
+                                                                            "place would close\nin a week without\nme."
                                                                         ],
-                                                                        "avatarId": "daf95270-e30d-423b-9ee7-990ae29f57f6",
+                                                                        "avatarId": "",
                                                                         "__collapse": true
                                                                     }
                                                                 },
                                                                 {
-                                                                    "id": "24e929dd-9d7d-436b-9960-10511bab569a",
-                                                                    "command": "EVENT_SET_FLAGS",
+                                                                    "id": "10b9f069-5f20-40ec-a0bb-57edb71b9c43",
+                                                                    "command": "EVENT_GROUP",
                                                                     "args": {
-                                                                        "variable": "0",
-                                                                        "flag1": true,
-                                                                        "flag2": false,
+                                                                        "__label": "Manager Stop Talking",
+                                                                        "__collapse": true
+                                                                    },
+                                                                    "children": {
+                                                                        "true": [
+                                                                            {
+                                                                                "id": "aa4c4b63-e564-4eee-a9c1-d7a2b195f189",
+                                                                                "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+                                                                                "args": {
+                                                                                    "actorId": "83fac17d-78f5-44a0-85ff-268433b11e19",
+                                                                                    "speed": "",
+                                                                                    "__collapse": false
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "id": "9de1046e-be1c-4b32-a8bc-05a2250c7e7b",
+                                                                                "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+                                                                                "args": {
+                                                                                    "actorId": "5736ebc3-dd17-48a5-9c40-783ab8d32d41",
+                                                                                    "speed": "",
+                                                                                    "__collapse": false
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "id": "968fa1a1-6226-4bd5-9f9d-8fa7e3ddbc9b",
+                                                                                "command": "EVENT_ACTOR_SET_FRAME",
+                                                                                "args": {
+                                                                                    "actorId": "83fac17d-78f5-44a0-85ff-268433b11e19",
+                                                                                    "frame": {
+                                                                                        "type": "number",
+                                                                                        "value": 1
+                                                                                    },
+                                                                                    "__collapse": false
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "id": "372c258c-337b-4f60-ada9-c399ff7dffef",
+                                                                                "command": "EVENT_ACTOR_SET_FRAME",
+                                                                                "args": {
+                                                                                    "actorId": "5736ebc3-dd17-48a5-9c40-783ab8d32d41",
+                                                                                    "frame": {
+                                                                                        "type": "number",
+                                                                                        "value": 1
+                                                                                    },
+                                                                                    "__collapse": false
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "id": "07803d6a-d600-4988-bbf3-67d47d638113",
+                                                                                "command": "EVENT_END"
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "id": "bf41e83e-5a9d-4af7-a7c4-e51f5006c8b0",
+                                                                    "command": "EVENT_ADD_FLAGS",
+                                                                    "args": {
+                                                                        "variable": "1",
+                                                                        "flag1": false,
+                                                                        "flag2": true,
                                                                         "flag3": false,
                                                                         "flag4": false,
                                                                         "flag5": false,
                                                                         "flag6": false,
                                                                         "flag7": false,
                                                                         "flag8": false,
-                                                                        "__collapse": true
-                                                                    }
-                                                                },
-                                                                {
-                                                                    "id": "72af7f35-0220-49bd-ac75-99834dfc8244",
-                                                                    "command": "EVENT_TEXT",
-                                                                    "args": {
-                                                                        "text": [
-                                                                            "I now know about\nbeans!"
-                                                                        ],
-                                                                        "avatarId": "",
                                                                         "__collapse": true
                                                                     }
                                                                 },
@@ -10079,27 +10162,133 @@
                                                         "children": {
                                                             "true": [
                                                                 {
-                                                                    "id": "15ec4495-5c03-4175-ad2d-a2842b89fbfb",
-                                                                    "command": "EVENT_TEXT",
+                                                                    "id": "492a0f78-a1bc-4301-a535-9a5b538654f9",
+                                                                    "command": "EVENT_GROUP",
                                                                     "args": {
-                                                                        "text": [
-                                                                            "Wow! Thanks for\ntelling me about\nbread!"
-                                                                        ],
-                                                                        "avatarId": "daf95270-e30d-423b-9ee7-990ae29f57f6"
-                                                                    }
-                                                                },
-                                                                {
-                                                                    "id": "80890303-baec-4325-9440-f75dea160950",
-                                                                    "command": "EVENT_SET_TRUE",
-                                                                    "args": {
-                                                                        "variable": "2"
-                                                                    }
-                                                                },
-                                                                {
-                                                                    "id": "74b14be1-d041-423d-87f1-2542aa6c61e8",
-                                                                    "command": "EVENT_GOTO_LABEL",
-                                                                    "args": {
-                                                                        "label": "Top of Menu"
+                                                                        "__label": "Respond to \"Whose?\"",
+                                                                        "__collapse": true
+                                                                    },
+                                                                    "children": {
+                                                                        "true": [
+                                                                            {
+                                                                                "id": "0425a5e7-773f-4357-adfe-49ee9c87f3e5",
+                                                                                "command": "EVENT_GROUP",
+                                                                                "args": {
+                                                                                    "__label": "Manager Talk",
+                                                                                    "__collapse": true
+                                                                                },
+                                                                                "children": {
+                                                                                    "true": [
+                                                                                        {
+                                                                                            "id": "7d859c36-de16-4d9d-be07-98c4c69f9ab4",
+                                                                                            "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+                                                                                            "args": {
+                                                                                                "actorId": "83fac17d-78f5-44a0-85ff-268433b11e19",
+                                                                                                "speed": "3",
+                                                                                                "__collapse": false
+                                                                                            }
+                                                                                        },
+                                                                                        {
+                                                                                            "id": "a2313156-cf14-445e-b90f-07d3a7258fed",
+                                                                                            "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+                                                                                            "args": {
+                                                                                                "actorId": "5736ebc3-dd17-48a5-9c40-783ab8d32d41",
+                                                                                                "speed": "3",
+                                                                                                "__collapse": false
+                                                                                            }
+                                                                                        },
+                                                                                        {
+                                                                                            "id": "6a186c85-6597-4d34-b2f6-56aa68f6fb8a",
+                                                                                            "command": "EVENT_END"
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "id": "411c761f-d7ad-4e6b-95d7-96f4efcdef36",
+                                                                                "command": "EVENT_TEXT",
+                                                                                "args": {
+                                                                                    "text": [
+                                                                                        "What? We didn’t\norder anything.\nYou must be",
+                                                                                        "thinking of\nsomeplace else.\nTry the plaza a",
+                                                                                        "couple lightyears\ndown. Should take\nyou less than a",
+                                                                                        "week to get there\nif you use the\nhighway."
+                                                                                    ],
+                                                                                    "avatarId": "",
+                                                                                    "__collapse": true
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "id": "45954305-0a5d-458f-b8b7-22ecdb7ebb0c",
+                                                                                "command": "EVENT_GROUP",
+                                                                                "args": {
+                                                                                    "__label": "Manager Stop Talking",
+                                                                                    "__collapse": true
+                                                                                },
+                                                                                "children": {
+                                                                                    "true": [
+                                                                                        {
+                                                                                            "id": "fbfdaea9-8787-4d9f-89ed-c5d0a66bc030",
+                                                                                            "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+                                                                                            "args": {
+                                                                                                "actorId": "83fac17d-78f5-44a0-85ff-268433b11e19",
+                                                                                                "speed": "",
+                                                                                                "__collapse": false
+                                                                                            }
+                                                                                        },
+                                                                                        {
+                                                                                            "id": "9413d91c-3190-499a-8f49-78c04fdf4a26",
+                                                                                            "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+                                                                                            "args": {
+                                                                                                "actorId": "5736ebc3-dd17-48a5-9c40-783ab8d32d41",
+                                                                                                "speed": "",
+                                                                                                "__collapse": false
+                                                                                            }
+                                                                                        },
+                                                                                        {
+                                                                                            "id": "921f4799-f0d9-4515-9ea2-aace40428b29",
+                                                                                            "command": "EVENT_ACTOR_SET_FRAME",
+                                                                                            "args": {
+                                                                                                "actorId": "83fac17d-78f5-44a0-85ff-268433b11e19",
+                                                                                                "frame": {
+                                                                                                    "type": "number",
+                                                                                                    "value": 1
+                                                                                                },
+                                                                                                "__collapse": false
+                                                                                            }
+                                                                                        },
+                                                                                        {
+                                                                                            "id": "5ef0fa22-a531-4de2-ab91-f6463c20a414",
+                                                                                            "command": "EVENT_ACTOR_SET_FRAME",
+                                                                                            "args": {
+                                                                                                "actorId": "5736ebc3-dd17-48a5-9c40-783ab8d32d41",
+                                                                                                "frame": {
+                                                                                                    "type": "number",
+                                                                                                    "value": 1
+                                                                                                },
+                                                                                                "__collapse": false
+                                                                                            }
+                                                                                        },
+                                                                                        {
+                                                                                            "id": "84f44760-af9a-4100-81d9-35d9979f345a",
+                                                                                            "command": "EVENT_END"
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "id": "9283645a-62e2-442f-98fb-c04ecd6cf953",
+                                                                                "command": "EVENT_GOTO_LABEL",
+                                                                                "args": {
+                                                                                    "label": "Top of Menu",
+                                                                                    "__collapse": true
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "id": "b04cb425-9915-4da0-aed7-fc0a07f902e5",
+                                                                                "command": "EVENT_END"
+                                                                            }
+                                                                        ]
                                                                     }
                                                                 },
                                                                 {
@@ -10109,20 +10298,138 @@
                                                             ],
                                                             "false": [
                                                                 {
-                                                                    "id": "9c04e71b-6779-4218-83fe-0b3bc5fb3482",
-                                                                    "command": "EVENT_TEXT",
+                                                                    "id": "4d67d266-b255-4601-beaa-4f95e87c01ca",
+                                                                    "command": "EVENT_GROUP",
                                                                     "args": {
-                                                                        "text": [
-                                                                            "\"Other topic\ndiscussion here\""
-                                                                        ],
-                                                                        "avatarId": "daf95270-e30d-423b-9ee7-990ae29f57f6"
-                                                                    }
-                                                                },
-                                                                {
-                                                                    "id": "e6fc4d2c-39f3-461f-b1ee-84e6feab0bf8",
-                                                                    "command": "EVENT_GOTO_LABEL",
-                                                                    "args": {
-                                                                        "label": "Top of Menu"
+                                                                        "__label": "Respond to \"Sign.\"",
+                                                                        "__collapse": true
+                                                                    },
+                                                                    "children": {
+                                                                        "true": [
+                                                                            {
+                                                                                "id": "4d6d9e13-ac47-43cd-929f-6b67efd31361",
+                                                                                "command": "EVENT_GROUP",
+                                                                                "args": {
+                                                                                    "__label": "Manager Talk",
+                                                                                    "__collapse": true
+                                                                                },
+                                                                                "children": {
+                                                                                    "true": [
+                                                                                        {
+                                                                                            "id": "cd5d59d2-5ebf-458a-84d3-78c540d9ef83",
+                                                                                            "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+                                                                                            "args": {
+                                                                                                "actorId": "83fac17d-78f5-44a0-85ff-268433b11e19",
+                                                                                                "speed": "3",
+                                                                                                "__collapse": false
+                                                                                            }
+                                                                                        },
+                                                                                        {
+                                                                                            "id": "5b7e194f-5b5a-47bd-b167-9a9c634e9e69",
+                                                                                            "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+                                                                                            "args": {
+                                                                                                "actorId": "5736ebc3-dd17-48a5-9c40-783ab8d32d41",
+                                                                                                "speed": "3",
+                                                                                                "__collapse": false
+                                                                                            }
+                                                                                        },
+                                                                                        {
+                                                                                            "id": "ac81c53e-2b80-4593-b80b-f052ac29be0f",
+                                                                                            "command": "EVENT_END"
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "id": "6e236c13-1049-4455-8f31-6ff501a26c7e",
+                                                                                "command": "EVENT_TEXT",
+                                                                                "args": {
+                                                                                    "text": [
+                                                                                        "You know I don’t\nlegally have to\nsign for this.",
+                                                                                        "I’m gonna do it\nanyway though\nbecause I’m nice.",
+                                                                                        "*click*",
+                                                                                        "Reception? Could\nyou go give a\npackage up to",
+                                                                                        "mail? It’ll be on\nmy desk. *click*"
+                                                                                    ],
+                                                                                    "avatarId": "",
+                                                                                    "__collapse": true
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "id": "aac1eb8b-e4f9-46c7-a7e4-0ecd0794968e",
+                                                                                "command": "EVENT_GROUP",
+                                                                                "args": {
+                                                                                    "__label": "Manager Stop Talking",
+                                                                                    "__collapse": true
+                                                                                },
+                                                                                "children": {
+                                                                                    "true": [
+                                                                                        {
+                                                                                            "id": "8379c148-fe65-497e-ac04-b07b0a1a2d57",
+                                                                                            "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+                                                                                            "args": {
+                                                                                                "actorId": "83fac17d-78f5-44a0-85ff-268433b11e19",
+                                                                                                "speed": "",
+                                                                                                "__collapse": false
+                                                                                            }
+                                                                                        },
+                                                                                        {
+                                                                                            "id": "e1411d6a-2308-4266-adcd-77bd51af075a",
+                                                                                            "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+                                                                                            "args": {
+                                                                                                "actorId": "5736ebc3-dd17-48a5-9c40-783ab8d32d41",
+                                                                                                "speed": "",
+                                                                                                "__collapse": false
+                                                                                            }
+                                                                                        },
+                                                                                        {
+                                                                                            "id": "49bd3e05-8465-4f04-b139-2aec10ae5feb",
+                                                                                            "command": "EVENT_ACTOR_SET_FRAME",
+                                                                                            "args": {
+                                                                                                "actorId": "83fac17d-78f5-44a0-85ff-268433b11e19",
+                                                                                                "frame": {
+                                                                                                    "type": "number",
+                                                                                                    "value": 1
+                                                                                                },
+                                                                                                "__collapse": false
+                                                                                            }
+                                                                                        },
+                                                                                        {
+                                                                                            "id": "8ad5907a-9541-40bb-aecc-9bac6b9e1196",
+                                                                                            "command": "EVENT_ACTOR_SET_FRAME",
+                                                                                            "args": {
+                                                                                                "actorId": "5736ebc3-dd17-48a5-9c40-783ab8d32d41",
+                                                                                                "frame": {
+                                                                                                    "type": "number",
+                                                                                                    "value": 1
+                                                                                                },
+                                                                                                "__collapse": false
+                                                                                            }
+                                                                                        },
+                                                                                        {
+                                                                                            "id": "7e6efa17-5d8f-4674-b1d5-32a590ca8fb4",
+                                                                                            "command": "EVENT_END"
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "id": "a11a57be-d02b-4230-81b1-617772c5fd60",
+                                                                                "command": "EVENT_SWITCH_SCENE",
+                                                                                "args": {
+                                                                                    "sceneId": "c79779f5-4e29-4fcb-ba37-0a0f74873fa8",
+                                                                                    "x": 0,
+                                                                                    "y": 0,
+                                                                                    "direction": "",
+                                                                                    "fadeSpeed": "2",
+                                                                                    "__collapse": true
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "id": "7fb3d5c4-2e8e-49b2-bd8a-ac58c5dbe26f",
+                                                                                "command": "EVENT_END"
+                                                                            }
+                                                                        ]
                                                                     }
                                                                 },
                                                                 {
@@ -10151,8 +10458,8 @@
                                             "args": {
                                                 "variable": "L0",
                                                 "items": 2,
-                                                "option1": "Beans?",
-                                                "option2": "Other",
+                                                "option1": "Whose?",
+                                                "option2": "Sign.",
                                                 "option3": "",
                                                 "option4": "",
                                                 "option5": "",
@@ -10179,61 +10486,130 @@
                                             "children": {
                                                 "true": [
                                                     {
-                                                        "id": "9cfa130c-ed36-4069-9aba-d89d5c8252a8",
+                                                        "id": "dd25e1d9-87d6-4704-bc6e-aa22153434c1",
                                                         "command": "EVENT_GROUP",
                                                         "args": {
-                                                            "__label": "Learn about topic"
+                                                            "__label": "Respond to \"Whose?\"",
+                                                            "__collapse": true
                                                         },
                                                         "children": {
                                                             "true": [
                                                                 {
-                                                                    "id": "f5081be9-6c9e-43d4-9ae1-1722ab72e659",
-                                                                    "command": "EVENT_TEXT",
+                                                                    "id": "b60658ba-1598-4d54-9ba1-1453f93657a3",
+                                                                    "command": "EVENT_GROUP",
                                                                     "args": {
-                                                                        "text": [
-                                                                            "I'll tell you\nabout beans"
-                                                                        ],
-                                                                        "avatarId": "daf95270-e30d-423b-9ee7-990ae29f57f6",
+                                                                        "__label": "Manager Talk",
                                                                         "__collapse": true
+                                                                    },
+                                                                    "children": {
+                                                                        "true": [
+                                                                            {
+                                                                                "id": "51f7e774-552b-4111-829b-9d8b6390b74b",
+                                                                                "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+                                                                                "args": {
+                                                                                    "actorId": "83fac17d-78f5-44a0-85ff-268433b11e19",
+                                                                                    "speed": "3",
+                                                                                    "__collapse": false
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "id": "e5870cfc-b3e1-4363-8045-036020b60ed4",
+                                                                                "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+                                                                                "args": {
+                                                                                    "actorId": "5736ebc3-dd17-48a5-9c40-783ab8d32d41",
+                                                                                    "speed": "3",
+                                                                                    "__collapse": false
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "id": "3d636f48-cc80-4e97-8cce-3b55decf3fc7",
+                                                                                "command": "EVENT_END"
+                                                                            }
+                                                                        ]
                                                                     }
                                                                 },
                                                                 {
-                                                                    "id": "1d0e13f5-b167-476e-a63b-da62e673e66b",
-                                                                    "command": "EVENT_SET_FLAGS",
-                                                                    "args": {
-                                                                        "variable": "0",
-                                                                        "flag1": true,
-                                                                        "flag2": false,
-                                                                        "flag3": false,
-                                                                        "flag4": false,
-                                                                        "flag5": false,
-                                                                        "flag6": false,
-                                                                        "flag7": false,
-                                                                        "flag8": false,
-                                                                        "__collapse": true
-                                                                    }
-                                                                },
-                                                                {
-                                                                    "id": "0355cab6-c040-4a8d-9d7b-ee287cd3f53e",
+                                                                    "id": "01eada4c-4e95-42e4-a109-97c23d5c557c",
                                                                     "command": "EVENT_TEXT",
                                                                     "args": {
                                                                         "text": [
-                                                                            "I now know about\nbeans!"
+                                                                            "What? We didn’t\norder anything.\nYou must be",
+                                                                            "thinking of\nsomeplace else.\nTry the plaza a",
+                                                                            "couple lightyears\ndown. Should take\nyou less than a",
+                                                                            "week to get there\nif you use the\nhighway."
                                                                         ],
                                                                         "avatarId": "",
                                                                         "__collapse": true
                                                                     }
                                                                 },
                                                                 {
-                                                                    "id": "16f0f84f-dc8e-41a9-9ace-262e3ff496f6",
-                                                                    "command": "EVENT_GOTO_LABEL",
+                                                                    "id": "81d56d9d-d470-4449-a4aa-cae51ada9470",
+                                                                    "command": "EVENT_GROUP",
                                                                     "args": {
-                                                                        "label": "Top of Menu",
-                                                                        "__collapse": false
+                                                                        "__label": "Manager Stop Talking",
+                                                                        "__collapse": true
+                                                                    },
+                                                                    "children": {
+                                                                        "true": [
+                                                                            {
+                                                                                "id": "020f9938-bb0e-4225-8514-8ee419145525",
+                                                                                "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+                                                                                "args": {
+                                                                                    "actorId": "83fac17d-78f5-44a0-85ff-268433b11e19",
+                                                                                    "speed": "",
+                                                                                    "__collapse": false
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "id": "058376f0-9539-4a84-8b03-6ccb5b73c62e",
+                                                                                "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+                                                                                "args": {
+                                                                                    "actorId": "5736ebc3-dd17-48a5-9c40-783ab8d32d41",
+                                                                                    "speed": "",
+                                                                                    "__collapse": false
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "id": "e348d6d4-04f9-43a7-a46e-c447baeee549",
+                                                                                "command": "EVENT_ACTOR_SET_FRAME",
+                                                                                "args": {
+                                                                                    "actorId": "83fac17d-78f5-44a0-85ff-268433b11e19",
+                                                                                    "frame": {
+                                                                                        "type": "number",
+                                                                                        "value": 1
+                                                                                    },
+                                                                                    "__collapse": false
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "id": "2c303c3f-a27d-4333-9bd8-827d1df7f5cc",
+                                                                                "command": "EVENT_ACTOR_SET_FRAME",
+                                                                                "args": {
+                                                                                    "actorId": "5736ebc3-dd17-48a5-9c40-783ab8d32d41",
+                                                                                    "frame": {
+                                                                                        "type": "number",
+                                                                                        "value": 1
+                                                                                    },
+                                                                                    "__collapse": false
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "id": "c9939936-d505-4c9b-839b-ca0425be8fd7",
+                                                                                "command": "EVENT_END"
+                                                                            }
+                                                                        ]
                                                                     }
                                                                 },
                                                                 {
-                                                                    "id": "d7a9e23b-a3b6-4828-b8c6-11bb7a7b5bf9",
+                                                                    "id": "7dc7aef2-f6d3-43ff-9964-d6b39f7c3c51",
+                                                                    "command": "EVENT_GOTO_LABEL",
+                                                                    "args": {
+                                                                        "label": "Top of Menu",
+                                                                        "__collapse": true
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "id": "b55b978d-26da-4b2e-adea-d09897b62f51",
                                                                     "command": "EVENT_END"
                                                                 }
                                                             ]
@@ -10246,21 +10622,138 @@
                                                 ],
                                                 "false": [
                                                     {
-                                                        "id": "88791a38-f782-4a37-aa45-9404c84e4d3c",
-                                                        "command": "EVENT_TEXT",
+                                                        "id": "3fac7140-0e0b-442b-bf42-a56cdef95a07",
+                                                        "command": "EVENT_GROUP",
                                                         "args": {
-                                                            "text": [
-                                                                "Other text here"
-                                                            ],
-                                                            "avatarId": "da6cd95a-684e-43b3-8728-cb5951aef309"
-                                                        }
-                                                    },
-                                                    {
-                                                        "id": "1a78329b-87ea-4b47-bde3-020dd0fb4b5a",
-                                                        "command": "EVENT_GOTO_LABEL",
-                                                        "args": {
-                                                            "label": "Top of Menu",
-                                                            "__collapse": false
+                                                            "__label": "Respond to \"Sign.\"",
+                                                            "__collapse": true
+                                                        },
+                                                        "children": {
+                                                            "true": [
+                                                                {
+                                                                    "id": "31917281-a5a2-4a91-a81e-eb9e65427aa7",
+                                                                    "command": "EVENT_GROUP",
+                                                                    "args": {
+                                                                        "__label": "Manager Talk",
+                                                                        "__collapse": true
+                                                                    },
+                                                                    "children": {
+                                                                        "true": [
+                                                                            {
+                                                                                "id": "5ee46451-b931-4221-8859-a419f3193747",
+                                                                                "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+                                                                                "args": {
+                                                                                    "actorId": "83fac17d-78f5-44a0-85ff-268433b11e19",
+                                                                                    "speed": "3",
+                                                                                    "__collapse": false
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "id": "66e004f3-95ef-4835-813f-e80c18735358",
+                                                                                "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+                                                                                "args": {
+                                                                                    "actorId": "5736ebc3-dd17-48a5-9c40-783ab8d32d41",
+                                                                                    "speed": "3",
+                                                                                    "__collapse": false
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "id": "eb1a5d94-d67e-40f2-92a3-671aa57c401b",
+                                                                                "command": "EVENT_END"
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "id": "f88d526f-4727-4e5a-ba76-1fc79272553d",
+                                                                    "command": "EVENT_TEXT",
+                                                                    "args": {
+                                                                        "text": [
+                                                                            "You know I don’t\nlegally have to\nsign for this.",
+                                                                            "I’m gonna do it\nanyway though\nbecause I’m nice.",
+                                                                            "*click*",
+                                                                            "Reception? Could\nyou go give a\npackage up to",
+                                                                            "mail? It’ll be on\nmy desk. *click*"
+                                                                        ],
+                                                                        "avatarId": "",
+                                                                        "__collapse": true
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "id": "df9b7dfa-5983-4e91-ab24-e91a534cf8b8",
+                                                                    "command": "EVENT_GROUP",
+                                                                    "args": {
+                                                                        "__label": "Manager Stop Talking",
+                                                                        "__collapse": true
+                                                                    },
+                                                                    "children": {
+                                                                        "true": [
+                                                                            {
+                                                                                "id": "07736dfd-4729-4057-bf98-fd0ee2d92bf3",
+                                                                                "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+                                                                                "args": {
+                                                                                    "actorId": "83fac17d-78f5-44a0-85ff-268433b11e19",
+                                                                                    "speed": "",
+                                                                                    "__collapse": false
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "id": "dc152307-f58d-4165-a161-26bdd7efa53f",
+                                                                                "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+                                                                                "args": {
+                                                                                    "actorId": "5736ebc3-dd17-48a5-9c40-783ab8d32d41",
+                                                                                    "speed": "",
+                                                                                    "__collapse": false
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "id": "698342d7-1229-4907-8e0d-b955be895cc4",
+                                                                                "command": "EVENT_ACTOR_SET_FRAME",
+                                                                                "args": {
+                                                                                    "actorId": "83fac17d-78f5-44a0-85ff-268433b11e19",
+                                                                                    "frame": {
+                                                                                        "type": "number",
+                                                                                        "value": 1
+                                                                                    },
+                                                                                    "__collapse": false
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "id": "e891424c-c2a1-46ce-affd-d75b3e0de291",
+                                                                                "command": "EVENT_ACTOR_SET_FRAME",
+                                                                                "args": {
+                                                                                    "actorId": "5736ebc3-dd17-48a5-9c40-783ab8d32d41",
+                                                                                    "frame": {
+                                                                                        "type": "number",
+                                                                                        "value": 1
+                                                                                    },
+                                                                                    "__collapse": false
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "id": "0ef4537f-ea4b-46af-9073-e4e918fc0427",
+                                                                                "command": "EVENT_END"
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "id": "8ba807dc-efab-446e-849c-333fd5dc67b1",
+                                                                    "command": "EVENT_SWITCH_SCENE",
+                                                                    "args": {
+                                                                        "sceneId": "c79779f5-4e29-4fcb-ba37-0a0f74873fa8",
+                                                                        "x": 0,
+                                                                        "y": 0,
+                                                                        "direction": "",
+                                                                        "fadeSpeed": "2",
+                                                                        "__collapse": true
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "id": "0e04e2dc-b1a2-4afe-8722-bef627ec5704",
+                                                                    "command": "EVENT_END"
+                                                                }
+                                                            ]
                                                         }
                                                     },
                                                     {
@@ -10310,8 +10803,8 @@
             "playerHit2Script": [],
             "playerHit3Script": [],
             "id": "2fcc79b2-f235-45a4-a102-fa1f2e5e77a0",
-            "x": 659.6666666666662,
-            "y": 214.83333333333337,
+            "x": 640.6666666666662,
+            "y": 213.33333333333337,
             "actors": [
                 {
                     "name": "ManMouthL",
@@ -10379,6 +10872,30 @@
                     }
                 },
                 {
+                    "id": "d3641608-2ba8-4b9c-a3a5-abca16054d71",
+                    "command": "EVENT_GROUP",
+                    "args": {
+                        "__label": "Marketing Talk",
+                        "__collapse": true
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "id": "25f82fe6-84e9-4acb-9f90-59e6d5af4362",
+                                "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+                                "args": {
+                                    "actorId": "602859e9-3f06-4c25-a717-957ba10e91e5",
+                                    "speed": "3"
+                                }
+                            },
+                            {
+                                "id": "ce8e5bad-4d8d-45b8-8385-ec31af0c6a92",
+                                "command": "EVENT_END"
+                            }
+                        ]
+                    }
+                },
+                {
                     "id": "5a13a29f-ca36-449d-8f6a-84a3df02a949",
                     "command": "EVENT_TEXT",
                     "args": {
@@ -10389,6 +10906,41 @@
                         ],
                         "avatarId": "",
                         "__collapse": true
+                    }
+                },
+                {
+                    "id": "abc6ced7-ad68-4daa-9bf8-a986d3267857",
+                    "command": "EVENT_GROUP",
+                    "args": {
+                        "__label": "Marketing Stop Talking",
+                        "__collapse": true
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "id": "51f30eac-7a0b-4f5c-a3b0-3a493f018842",
+                                "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+                                "args": {
+                                    "actorId": "602859e9-3f06-4c25-a717-957ba10e91e5",
+                                    "speed": ""
+                                }
+                            },
+                            {
+                                "id": "2c9fecab-b37d-4757-8e58-62a0f1d8ad57",
+                                "command": "EVENT_ACTOR_SET_FRAME",
+                                "args": {
+                                    "actorId": "602859e9-3f06-4c25-a717-957ba10e91e5",
+                                    "frame": {
+                                        "type": "number",
+                                        "value": 1
+                                    }
+                                }
+                            },
+                            {
+                                "id": "a770f287-e7b4-4090-af24-7202f69ac979",
+                                "command": "EVENT_END"
+                            }
+                        ]
                     }
                 },
                 {
@@ -10415,7 +10967,7 @@
                         "option8": "",
                         "cancelOnB": false,
                         "layout": "dialogue",
-                        "__collapse": true
+                        "__collapse": false
                     }
                 },
                 {
@@ -10482,10 +11034,34 @@
                                                         "command": "EVENT_GROUP",
                                                         "args": {
                                                             "__label": "Respond to \"Mail?\"",
-                                                            "__collapse": true
+                                                            "__collapse": false
                                                         },
                                                         "children": {
                                                             "true": [
+                                                                {
+                                                                    "id": "5313866d-5e6a-4ca5-adbf-1f9c0c398b32",
+                                                                    "command": "EVENT_GROUP",
+                                                                    "args": {
+                                                                        "__label": "Marketing Talk",
+                                                                        "__collapse": true
+                                                                    },
+                                                                    "children": {
+                                                                        "true": [
+                                                                            {
+                                                                                "id": "ee281aec-2ce7-4ef4-b05e-f32b809c3a2e",
+                                                                                "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+                                                                                "args": {
+                                                                                    "actorId": "602859e9-3f06-4c25-a717-957ba10e91e5",
+                                                                                    "speed": "3"
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "id": "a89e4c99-4c0c-4f62-8597-1c0e8a6ce36e",
+                                                                                "command": "EVENT_END"
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                },
                                                                 {
                                                                     "id": "ad5909b9-f4e3-49f1-8eff-7bd02a031ca6",
                                                                     "command": "EVENT_TEXT",
@@ -10506,10 +11082,45 @@
                                                                     }
                                                                 },
                                                                 {
-                                                                    "id": "e6b29f53-c07e-4e7f-8ace-3bfd3b0333c0",
-                                                                    "command": "EVENT_SET_FLAGS",
+                                                                    "id": "cb488a75-897b-4079-bb99-1cbeedd90735",
+                                                                    "command": "EVENT_GROUP",
                                                                     "args": {
-                                                                        "variable": "0",
+                                                                        "__label": "Marketing Stop Talking",
+                                                                        "__collapse": true
+                                                                    },
+                                                                    "children": {
+                                                                        "true": [
+                                                                            {
+                                                                                "id": "1470fb9b-e678-49e9-9c9d-c40cc9031082",
+                                                                                "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+                                                                                "args": {
+                                                                                    "actorId": "602859e9-3f06-4c25-a717-957ba10e91e5",
+                                                                                    "speed": ""
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "id": "5ea613c0-9e52-4b3d-b041-24cfa9130bd2",
+                                                                                "command": "EVENT_ACTOR_SET_FRAME",
+                                                                                "args": {
+                                                                                    "actorId": "602859e9-3f06-4c25-a717-957ba10e91e5",
+                                                                                    "frame": {
+                                                                                        "type": "number",
+                                                                                        "value": 1
+                                                                                    }
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "id": "7405f86e-5510-4c4e-a030-f07768522b04",
+                                                                                "command": "EVENT_END"
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "id": "e2e519d4-afde-4e53-82a9-0d6401518e64",
+                                                                    "command": "EVENT_ADD_FLAGS",
+                                                                    "args": {
+                                                                        "variable": "1",
                                                                         "flag1": false,
                                                                         "flag2": false,
                                                                         "flag3": false,
@@ -10517,8 +11128,7 @@
                                                                         "flag5": false,
                                                                         "flag6": false,
                                                                         "flag7": true,
-                                                                        "flag8": false,
-                                                                        "__collapse": true
+                                                                        "flag8": false
                                                                     }
                                                                 },
                                                                 {
@@ -10570,10 +11180,34 @@
                                                                     "command": "EVENT_GROUP",
                                                                     "args": {
                                                                         "__label": "Respond to \"Whose?\"",
-                                                                        "__collapse": true
+                                                                        "__collapse": false
                                                                     },
                                                                     "children": {
                                                                         "true": [
+                                                                            {
+                                                                                "id": "85bd4117-53f3-4efe-9b0d-9c180cd956fa",
+                                                                                "command": "EVENT_GROUP",
+                                                                                "args": {
+                                                                                    "__label": "Marketing Talk",
+                                                                                    "__collapse": true
+                                                                                },
+                                                                                "children": {
+                                                                                    "true": [
+                                                                                        {
+                                                                                            "id": "9b2b5520-1ee0-42c0-bb2f-0e7d8aaa3a29",
+                                                                                            "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+                                                                                            "args": {
+                                                                                                "actorId": "602859e9-3f06-4c25-a717-957ba10e91e5",
+                                                                                                "speed": "3"
+                                                                                            }
+                                                                                        },
+                                                                                        {
+                                                                                            "id": "dc80ad47-8d0b-4b1c-9d10-bf471403fa40",
+                                                                                            "command": "EVENT_END"
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            },
                                                                             {
                                                                                 "id": "b2f51fbd-2fa9-4b74-a2ae-961c37a2588b",
                                                                                 "command": "EVENT_TEXT",
@@ -10583,7 +11217,42 @@
                                                                                         "mailroom guys.\nJust down the hall\nthere."
                                                                                     ],
                                                                                     "avatarId": "",
-                                                                                    "__collapse": false
+                                                                                    "__collapse": true
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "id": "2c01895d-0949-4f8a-83ec-f785459e0b5e",
+                                                                                "command": "EVENT_GROUP",
+                                                                                "args": {
+                                                                                    "__label": "Marketing Stop Talking",
+                                                                                    "__collapse": true
+                                                                                },
+                                                                                "children": {
+                                                                                    "true": [
+                                                                                        {
+                                                                                            "id": "6559f850-274b-4cf9-af91-54a416ea0757",
+                                                                                            "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+                                                                                            "args": {
+                                                                                                "actorId": "602859e9-3f06-4c25-a717-957ba10e91e5",
+                                                                                                "speed": ""
+                                                                                            }
+                                                                                        },
+                                                                                        {
+                                                                                            "id": "3d24706e-ae96-49aa-badf-0921bba0b9d0",
+                                                                                            "command": "EVENT_ACTOR_SET_FRAME",
+                                                                                            "args": {
+                                                                                                "actorId": "602859e9-3f06-4c25-a717-957ba10e91e5",
+                                                                                                "frame": {
+                                                                                                    "type": "number",
+                                                                                                    "value": 1
+                                                                                                }
+                                                                                            }
+                                                                                        },
+                                                                                        {
+                                                                                            "id": "c7097058-3912-498a-8b24-ff001275f265",
+                                                                                            "command": "EVENT_END"
+                                                                                        }
+                                                                                    ]
                                                                                 }
                                                                             },
                                                                             {
@@ -10616,6 +11285,30 @@
                                                                     "children": {
                                                                         "true": [
                                                                             {
+                                                                                "id": "c0d63509-95c4-4860-8a28-bba9548f6a62",
+                                                                                "command": "EVENT_GROUP",
+                                                                                "args": {
+                                                                                    "__label": "Marketing Talk",
+                                                                                    "__collapse": true
+                                                                                },
+                                                                                "children": {
+                                                                                    "true": [
+                                                                                        {
+                                                                                            "id": "039ba18f-6b57-4e7f-8ec8-eca3bc8281b3",
+                                                                                            "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+                                                                                            "args": {
+                                                                                                "actorId": "602859e9-3f06-4c25-a717-957ba10e91e5",
+                                                                                                "speed": "3"
+                                                                                            }
+                                                                                        },
+                                                                                        {
+                                                                                            "id": "13d6a644-4f32-4c2c-9058-68ae06b07c1d",
+                                                                                            "command": "EVENT_END"
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            },
+                                                                            {
                                                                                 "id": "7b21d096-70cc-41ca-abce-5d4c598e69e5",
                                                                                 "command": "EVENT_TEXT",
                                                                                 "args": {
@@ -10626,6 +11319,41 @@
                                                                                     ],
                                                                                     "avatarId": "",
                                                                                     "__collapse": true
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "id": "31988367-1a8e-464e-b647-60033e373e70",
+                                                                                "command": "EVENT_GROUP",
+                                                                                "args": {
+                                                                                    "__label": "Marketing Stop Talking",
+                                                                                    "__collapse": true
+                                                                                },
+                                                                                "children": {
+                                                                                    "true": [
+                                                                                        {
+                                                                                            "id": "e207c47d-a44a-40bd-8a63-0d05644b175b",
+                                                                                            "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+                                                                                            "args": {
+                                                                                                "actorId": "602859e9-3f06-4c25-a717-957ba10e91e5",
+                                                                                                "speed": ""
+                                                                                            }
+                                                                                        },
+                                                                                        {
+                                                                                            "id": "b7e4bf5f-14eb-4088-8e41-6c925f096577",
+                                                                                            "command": "EVENT_ACTOR_SET_FRAME",
+                                                                                            "args": {
+                                                                                                "actorId": "602859e9-3f06-4c25-a717-957ba10e91e5",
+                                                                                                "frame": {
+                                                                                                    "type": "number",
+                                                                                                    "value": 1
+                                                                                                }
+                                                                                            }
+                                                                                        },
+                                                                                        {
+                                                                                            "id": "19c79314-f2d9-43ba-b810-d44926d0e214",
+                                                                                            "command": "EVENT_END"
+                                                                                        }
+                                                                                    ]
                                                                                 }
                                                                             },
                                                                             {
@@ -10710,6 +11438,30 @@
                                                         "children": {
                                                             "true": [
                                                                 {
+                                                                    "id": "fe770028-5dc7-4435-9042-7457e23c5de1",
+                                                                    "command": "EVENT_GROUP",
+                                                                    "args": {
+                                                                        "__label": "Marketing Talk",
+                                                                        "__collapse": true
+                                                                    },
+                                                                    "children": {
+                                                                        "true": [
+                                                                            {
+                                                                                "id": "5e11801a-e6ac-41cb-bc3d-bcfbccfdd1e5",
+                                                                                "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+                                                                                "args": {
+                                                                                    "actorId": "602859e9-3f06-4c25-a717-957ba10e91e5",
+                                                                                    "speed": "3"
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "id": "a65cc14f-7283-4b3a-8d5b-9fc431af10a8",
+                                                                                "command": "EVENT_END"
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                },
+                                                                {
                                                                     "id": "f4a1bcbd-ef78-4249-b752-d905d14ff465",
                                                                     "command": "EVENT_TEXT",
                                                                     "args": {
@@ -10718,7 +11470,42 @@
                                                                             "mailroom guys.\nJust down the hall\nthere."
                                                                         ],
                                                                         "avatarId": "",
-                                                                        "__collapse": false
+                                                                        "__collapse": true
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "id": "cfca221e-0e8c-4cbd-91dc-95d3a8353ff0",
+                                                                    "command": "EVENT_GROUP",
+                                                                    "args": {
+                                                                        "__label": "Marketing Stop Talking",
+                                                                        "__collapse": true
+                                                                    },
+                                                                    "children": {
+                                                                        "true": [
+                                                                            {
+                                                                                "id": "ee44b29a-0c34-4562-8199-35e9d5f50779",
+                                                                                "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+                                                                                "args": {
+                                                                                    "actorId": "602859e9-3f06-4c25-a717-957ba10e91e5",
+                                                                                    "speed": ""
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "id": "3f3873e4-1548-4268-b692-026dbae9f505",
+                                                                                "command": "EVENT_ACTOR_SET_FRAME",
+                                                                                "args": {
+                                                                                    "actorId": "602859e9-3f06-4c25-a717-957ba10e91e5",
+                                                                                    "frame": {
+                                                                                        "type": "number",
+                                                                                        "value": 1
+                                                                                    }
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "id": "99a7b530-baa5-421e-83a3-c2aed30a9e8a",
+                                                                                "command": "EVENT_END"
+                                                                            }
+                                                                        ]
                                                                     }
                                                                 },
                                                                 {
@@ -10751,6 +11538,30 @@
                                                         "children": {
                                                             "true": [
                                                                 {
+                                                                    "id": "29c328dd-e53e-454c-afa9-c8f3c751753f",
+                                                                    "command": "EVENT_GROUP",
+                                                                    "args": {
+                                                                        "__label": "Marketing Talk",
+                                                                        "__collapse": true
+                                                                    },
+                                                                    "children": {
+                                                                        "true": [
+                                                                            {
+                                                                                "id": "bb9d0499-2f83-4ede-a0eb-f457582d8010",
+                                                                                "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+                                                                                "args": {
+                                                                                    "actorId": "602859e9-3f06-4c25-a717-957ba10e91e5",
+                                                                                    "speed": "3"
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "id": "4922f194-8b91-4e5e-bb6c-dee416824e44",
+                                                                                "command": "EVENT_END"
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                },
+                                                                {
                                                                     "id": "5e9febdf-51bf-47fa-a8ac-12e75b5dfc27",
                                                                     "command": "EVENT_TEXT",
                                                                     "args": {
@@ -10761,6 +11572,41 @@
                                                                         ],
                                                                         "avatarId": "",
                                                                         "__collapse": true
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "id": "a2b5d17c-b3c8-448e-9e57-4f83a51261f7",
+                                                                    "command": "EVENT_GROUP",
+                                                                    "args": {
+                                                                        "__label": "Marketing Stop Talking",
+                                                                        "__collapse": true
+                                                                    },
+                                                                    "children": {
+                                                                        "true": [
+                                                                            {
+                                                                                "id": "af679142-9b2a-48b7-ba15-6d86c1a3dc36",
+                                                                                "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+                                                                                "args": {
+                                                                                    "actorId": "602859e9-3f06-4c25-a717-957ba10e91e5",
+                                                                                    "speed": ""
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "id": "de3d8829-bea2-4ff3-a18f-7bcb201e45f6",
+                                                                                "command": "EVENT_ACTOR_SET_FRAME",
+                                                                                "args": {
+                                                                                    "actorId": "602859e9-3f06-4c25-a717-957ba10e91e5",
+                                                                                    "frame": {
+                                                                                        "type": "number",
+                                                                                        "value": 1
+                                                                                    }
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "id": "d9c612c5-8f23-441a-b98a-b938bca83b11",
+                                                                                "command": "EVENT_END"
+                                                                            }
+                                                                        ]
                                                                     }
                                                                 },
                                                                 {
@@ -10830,10 +11676,10 @@
             "playerHit3Script": [],
             "id": "44958ba6-7121-4b62-818f-cf441c68b4d7",
             "x": 437.9999999999999,
-            "y": 190.49999999999994,
+            "y": 189.99999999999994,
             "actors": [
                 {
-                    "name": "",
+                    "name": "Mouth",
                     "frame": 1,
                     "animate": true,
                     "spriteSheetId": "fca1100e-7f3e-4354-998b-7374c70dd4d4",
@@ -11331,8 +12177,8 @@
             "playerHit2Script": [],
             "playerHit3Script": [],
             "id": "d3df8a59-9204-4b22-a1ea-591ee83ca4a2",
-            "x": 1435.3333333333337,
-            "y": 55.999999999999986,
+            "x": 1436.8333333333337,
+            "y": 41.999999999999986,
             "actors": [],
             "triggers": [],
             "type": "4"
@@ -12223,7 +13069,8 @@
                             "for review! I\nshoulda known\nbetter when we",
                             "hired a splath!"
                         ],
-                        "avatarId": ""
+                        "avatarId": "",
+                        "__collapse": true
                     }
                 },
                 {
@@ -12284,6 +13131,30 @@
                     }
                 },
                 {
+                    "id": "d60f468a-f609-4f3b-9615-3bb830656684",
+                    "command": "EVENT_GROUP",
+                    "args": {
+                        "__label": "Marketing Talk",
+                        "__collapse": true
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "id": "7bfeba17-f5d1-4ec2-8b24-100976d54ff6",
+                                "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+                                "args": {
+                                    "actorId": "21a283f1-65a9-4dc6-92aa-1de65ec18553",
+                                    "speed": "3"
+                                }
+                            },
+                            {
+                                "id": "75c55931-de8a-4a26-ab81-80bb7b8353bd",
+                                "command": "EVENT_END"
+                            }
+                        ]
+                    }
+                },
+                {
                     "id": "23cbac41-5cbf-433f-9c2d-4897a078b4ca",
                     "command": "EVENT_TEXT",
                     "args": {
@@ -12292,7 +13163,43 @@
                             "guy. Go tell HR\nwhat you saw up\nhere, I need ",
                             "a witness."
                         ],
-                        "avatarId": ""
+                        "avatarId": "",
+                        "__collapse": true
+                    }
+                },
+                {
+                    "id": "c8e666a4-64af-4c64-9eac-67f771997bd8",
+                    "command": "EVENT_GROUP",
+                    "args": {
+                        "__label": "Marketing Stop Talking",
+                        "__collapse": true
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "id": "503ab80e-60ca-4fe3-8987-ef9105e0d880",
+                                "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+                                "args": {
+                                    "actorId": "21a283f1-65a9-4dc6-92aa-1de65ec18553",
+                                    "speed": ""
+                                }
+                            },
+                            {
+                                "id": "f1317329-e1fc-4c0a-ae62-69d483590980",
+                                "command": "EVENT_ACTOR_SET_FRAME",
+                                "args": {
+                                    "actorId": "21a283f1-65a9-4dc6-92aa-1de65ec18553",
+                                    "frame": {
+                                        "type": "number",
+                                        "value": 1
+                                    }
+                                }
+                            },
+                            {
+                                "id": "a6ad04ff-0924-42d2-8b0c-f3b3ef95d35b",
+                                "command": "EVENT_END"
+                            }
+                        ]
                     }
                 },
                 {
@@ -13524,6 +14431,14 @@
                             "children": {
                                 "true": [
                                     {
+                                        "id": "7d6ea862-5b82-4a91-94ee-a95440b97df7",
+                                        "command": "EVENT_MUSIC_PLAY",
+                                        "args": {
+                                            "musicId": "ae2e6f71-a744-4e1e-b582-7a0e9b753d26",
+                                            "loop": false
+                                        }
+                                    },
+                                    {
                                         "id": "d52a0da5-28ae-4b25-8dfb-022f92c5bf62",
                                         "command": "EVENT_SWITCH_SCENE",
                                         "args": {
@@ -13759,7 +14674,7 @@
             "imageHeight": 144,
             "filename": "April1.png",
             "inode": "1970324836989163",
-            "_v": 1613941638696
+            "_v": 1613942423184
         },
         {
             "id": "6d80b58a-93cc-43dc-b3a8-c9826f71beaa",
@@ -13770,7 +14685,7 @@
             "imageHeight": 144,
             "filename": "Employees.png",
             "inode": "4785074604097104",
-            "_v": 1613941638696
+            "_v": 1613942423184
         },
         {
             "id": "dd6e6888-87c1-4ef2-9260-78490897c694",
@@ -13781,7 +14696,7 @@
             "imageHeight": 144,
             "filename": "F1_Map.png",
             "inode": "1407374883559185",
-            "_v": 1613941638696
+            "_v": 1613942423184
         },
         {
             "id": "423b59b5-b19f-42c9-94de-01f9bcc19b65",
@@ -13792,7 +14707,7 @@
             "imageHeight": 144,
             "filename": "F2_Map.png",
             "inode": "844424930138072",
-            "_v": 1613941638696
+            "_v": 1613942423184
         },
         {
             "id": "5264eead-edd5-4334-8e0b-697701e519c5",
@@ -13803,7 +14718,7 @@
             "imageHeight": 144,
             "filename": "F3_Map.png",
             "inode": "844424930138073",
-            "_v": 1613941638696
+            "_v": 1613942423184
         },
         {
             "id": "06cf86c5-f590-4097-a6bd-a8fe02e6fcd7",
@@ -13814,7 +14729,7 @@
             "imageHeight": 144,
             "filename": "F4_Map.png",
             "inode": "1125899906860195",
-            "_v": 1613941638696
+            "_v": 1613942423184
         },
         {
             "id": "df57637b-a0be-4493-968f-6f784a701797",
@@ -13825,7 +14740,7 @@
             "imageHeight": 144,
             "filename": "HR.png",
             "inode": "3377699720534659",
-            "_v": 1613941638696
+            "_v": 1613942423184
         },
         {
             "id": "64725e43-2e79-47b2-ab64-76788e71029b",
@@ -13836,7 +14751,7 @@
             "imageHeight": 144,
             "filename": "Manager.png",
             "inode": "6755399441072438",
-            "_v": 1613941638696
+            "_v": 1613942423184
         },
         {
             "id": "6c9f5c8d-dbb7-4d46-ac4b-af98ea483961",
@@ -13847,7 +14762,7 @@
             "imageHeight": 144,
             "filename": "Marketing.png",
             "inode": "6192449487651127",
-            "_v": 1613941638696
+            "_v": 1613942423184
         },
         {
             "id": "93173da0-b570-4606-a668-22aec88e1cb1",
@@ -13858,7 +14773,7 @@
             "imageHeight": 144,
             "filename": "MarketingNManager.png",
             "inode": "4503599627387405",
-            "_v": 1613941638696
+            "_v": 1613942423184
         },
         {
             "id": "5d4e7497-6c3e-4e4a-a851-a0a48423bc6b",
@@ -13869,7 +14784,7 @@
             "imageHeight": 144,
             "filename": "Receptionist.png",
             "inode": "1688849860280391",
-            "_v": 1613941638696
+            "_v": 1613942423184
         },
         {
             "id": "3f6324c2-ca30-4c7f-9154-a9e0459fe835",
@@ -13880,7 +14795,7 @@
             "imageHeight": 304,
             "filename": "bg1.png",
             "inode": "5348024557519414",
-            "_v": 1613942055708
+            "_v": 1613942423184
         },
         {
             "id": "2b37865f-5ffe-44b8-a3f7-297fa7081037",
@@ -13891,7 +14806,7 @@
             "imageHeight": 144,
             "filename": "bg2.png",
             "inode": "2251799813704735",
-            "_v": 1613942055713
+            "_v": 1613942423184
         },
         {
             "id": "5479a7dd-100f-44c4-9677-bafa8d9d0a8c",
@@ -13902,7 +14817,7 @@
             "imageHeight": 144,
             "filename": "mailroom.png",
             "inode": "6473924464351955",
-            "_v": 1613941638696
+            "_v": 1613942423184
         },
         {
             "id": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
@@ -13913,7 +14828,7 @@
             "imageHeight": 144,
             "filename": "placeholder.png",
             "inode": "1125899906844845",
-            "_v": 1613941638696
+            "_v": 1613942423184
         }
     ],
     "spriteSheets": [
@@ -13924,7 +14839,7 @@
             "type": "animated",
             "filename": "EmployeeMouthMan.png",
             "inode": "3377699720540183",
-            "_v": 1613941638696
+            "_v": 1613942423184
         },
         {
             "id": "01e04496-7b74-4b78-bea8-7f0c1d363f25",
@@ -13933,7 +14848,7 @@
             "type": "animated",
             "filename": "EmployeeMouthWoman.png",
             "inode": "1407374883570938",
-            "_v": 1613941638696
+            "_v": 1613942423184
         },
         {
             "id": "da5be100-dca8-48ec-97b5-274b7990ddf3",
@@ -13942,7 +14857,7 @@
             "type": "animated",
             "filename": "HRMouth.png",
             "inode": "3659174697245316",
-            "_v": 1613941638696
+            "_v": 1613942423184
         },
         {
             "id": "fca1100e-7f3e-4354-998b-7374c70dd4d4",
@@ -13951,7 +14866,7 @@
             "type": "animated",
             "filename": "MarketingMout.png",
             "inode": "2814749767127977",
-            "_v": 1613941638696
+            "_v": 1613942423184
         },
         {
             "id": "3b9e6873-7fe8-4833-82cb-bf7e7ca4d00c",
@@ -13960,7 +14875,7 @@
             "type": "animated",
             "filename": "ReceptionistMouthL.png",
             "inode": "1125899906859149",
-            "_v": 1613941638696
+            "_v": 1613942423184
         },
         {
             "id": "004308cc-7067-4938-83ec-18828da12322",
@@ -13969,7 +14884,7 @@
             "type": "animated",
             "filename": "ReceptionistMouthR.png",
             "inode": "1407374883569812",
-            "_v": 1613941638696
+            "_v": 1613942423184
         },
         {
             "id": "11b5452b-187c-43a3-afb1-a1f4f74ffda2",
@@ -13978,7 +14893,7 @@
             "type": "actor",
             "filename": "actor.png",
             "inode": "844424930134239",
-            "_v": 1613941638696
+            "_v": 1613942423184
         },
         {
             "id": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
@@ -13987,7 +14902,7 @@
             "type": "actor_animated",
             "filename": "actor_animated.png",
             "inode": "844424930134240",
-            "_v": 1613941638696
+            "_v": 1613942423184
         },
         {
             "id": "1ebb17aa-c8e0-4627-ae42-21bb50cac8b8",
@@ -13996,7 +14911,7 @@
             "type": "static",
             "filename": "door.png",
             "inode": "2251799813705649",
-            "_v": 1613942055711
+            "_v": 1613942423184
         },
         {
             "id": "934a9028-b427-40d4-a463-d3ef30fe0fae",
@@ -14005,7 +14920,7 @@
             "type": "static",
             "filename": "invisible.png",
             "inode": "2251799813706717",
-            "_v": 1613941638696
+            "_v": 1613942423184
         },
         {
             "id": "b336f8fe-c6bd-42f4-9bf7-b449c32c0c78",
@@ -14014,7 +14929,7 @@
             "type": "animated",
             "filename": "managermouthL.png",
             "inode": "2533274790417423",
-            "_v": 1613941638696
+            "_v": 1613942423184
         },
         {
             "id": "e8307965-0780-42ce-a18c-29aca40f22f4",
@@ -14023,7 +14938,7 @@
             "type": "animated",
             "filename": "managermouthR.png",
             "inode": "2814749767128663",
-            "_v": 1613941638696
+            "_v": 1613942423184
         },
         {
             "id": "daf95270-e30d-423b-9ee7-990ae29f57f6",
@@ -14032,7 +14947,7 @@
             "type": "static",
             "filename": "static.png",
             "inode": "844424930134241",
-            "_v": 1613941638698
+            "_v": 1613942423184
         }
     ],
     "palettes": [
@@ -14181,7 +15096,7 @@
             "filename": "Chatting Music.mod",
             "settings": {},
             "inode": "2533274790416223",
-            "_v": 1613942059773
+            "_v": 1613942423162
         },
         {
             "id": "eb7032e6-2c13-4617-aa8d-230174bd5b75",
@@ -14189,7 +15104,7 @@
             "filename": "Chatting_Music Lv2.mod",
             "settings": {},
             "inode": "1688849860284339",
-            "_v": 1613942051894
+            "_v": 1613942423162
         },
         {
             "id": "2dbedc1b-288f-45b0-bd6c-ba614fe237c5",
@@ -14197,7 +15112,7 @@
             "filename": "Keep-On Lv3.mod",
             "settings": {},
             "inode": "1688849860284346",
-            "_v": 1613942051912
+            "_v": 1613942423162
         },
         {
             "id": "75f6b9bc-c194-489d-9ddf-8cf3509458df",
@@ -14205,7 +15120,7 @@
             "filename": "Push-Off Lv2-depeggiod.mod",
             "settings": {},
             "inode": "1407374883573692",
-            "_v": 1613942051933
+            "_v": 1613942423162
         },
         {
             "id": "bcc10e18-7f18-4fd5-9551-af4e8a335c05",
@@ -14213,7 +15128,7 @@
             "filename": "Push-On Lv4.mod",
             "settings": {},
             "inode": "5348024557524868",
-            "_v": 1613942051933
+            "_v": 1613942423162
         },
         {
             "id": "992829a1-9742-47d9-8b27-e86759e5b64e",
@@ -14221,7 +15136,7 @@
             "filename": "badend.mod",
             "settings": {},
             "inode": "2814749767129090",
-            "_v": 1613942051933
+            "_v": 1613942423162
         },
         {
             "id": "ae2e6f71-a744-4e1e-b582-7a0e9b753d26",
@@ -14229,7 +15144,7 @@
             "filename": "elevator.mod",
             "settings": {},
             "inode": "2251799813710320",
-            "_v": 1613942051933
+            "_v": 1613942423162
         },
         {
             "id": "647c3134-904d-4872-ab4c-05e70f8f5bb5",
@@ -14237,7 +15152,7 @@
             "filename": "nicejob.mod",
             "settings": {},
             "inode": "1970324836999748",
-            "_v": 1613942051933
+            "_v": 1613942423162
         },
         {
             "id": "49f194f4-3815-4e4c-9406-d003098f880c",
@@ -14245,7 +15160,7 @@
             "filename": "stairs.mod",
             "settings": {},
             "inode": "1688849860289105",
-            "_v": 1613942051933
+            "_v": 1613942423162
         },
         {
             "id": "f50428ab-a084-4591-9bba-2ba10fe7b1c6",
@@ -14253,7 +15168,7 @@
             "filename": "template.mod",
             "settings": {},
             "inode": "1407374883555525",
-            "_v": 1613941638675
+            "_v": 1613942423162
         }
     ],
     "variables": [
@@ -14328,8 +15243,8 @@
         "startY": 10,
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 710,
-        "worldScrollY": 514,
+        "worldScrollX": 487,
+        "worldScrollY": 350,
         "zoom": 200,
         "customColorsEnabled": false,
         "defaultBackgroundPaletteIds": [
