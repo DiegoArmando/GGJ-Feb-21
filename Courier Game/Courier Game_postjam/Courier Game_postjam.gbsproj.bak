@@ -6309,19 +6309,7 @@
                             "command": "EVENT_END"
                         }
                     ],
-                    "startScript": [
-                        {
-                            "id": "e2d6b2d6-e643-4f28-81e4-67861485ebf7",
-                            "command": "EVENT_ACTOR_HIDE",
-                            "args": {
-                                "actorId": "$self$"
-                            }
-                        },
-                        {
-                            "id": "b2d5eaf5-4452-4b43-be78-19ca1024e20a",
-                            "command": "EVENT_END"
-                        }
-                    ],
+                    "startScript": [],
                     "updateScript": [],
                     "hit1Script": [],
                     "hit2Script": [],
