@@ -188,10 +188,9 @@ AREA .  .ABS.
 		l__BASE	021E
 		l__HOME	0252
 		l__GSINIT	0507
+		l__CODE_14	070A
 		l__DATA	0E1E
-		l__CODE_11	1228
-		l__CODE_5	2166
-		l__CODE_12	28A2
+		l__CODE_5	21FC
 		l__CODE	2C12
 		s__HOME	2E12
 		s__BASE	3064
@@ -201,14 +200,21 @@ AREA .  .ABS.
 		l__CODE_1	35B4
 		s__GSINITTAIL	3789
 		s__GSFINAL	378A
-		l__CODE_9	3FEE
-		l__CODE_7	3FF3
-		l__CODE_8	3FF3
-		l__CODE_10	3FFA
-		l__CODE_6	3FFC
+		l__CODE_15	37E4
+		l__CODE_13	3FF0
+		l__CODE_11	3FF1
+		l__CODE_12	3FF2
+		l__CODE_10	3FF3
+		l__CODE_8	3FF7
+		l__CODE_9	3FF8
+		l__CODE_7	3FFC
 		s__CODE_10	4000
 		s__CODE_11	4000
 		s__CODE_12	4000
+		s__CODE_13	4000
+		s__CODE_14	4000
+		s__CODE_15	4000
+		l__CODE_6	4000
 		s__CODE_1	4000
 		s__CODE_4	4000
 		s__CODE_5	4000
@@ -1025,86 +1031,110 @@ AREA _XSEG
 AREA _CODE_10
 	RADIX HEX
 	BASE 4000
-	SIZE 3FFA
+	SIZE 3FF3
 	ATTRIB REL CON
 	GLOBALS
 		_bank_10_data	4000
 AREA _CODE_11
 	RADIX HEX
 	BASE 4000
-	SIZE 1228
+	SIZE 3FF1
 	ATTRIB REL CON
 	GLOBALS
 		_bank_11_data	4000
+AREA _CODE_12
+	RADIX HEX
+	BASE 4000
+	SIZE 3FF2
+	ATTRIB REL CON
+	GLOBALS
+		_bank_12_data	4000
+AREA _CODE_13
+	RADIX HEX
+	BASE 4000
+	SIZE 3FF0
+	ATTRIB REL CON
+	GLOBALS
+		_bank_13_data	4000
+AREA _CODE_14
+	RADIX HEX
+	BASE 4000
+	SIZE 070A
+	ATTRIB REL CON
+	GLOBALS
+		_bank_14_data	4000
 AREA _CODE_6
 	RADIX HEX
 	BASE 4000
-	SIZE 3FFC
+	SIZE 4000
 	ATTRIB REL CON
 	GLOBALS
 		_bank_6_data	4000
 AREA _CODE_7
 	RADIX HEX
 	BASE 4000
-	SIZE 3FF3
+	SIZE 3FFC
 	ATTRIB REL CON
 	GLOBALS
 		_bank_7_data	4000
 AREA _CODE_8
 	RADIX HEX
 	BASE 4000
-	SIZE 3FF3
+	SIZE 3FF7
 	ATTRIB REL CON
 	GLOBALS
 		_bank_8_data	4000
 AREA _CODE_9
 	RADIX HEX
 	BASE 4000
-	SIZE 3FEE
+	SIZE 3FF8
 	ATTRIB REL CON
 	GLOBALS
 		_bank_9_data	4000
 AREA _CODE_5
 	RADIX HEX
 	BASE 4000
-	SIZE 2166
+	SIZE 21FC
 	ATTRIB REL CON
 	GLOBALS
 		_tileset_bank_ptrs	4000
-		_background_bank_ptrs	4027
-		_background_attr_bank_ptrs	405A
-		_palette_bank_ptrs	409C
-		_sprite_bank_ptrs	409F
-		_scene_bank_ptrs	40CF
-		_collision_bank_ptrs	4111
-		_avatar_bank_ptrs	4153
-		_music_tracks	4156
-		_music_banks	4168
-		_Start_Adventure	4171
-		_Update_Adventure	4186
-		_Start_Platform	4786
-		_Update_Platform	4852
-		_Start_PointNClick	5432
-		_Update_PointNClick	545B
-		_Start_Shmup	5716
-		_Update_Shmup	57A6
-		_Start_TopDown	5D48
-		_Update_TopDown	5D5D
-AREA _CODE_12
+		_background_bank_ptrs	403F
+		_background_attr_bank_ptrs	408A
+		_palette_bank_ptrs	40D8
+		_sprite_bank_ptrs	40DB
+		_scene_bank_ptrs	412F
+		_collision_bank_ptrs	417D
+		_avatar_bank_ptrs	41CB
+		_music_tracks	41E3
+		_music_banks	41FB
+		_Start_Adventure	4207
+		_Update_Adventure	421C
+		_Start_Platform	481C
+		_Update_Platform	48E8
+		_Start_PointNClick	54C8
+		_Update_PointNClick	54F1
+		_Start_Shmup	57AC
+		_Update_Shmup	583C
+		_Start_TopDown	5DDE
+		_Update_TopDown	5DF3
+AREA _CODE_15
 	RADIX HEX
 	BASE 4000
-	SIZE 28A2
+	SIZE 37E4
 	ATTRIB REL CON
 	GLOBALS
-		_bank_12_data	4000
-		_music_track_101__Data	685E
-		_music_track_102__Data	686A
-		_music_track_103__Data	6874
-		_music_track_104__Data	6880
-		_music_track_105__Data	688A
-		_music_track_106__Data	6896
-		_music_track_107__Data	689A
-		_music_track_108__Data	689E
+		_bank_15_data	4000
+		_music_track_101__Data	7780
+		_music_track_102__Data	778A
+		_music_track_103__Data	7794
+		_music_track_104__Data	77A0
+		_music_track_105__Data	77AA
+		_music_track_106__Data	77B4
+		_music_track_107__Data	77C0
+		_music_track_108__Data	77C4
+		_music_track_109__Data	77C8
+		_music_track_110__Data	77CC
+		_music_track_111__Data	77E0
 AREA _SFR0
 	RADIX HEX
 	BASE 0000
@@ -1510,131 +1540,136 @@ AREA .  .ABS.
 	GLOBALS
 		.__.ABS.	0000
 MODULES
-	FILE /var/folders/nj/c_ngjqs16zgfqfb37y8ks4pr0000gn/T/_gbstools/gbdk/lib/small/asxxxx/gb/crt0.o
+	FILE /Users/bryanrollins/GBStudio/TEMP//_gbstools/gbdk/lib/small/asxxxx/gb/crt0.o
 		NAME Runtime
-	FILE /var/folders/nj/c_ngjqs16zgfqfb37y8ks4pr0000gn/T/_gbsbuild/obj/Actor_a.o
-	FILE /var/folders/nj/c_ngjqs16zgfqfb37y8ks4pr0000gn/T/_gbsbuild/obj/Actor_b.o
-		NAME _var_folders_nj_c_ngjqs16zgfqfb3¡RMµ
-	FILE /var/folders/nj/c_ngjqs16zgfqfb37y8ks4pr0000gn/T/_gbsbuild/obj/Actor.o
-		NAME _var_folders_nj_c_ngjqs16zgfqfb3`E`Mµ
-	FILE /var/folders/nj/c_ngjqs16zgfqfb37y8ks4pr0000gn/T/_gbsbuild/obj/asm.macros.o
-	FILE /var/folders/nj/c_ngjqs16zgfqfb37y8ks4pr0000gn/T/_gbsbuild/obj/BankData.o
-		NAME _var_folders_nj_c_ngjqs16zgfqfb30X`Mµ
-	FILE /var/folders/nj/c_ngjqs16zgfqfb37y8ks4pr0000gn/T/_gbsbuild/obj/BankManager.o
-		NAME _var_folders_nj_c_ngjqs16zgfqfb3[`Mµ
-	FILE /var/folders/nj/c_ngjqs16zgfqfb37y8ks4pr0000gn/T/_gbsbuild/obj/Camera_a.o
-	FILE /var/folders/nj/c_ngjqs16zgfqfb37y8ks4pr0000gn/T/_gbsbuild/obj/Camera.o
-		NAME _var_folders_nj_c_ngjqs16zgfqfb3ê``Mµ
-	FILE /var/folders/nj/c_ngjqs16zgfqfb37y8ks4pr0000gn/T/_gbsbuild/obj/Collision.o
-		NAME _var_folders_nj_c_ngjqs16zgfqfb3Äd`Mµ
-	FILE /var/folders/nj/c_ngjqs16zgfqfb37y8ks4pr0000gn/T/_gbsbuild/obj/Core_Main.o
-		NAME _var_folders_nj_c_ngjqs16zgfqfb3ò≠T˚
-	FILE /var/folders/nj/c_ngjqs16zgfqfb37y8ks4pr0000gn/T/_gbsbuild/obj/DataManager.o
-		NAME _var_folders_nj_c_ngjqs16zgfqfb3‡,Mµ
-	FILE /var/folders/nj/c_ngjqs16zgfqfb37y8ks4pr0000gn/T/_gbsbuild/obj/FadeManager_b.o
-		NAME _var_folders_nj_c_ngjqs16zgfqfb3Ä<Mµ
-	FILE /var/folders/nj/c_ngjqs16zgfqfb37y8ks4pr0000gn/T/_gbsbuild/obj/FadeManager.o
-		NAME _var_folders_nj_c_ngjqs16zgfqfb3P@Mµ
-	FILE /var/folders/nj/c_ngjqs16zgfqfb37y8ks4pr0000gn/T/_gbsbuild/obj/gbt_player_bank1.o
-	FILE /var/folders/nj/c_ngjqs16zgfqfb37y8ks4pr0000gn/T/_gbsbuild/obj/gbt_player.o
-	FILE /var/folders/nj/c_ngjqs16zgfqfb37y8ks4pr0000gn/T/_gbsbuild/obj/Input.o
-		NAME _var_folders_nj_c_ngjqs16zgfqfb3 g`Mµ
-	FILE /var/folders/nj/c_ngjqs16zgfqfb37y8ks4pr0000gn/T/_gbsbuild/obj/Math.o
-		NAME _var_folders_nj_c_ngjqs16zgfqfb3†j`Mµ
-	FILE /var/folders/nj/c_ngjqs16zgfqfb37y8ks4pr0000gn/T/_gbsbuild/obj/MusicManager.o
-		NAME _var_folders_nj_c_ngjqs16zgfqfb3q`Mµ
-	FILE /var/folders/nj/c_ngjqs16zgfqfb37y8ks4pr0000gn/T/_gbsbuild/obj/Palette.o
-		NAME _var_folders_nj_c_ngjqs16zgfqfb3
-	FILE /var/folders/nj/c_ngjqs16zgfqfb37y8ks4pr0000gn/T/_gbsbuild/obj/Projectiles_b.o
-		NAME _var_folders_nj_c_ngjqs16zgfqfb3¿y`Mµ
-	FILE /var/folders/nj/c_ngjqs16zgfqfb37y8ks4pr0000gn/T/_gbsbuild/obj/Projectiles.o
-		NAME _var_folders_nj_c_ngjqs16zgfqfb3P}`Mµ
-	FILE /var/folders/nj/c_ngjqs16zgfqfb37y8ks4pr0000gn/T/_gbsbuild/obj/ScriptRunner_b.o
-		NAME _var_folders_nj_c_ngjqs16zgfqfb3†à`Mµ
-	FILE /var/folders/nj/c_ngjqs16zgfqfb37y8ks4pr0000gn/T/_gbsbuild/obj/ScriptRunner.o
-		NAME _var_folders_nj_c_ngjqs16zgfqfb3ê¨`Mµ
-	FILE /var/folders/nj/c_ngjqs16zgfqfb37y8ks4pr0000gn/T/_gbsbuild/obj/Scroll_a.o
-	FILE /var/folders/nj/c_ngjqs16zgfqfb37y8ks4pr0000gn/T/_gbsbuild/obj/Scroll_b.o
-		NAME _var_folders_nj_c_ngjqs16zgfqfb3p≥`Mµ
-	FILE /var/folders/nj/c_ngjqs16zgfqfb37y8ks4pr0000gn/T/_gbsbuild/obj/Scroll.o
-		NAME _var_folders_nj_c_ngjqs16zgfqfb3¿∂`Mµ
-	FILE /var/folders/nj/c_ngjqs16zgfqfb37y8ks4pr0000gn/T/_gbsbuild/obj/Sprite_b.o
-		NAME _var_folders_nj_c_ngjqs16zgfqfb3‡∫`Mµ
-	FILE /var/folders/nj/c_ngjqs16zgfqfb37y8ks4pr0000gn/T/_gbsbuild/obj/Sprite.o
-		NAME _var_folders_nj_c_ngjqs16zgfqfb3pæ`Mµ
-	FILE /var/folders/nj/c_ngjqs16zgfqfb37y8ks4pr0000gn/T/_gbsbuild/obj/Stack.o
-		NAME _var_folders_nj_c_ngjqs16zgfqfb3`¿`Mµ
-	FILE /var/folders/nj/c_ngjqs16zgfqfb37y8ks4pr0000gn/T/_gbsbuild/obj/Trigger_b.o
-		NAME _var_folders_nj_c_ngjqs16zgfqfb3ê¬`Mµ
-	FILE /var/folders/nj/c_ngjqs16zgfqfb37y8ks4pr0000gn/T/_gbsbuild/obj/Trigger.o
-		NAME _var_folders_nj_c_ngjqs16zgfqfb30≈`Mµ
-	FILE /var/folders/nj/c_ngjqs16zgfqfb37y8ks4pr0000gn/T/_gbsbuild/obj/UI_b.o
-		NAME _var_folders_nj_c_ngjqs16zgfqfb30—`Mµ
-	FILE /var/folders/nj/c_ngjqs16zgfqfb37y8ks4pr0000gn/T/_gbsbuild/obj/UI.o
-		NAME _var_folders_nj_c_ngjqs16zgfqfb3†‹`Mµ
-	FILE /var/folders/nj/c_ngjqs16zgfqfb37y8ks4pr0000gn/T/_gbsbuild/obj/bank_10.o
+	FILE /Users/bryanrollins/GBStudio/TEMP/_gbsbuild/obj/Actor_a.o
+	FILE /Users/bryanrollins/GBStudio/TEMP/_gbsbuild/obj/Actor_b.o
+		NAME _Users_bryanrollins_GBStudio_TEM–∫¿OÄ
+	FILE /Users/bryanrollins/GBStudio/TEMP/_gbsbuild/obj/Actor.o
+		NAME _Users_bryanrollins_GBStudio_TEMê¬¿OÄ
+	FILE /Users/bryanrollins/GBStudio/TEMP/_gbsbuild/obj/asm.macros.o
+	FILE /Users/bryanrollins/GBStudio/TEMP/_gbsbuild/obj/BankData.o
+		NAME _Users_bryanrollins_GBStudio_TEMp…¿OÄ
+	FILE /Users/bryanrollins/GBStudio/TEMP/_gbsbuild/obj/BankManager.o
+		NAME _Users_bryanrollins_GBStudio_TEM0Õ¿OÄ
+	FILE /Users/bryanrollins/GBStudio/TEMP/_gbsbuild/obj/Camera_a.o
+	FILE /Users/bryanrollins/GBStudio/TEMP/_gbsbuild/obj/Camera.o
+		NAME _Users_bryanrollins_GBStudio_TEM‡—¿OÄ
+	FILE /Users/bryanrollins/GBStudio/TEMP/_gbsbuild/obj/Collision.o
+		NAME _Users_bryanrollins_GBStudio_TEM–’¿OÄ
+	FILE /Users/bryanrollins/GBStudio/TEMP/_gbsbuild/obj/Core_Main.o
+		NAME _Users_bryanrollins_GBStudio_TEMPÈ¿OÄ
+	FILE /Users/bryanrollins/GBStudio/TEMP/_gbsbuild/obj/DataManager.o
+		NAME _Users_bryanrollins_GBStudio_TEM∞ı¿OÄ
+	FILE /Users/bryanrollins/GBStudio/TEMP/_gbsbuild/obj/FadeManager_b.o
+		NAME _Users_bryanrollins_GBStudio_TEM`¸¿OÄ
+	FILE /Users/bryanrollins/GBStudio/TEMP/_gbsbuild/obj/FadeManager.o
+		NAME _Users_bryanrollins_GBStudio_TEM0
+	FILE /Users/bryanrollins/GBStudio/TEMP/_gbsbuild/obj/gbt_player_bank1.o
+	FILE /Users/bryanrollins/GBStudio/TEMP/_gbsbuild/obj/gbt_player.o
+	FILE /Users/bryanrollins/GBStudio/TEMP/_gbsbuild/obj/Input.o
+		NAME _Users_bryanrollins_GBStudio_TEM¡OÄ
+	FILE /Users/bryanrollins/GBStudio/TEMP/_gbsbuild/obj/Math.o
+		NAME _Users_bryanrollins_GBStudio_TEMê¡OÄ
+	FILE /Users/bryanrollins/GBStudio/TEMP/_gbsbuild/obj/MusicManager.o
+		NAME _Users_bryanrollins_GBStudio_TEM‡¡OÄ
+	FILE /Users/bryanrollins/GBStudio/TEMP/_gbsbuild/obj/Palette.o
+		NAME _Users_bryanrollins_GBStudio_TEM¡OÄ
+	FILE /Users/bryanrollins/GBStudio/TEMP/_gbsbuild/obj/Projectiles_b.o
+		NAME _Users_bryanrollins_GBStudio_TEM∞"¡OÄ
+	FILE /Users/bryanrollins/GBStudio/TEMP/_gbsbuild/obj/Projectiles.o
+		NAME _Users_bryanrollins_GBStudio_TEM@&¡OÄ
+	FILE /Users/bryanrollins/GBStudio/TEMP/_gbsbuild/obj/ScriptRunner_b.o
+		NAME _Users_bryanrollins_GBStudio_TEMê1¡OÄ
+	FILE /Users/bryanrollins/GBStudio/TEMP/_gbsbuild/obj/ScriptRunner.o
+		NAME _Users_bryanrollins_GBStudio_TEMÄU¡OÄ
+	FILE /Users/bryanrollins/GBStudio/TEMP/_gbsbuild/obj/Scroll_a.o
+	FILE /Users/bryanrollins/GBStudio/TEMP/_gbsbuild/obj/Scroll_b.o
+		NAME _Users_bryanrollins_GBStudio_TEMp\¡OÄ
+	FILE /Users/bryanrollins/GBStudio/TEMP/_gbsbuild/obj/Scroll.o
+		NAME _Users_bryanrollins_GBStudio_TEM¿_¡OÄ
+	FILE /Users/bryanrollins/GBStudio/TEMP/_gbsbuild/obj/Sprite_b.o
+		NAME _Users_bryanrollins_GBStudio_TEM‡c¡OÄ
+	FILE /Users/bryanrollins/GBStudio/TEMP/_gbsbuild/obj/Sprite.o
+		NAME _Users_bryanrollins_GBStudio_TEMpg¡OÄ
+	FILE /Users/bryanrollins/GBStudio/TEMP/_gbsbuild/obj/Stack.o
+		NAME _Users_bryanrollins_GBStudio_TEM`i¡OÄ
+	FILE /Users/bryanrollins/GBStudio/TEMP/_gbsbuild/obj/Trigger_b.o
+		NAME _Users_bryanrollins_GBStudio_TEMêk¡OÄ
+	FILE /Users/bryanrollins/GBStudio/TEMP/_gbsbuild/obj/Trigger.o
+		NAME _Users_bryanrollins_GBStudio_TEM0n¡OÄ
+	FILE /Users/bryanrollins/GBStudio/TEMP/_gbsbuild/obj/UI_b.o
+		NAME _Users_bryanrollins_GBStudio_TEM0z¡OÄ
+	FILE /Users/bryanrollins/GBStudio/TEMP/_gbsbuild/obj/UI.o
+		NAME _Users_bryanrollins_GBStudio_TEM†Ö¡OÄ
+	FILE /Users/bryanrollins/GBStudio/TEMP/_gbsbuild/obj/bank_10.o
 		NAME bank_10
-	FILE /var/folders/nj/c_ngjqs16zgfqfb37y8ks4pr0000gn/T/_gbsbuild/obj/bank_11.o
+	FILE /Users/bryanrollins/GBStudio/TEMP/_gbsbuild/obj/bank_11.o
 		NAME bank_11
-	FILE /var/folders/nj/c_ngjqs16zgfqfb37y8ks4pr0000gn/T/_gbsbuild/obj/bank_6.o
+	FILE /Users/bryanrollins/GBStudio/TEMP/_gbsbuild/obj/bank_12.o
+		NAME bank_12
+	FILE /Users/bryanrollins/GBStudio/TEMP/_gbsbuild/obj/bank_13.o
+		NAME bank_13
+	FILE /Users/bryanrollins/GBStudio/TEMP/_gbsbuild/obj/bank_14.o
+		NAME bank_14
+	FILE /Users/bryanrollins/GBStudio/TEMP/_gbsbuild/obj/bank_6.o
 		NAME bank_6
-	FILE /var/folders/nj/c_ngjqs16zgfqfb37y8ks4pr0000gn/T/_gbsbuild/obj/bank_7.o
+	FILE /Users/bryanrollins/GBStudio/TEMP/_gbsbuild/obj/bank_7.o
 		NAME bank_7
-	FILE /var/folders/nj/c_ngjqs16zgfqfb37y8ks4pr0000gn/T/_gbsbuild/obj/bank_8.o
+	FILE /Users/bryanrollins/GBStudio/TEMP/_gbsbuild/obj/bank_8.o
 		NAME bank_8
-	FILE /var/folders/nj/c_ngjqs16zgfqfb37y8ks4pr0000gn/T/_gbsbuild/obj/bank_9.o
+	FILE /Users/bryanrollins/GBStudio/TEMP/_gbsbuild/obj/bank_9.o
 		NAME bank_9
-	FILE /var/folders/nj/c_ngjqs16zgfqfb37y8ks4pr0000gn/T/_gbsbuild/obj/data_ptrs.o
-		NAME _var_folders_nj_c_ngjqs16zgfqfb3‡`Mµ
-	FILE /var/folders/nj/c_ngjqs16zgfqfb37y8ks4pr0000gn/T/_gbsbuild/obj/main.o
-		NAME _var_folders_nj_c_ngjqs16zgfqfb3`ˆ`Mµ
-	FILE /var/folders/nj/c_ngjqs16zgfqfb37y8ks4pr0000gn/T/_gbsbuild/obj/music_bank_12.o
-		NAME music_bank_12
-	FILE /var/folders/nj/c_ngjqs16zgfqfb37y8ks4pr0000gn/T/_gbsbuild/obj/Adventure.o
-		NAME _var_folders_nj_c_ngjqs16zgfqfb3–˝`Mµ
-	FILE /var/folders/nj/c_ngjqs16zgfqfb37y8ks4pr0000gn/T/_gbsbuild/obj/Platform.o
-		NAME _var_folders_nj_c_ngjqs16zgfqfb3ê
-	FILE /var/folders/nj/c_ngjqs16zgfqfb37y8ks4pr0000gn/T/_gbsbuild/obj/PointNClick.o
-		NAME _var_folders_nj_c_ngjqs16zgfqfb30aMµ
-	FILE /var/folders/nj/c_ngjqs16zgfqfb37y8ks4pr0000gn/T/_gbsbuild/obj/Shmup.o
-		NAME _var_folders_nj_c_ngjqs16zgfqfb30aMµ
-	FILE /var/folders/nj/c_ngjqs16zgfqfb37y8ks4pr0000gn/T/_gbsbuild/obj/TopDown.o
-		NAME _var_folders_nj_c_ngjqs16zgfqfb3ê
-aMµ
+	FILE /Users/bryanrollins/GBStudio/TEMP/_gbsbuild/obj/data_ptrs.o
+		NAME _Users_bryanrollins_GBStudio_TEM
+	FILE /Users/bryanrollins/GBStudio/TEMP/_gbsbuild/obj/main.o
+		NAME _Users_bryanrollins_GBStudio_TEM0ï„OÄ
+	FILE /Users/bryanrollins/GBStudio/TEMP/_gbsbuild/obj/music_bank_15.o
+		NAME music_bank_15
+	FILE /Users/bryanrollins/GBStudio/TEMP/_gbsbuild/obj/Adventure.o
+		NAME _Users_bryanrollins_GBStudio_TEM`K&RÄ
+	FILE /Users/bryanrollins/GBStudio/TEMP/_gbsbuild/obj/Platform.o
+		NAME _Users_bryanrollins_GBStudio_TEMPM&RÄ
+	FILE /Users/bryanrollins/GBStudio/TEMP/_gbsbuild/obj/PointNClick.o
+		NAME _Users_bryanrollins_GBStudio_TEM∞ˇ&RÄ
+	FILE /Users/bryanrollins/GBStudio/TEMP/_gbsbuild/obj/Shmup.o
+		NAME _Users_bryanrollins_GBStudio_TEM∞X RÄ
+	FILE /Users/bryanrollins/GBStudio/TEMP/_gbsbuild/obj/TopDown.o
+		NAME _Users_bryanrollins_GBStudio_TEM\ RÄ
 LIBRARIES
-	LIBRARY /var/folders/nj/c_ngjqs16zgfqfb37y8ks4pr0000gn/T/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
+	LIBRARY /Users/bryanrollins/GBStudio/TEMP//_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
 		MODULE sfr.o
-	LIBRARY /var/folders/nj/c_ngjqs16zgfqfb37y8ks4pr0000gn/T/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
+	LIBRARY /Users/bryanrollins/GBStudio/TEMP//_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
 		MODULE set_prop.o
-	LIBRARY /var/folders/nj/c_ngjqs16zgfqfb37y8ks4pr0000gn/T/_gbstools/gbdk/lib/small/asxxxx/gbz80/gbz80.lib
+	LIBRARY /Users/bryanrollins/GBStudio/TEMP//_gbstools/gbdk/lib/small/asxxxx/gbz80/gbz80.lib
 		MODULE asm_string.o
-	LIBRARY /var/folders/nj/c_ngjqs16zgfqfb37y8ks4pr0000gn/T/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
+	LIBRARY /Users/bryanrollins/GBStudio/TEMP//_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
 		MODULE rand.o
-	LIBRARY /var/folders/nj/c_ngjqs16zgfqfb37y8ks4pr0000gn/T/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
+	LIBRARY /Users/bryanrollins/GBStudio/TEMP//_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
 		MODULE mv_spr.o
-	LIBRARY /var/folders/nj/c_ngjqs16zgfqfb37y8ks4pr0000gn/T/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
+	LIBRARY /Users/bryanrollins/GBStudio/TEMP//_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
 		MODULE bgb_emu.o
-	LIBRARY /var/folders/nj/c_ngjqs16zgfqfb37y8ks4pr0000gn/T/_gbstools/gbdk/lib/small/asxxxx/gbz80/gbz80.lib
+	LIBRARY /Users/bryanrollins/GBStudio/TEMP//_gbstools/gbdk/lib/small/asxxxx/gbz80/gbz80.lib
 		MODULE div.o
-	LIBRARY /var/folders/nj/c_ngjqs16zgfqfb37y8ks4pr0000gn/T/_gbstools/gbdk/lib/small/asxxxx/gbz80/gbz80.lib
+	LIBRARY /Users/bryanrollins/GBStudio/TEMP//_gbstools/gbdk/lib/small/asxxxx/gbz80/gbz80.lib
 		MODULE mul.o
-	LIBRARY /var/folders/nj/c_ngjqs16zgfqfb37y8ks4pr0000gn/T/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
+	LIBRARY /Users/bryanrollins/GBStudio/TEMP//_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
 		MODULE set_wi_t.o
-	LIBRARY /var/folders/nj/c_ngjqs16zgfqfb37y8ks4pr0000gn/T/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
+	LIBRARY /Users/bryanrollins/GBStudio/TEMP//_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
 		MODULE set_data.o
-	LIBRARY /var/folders/nj/c_ngjqs16zgfqfb37y8ks4pr0000gn/T/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
+	LIBRARY /Users/bryanrollins/GBStudio/TEMP//_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
 		MODULE pad.o
-	LIBRARY /var/folders/nj/c_ngjqs16zgfqfb37y8ks4pr0000gn/T/_gbstools/gbdk/lib/small/asxxxx/gbz80/gbz80.lib
+	LIBRARY /Users/bryanrollins/GBStudio/TEMP//_gbstools/gbdk/lib/small/asxxxx/gbz80/gbz80.lib
 		MODULE __sdcc_call_hl.o
-	LIBRARY /var/folders/nj/c_ngjqs16zgfqfb37y8ks4pr0000gn/T/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
+	LIBRARY /Users/bryanrollins/GBStudio/TEMP//_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
 		MODULE set_spr.o
-	LIBRARY /var/folders/nj/c_ngjqs16zgfqfb37y8ks4pr0000gn/T/_gbstools/gbdk/lib/small/asxxxx/gbz80/gbz80.lib
+	LIBRARY /Users/bryanrollins/GBStudio/TEMP//_gbstools/gbdk/lib/small/asxxxx/gbz80/gbz80.lib
 		MODULE strcat.o
-	LIBRARY /var/folders/nj/c_ngjqs16zgfqfb37y8ks4pr0000gn/T/_gbstools/gbdk/lib/small/asxxxx/gbz80/gbz80.lib
+	LIBRARY /Users/bryanrollins/GBStudio/TEMP//_gbstools/gbdk/lib/small/asxxxx/gbz80/gbz80.lib
 		MODULE strlen.o
-	LIBRARY /var/folders/nj/c_ngjqs16zgfqfb37y8ks4pr0000gn/T/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
+	LIBRARY /Users/bryanrollins/GBStudio/TEMP//_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
 		MODULE cpy_data.o
-	LIBRARY /var/folders/nj/c_ngjqs16zgfqfb37y8ks4pr0000gn/T/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
+	LIBRARY /Users/bryanrollins/GBStudio/TEMP//_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
 		MODULE set_xy_t.o
 USERBASEDEF
 	_CODE=0x0200

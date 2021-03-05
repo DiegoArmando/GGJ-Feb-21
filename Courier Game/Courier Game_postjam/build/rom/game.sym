@@ -96,6 +96,9 @@
 01:4000 s__CODE_10
 01:4000 s__CODE_11
 01:4000 s__CODE_12
+01:4000 s__CODE_13
+01:4000 s__CODE_14
+01:4000 s__CODE_15
 01:4000 s__CODE_1
 01:4000 s__CODE_4
 01:4000 s__CODE_5
@@ -758,6 +761,12 @@
 01:4000 _bank_10_data
 ; Area: _CODE_11
 01:4000 _bank_11_data
+; Area: _CODE_12
+01:4000 _bank_12_data
+; Area: _CODE_13
+01:4000 _bank_13_data
+; Area: _CODE_14
+01:4000 _bank_14_data
 ; Area: _CODE_6
 01:4000 _bank_6_data
 ; Area: _CODE_7
@@ -768,35 +777,38 @@
 01:4000 _bank_9_data
 ; Area: _CODE_5
 01:4000 _tileset_bank_ptrs
-01:4027 _background_bank_ptrs
-01:405A _background_attr_bank_ptrs
-01:409C _palette_bank_ptrs
-01:409F _sprite_bank_ptrs
-01:40CF _scene_bank_ptrs
-01:4111 _collision_bank_ptrs
-01:4153 _avatar_bank_ptrs
-01:4156 _music_tracks
-01:4168 _music_banks
-01:4171 _Start_Adventure
-01:4186 _Update_Adventure
-01:4786 _Start_Platform
-01:4852 _Update_Platform
-01:5432 _Start_PointNClick
-01:545B _Update_PointNClick
-01:5716 _Start_Shmup
-01:57A6 _Update_Shmup
-01:5D48 _Start_TopDown
-01:5D5D _Update_TopDown
-; Area: _CODE_12
-01:4000 _bank_12_data
-01:685E _music_track_101__Data
-01:686A _music_track_102__Data
-01:6874 _music_track_103__Data
-01:6880 _music_track_104__Data
-01:688A _music_track_105__Data
-01:6896 _music_track_106__Data
-01:689A _music_track_107__Data
-01:689E _music_track_108__Data
+01:403F _background_bank_ptrs
+01:408A _background_attr_bank_ptrs
+01:40D8 _palette_bank_ptrs
+01:40DB _sprite_bank_ptrs
+01:412F _scene_bank_ptrs
+01:417D _collision_bank_ptrs
+01:41CB _avatar_bank_ptrs
+01:41E3 _music_tracks
+01:41FB _music_banks
+01:4207 _Start_Adventure
+01:421C _Update_Adventure
+01:481C _Start_Platform
+01:48E8 _Update_Platform
+01:54C8 _Start_PointNClick
+01:54F1 _Update_PointNClick
+01:57AC _Start_Shmup
+01:583C _Update_Shmup
+01:5DDE _Start_TopDown
+01:5DF3 _Update_TopDown
+; Area: _CODE_15
+01:4000 _bank_15_data
+01:7780 _music_track_101__Data
+01:778A _music_track_102__Data
+01:7794 _music_track_103__Data
+01:77A0 _music_track_104__Data
+01:77AA _music_track_105__Data
+01:77B4 _music_track_106__Data
+01:77C0 _music_track_107__Data
+01:77C4 _music_track_108__Data
+01:77C8 _music_track_109__Data
+01:77CC _music_track_110__Data
+01:77E0 _music_track_111__Data
 ; Area: _SFR0
 00:FF00 _P1_REG
 ; Area: _SFR1
